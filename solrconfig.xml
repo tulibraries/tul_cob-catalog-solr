@@ -213,7 +213,6 @@
          format,
          isbn_t,
          language_facet,
-         lc_callnum_display,
          material_type_display,
          published_display,
          published_vern_display,
@@ -275,9 +274,6 @@
        <str name="facet">true</str>
        <str name="facet.mincount">1</str>
        <str name="facet.field">format</str>
-       <str name="facet.field">lc_1letter_facet</str>
-       <str name="facet.field">lc_alpha_facet</str>
-       <str name="facet.field">lc_b4cutter_facet</str>
        <str name="facet.field">language_facet</str>
        <str name="facet.field">pub_date</str>
        <str name="facet.field">subject_era_facet</str>
