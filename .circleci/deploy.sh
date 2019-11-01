@@ -23,16 +23,24 @@ RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X GET --header 'Accep
 validate_status
 echo
 echo "***"
-echo "* Creating dev alias based on configset name."
+echo "* Creating qa alias based on configset name."
 echo "***"
-RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" "https://solrcloud.tul-infra.page/solr/admin/collections?action=CREATEALIAS&name=tul_cob-catalog-$CIRCLE_TAG-dev&collections=tul_cob-catalog-$CIRCLE_TAG-init")
+RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" "https://solrcloud.tul-infra.page/solr/admin/collections?action=CREATEALIAS&name=tul_cob-catalog-$CIRCLE_TAG-qa&collections=tul_cob-catalog-$CIRCLE_TAG-init")
 validate_status
+echo
+echo "***"
+echo "* Creating stage alias based on configset name."
+echo "***"
+RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" "https://solrcloud.tul-infra.page/solr/admin/collections?action=CREATEALIAS&name=tul_cob-catalog-$CIRCLE_TAG-stage&collections=tul_cob-catalog-$CIRCLE_TAG-init")
+validate_status
+echo
 echo "***"
 echo "* Creating prod alias based on configset name."
 echo "***"
 RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" "https://solrcloud.tul-infra.page/solr/admin/collections?action=CREATEALIAS&name=tul_cob-catalog-$CIRCLE_TAG-prod&collections=tul_cob-catalog-$CIRCLE_TAG-init")
 validate_status
+echo
 echo "***"
 echo "* Pushing zip file asset to GitHub release."
 echo "***"
-curl -v -X POST -H "Authorization: token $GITHUB_TOKEN" --data-binary @"/home/circleci/solrconfig.zip" -H "Content-Type: application/octet-stream" "https://uploads.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/$CIRCLE_TAG/assets?name=tul_cob-catalog-$CIRCLE_TAG.zip"
+curl -v -X POST -H "Authorization: token $GITHUB_TOKEN" --data-binary @/home/circleci/solrconfig.zip -H "Content-Type: application/octet-stream" "https://uploads.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/$CIRCLE_TAG/assets?name=tul_cob-catalog-$CIRCLE_TAG.zip"
