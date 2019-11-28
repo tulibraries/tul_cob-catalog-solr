@@ -9,6 +9,15 @@ validate_status() {
     exit 1
   fi
 }
+validate_create() {
+  echo "response: $RESP"
+  STATUS=$(echo "$RESP")
+  if [[  "$STATUS" != "201" ]]; then
+    echo "Failing because status was not 201"
+    echo "status: $STATUS"
+    exit 1
+  fi
+}
 echo
 echo "***"
 echo "* Sending tul_cob-catalog-$CIRCLE_TAG configs to SolrCloud."
@@ -43,4 +52,6 @@ echo
 echo "***"
 echo "* Pushing zip file asset to GitHub release."
 echo "***"
-curl -v -X POST -H "Authorization: token $GITHUB_TOKEN" --data-binary @/home/circleci/solrconfig.zip -H "Content-Type: application/octet-stream" "https://uploads.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/$CIRCLE_TAG/assets?name=tul_cob-catalog-$CIRCLE_TAG.zip"
+RELEASE_ID=$(curl "https://api.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/latest" | jq .id)
+RESP=$(curl -s -o /dev/null -w "%{http_code}" -X POST -H "Authorization: token $GITHUB_TOKEN" --data-binary @/home/circleci/solrconfig.zip -H "Content-Type: application/octet-stream" "https://uploads.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/$RELEASE_ID/assets?name=tul_cob-catalog-$CIRCLE_TAG.zip")
+validate_create
