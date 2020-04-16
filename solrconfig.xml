@@ -125,6 +125,7 @@
          contributor_display,
          creator_display,
          format,
+         hathi_trust_bib_key_display,
          holdings_display,
          holdings_summary_display,
          holdings_with_no_items_display,
