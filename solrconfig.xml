@@ -280,6 +280,8 @@
        <str name="facet.field">subject_era_facet</str>
        <str name="facet.field">subject_geo_facet</str>
        <str name="facet.field">subject_topic_facet</str>
+       <str name="facet.field">lc_outer_facet</str>
+       <str name="facet.field">lc_inner_facet</str>
 
        <str name="spellcheck">false</str>
        <str name="spellcheck.extendedResults">true</str>
