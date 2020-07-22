@@ -30,7 +30,7 @@ $ zip -r - * > tul_cob-catalog.zip
 3. load the configs zip file into a new SolrCloud ConfigSet (change the solr url to whichever solr you're developing against)
 
 ```
-$ curl -X POST --header "Content-Type:application/octet-stream" --data-binary @tul_cob-catalog.zip "http://localhost:8081/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog"
+$ curl -X POST --header "Content-Type:application/octet-stream" --data-binary @tul_cob-catalog.zip "http://localhost:8090/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog"
 ```
 
 4. create a new SolrCloud Collection using that ConfigSet (change the solr url to whichever solr you're developing against)
