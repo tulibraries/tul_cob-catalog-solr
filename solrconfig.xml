@@ -125,7 +125,6 @@
          contributor_display,
          creator_display,
          format,
-         hathi_trust_bib_key_display,
          holdings_display,
          holdings_summary_display,
          holdings_with_no_items_display,
@@ -146,10 +145,11 @@
          title_statement_display,
          title_truncated_display,
          title_uniform_display,
+         electronic_resource_display:[json],
+         hathi_trust_bib_key_display:[json],
          items_json_display:[json],
          url_finding_aid_display:[json],
-         url_more_links_display:[json],
-         electronic_resource_display:[json]
+         url_more_links_display:[json]
        </str>
 
        <!-- this qf and pf are used by default, if not otherwise specified by
@@ -363,7 +363,8 @@
         items_json_display:[json],
         url_finding_aid_display:[json],
         url_more_links_display:[json],
-        electronic_resource_display:[json]
+        electronic_resource_display:[json],
+        hathi_trust_bib_key_display:[json]
       </str>
       <str name="rows">1</str>
       <str name="q">{!term f=id v=$id}</str> <!-- use id=666 instead of q=id:666 -->
