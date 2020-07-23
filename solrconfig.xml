@@ -145,11 +145,11 @@
          title_statement_display,
          title_truncated_display,
          title_uniform_display,
-         electronic_resource_display:[json]
-         hathi_trust_bib_key_display:[json]
+         electronic_resource_display:[json],
+         hathi_trust_bib_key_display:[json],
          items_json_display:[json],
          url_finding_aid_display:[json],
-         url_more_links_display:[json],
+         url_more_links_display:[json]
        </str>
 
        <!-- this qf and pf are used by default, if not otherwise specified by
