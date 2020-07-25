@@ -2,7 +2,7 @@ DOCKER := docker-compose
 
 up:
 	$(DOCKER) up -d
-	$(DOCKER) exec -u root app bundle install
+	$(DOCKER) exec app bundle install
 down:
 	$(DOCKER) down
 tty-app:

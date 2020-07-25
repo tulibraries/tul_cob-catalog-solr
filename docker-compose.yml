@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: circleci/ruby:2.6.5-stretch
+    image: ruby:2.6-stretch
     depends_on:
       - solr
     tty: true
