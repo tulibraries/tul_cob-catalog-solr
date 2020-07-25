@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  app:
+    image: circleci/ruby:2.6.5-stretch
+    depends_on:
+      - solr
+    tty: true
+    volumes:
+      - $PWD/Gemfile:/Gemfile
+      - $PWD/spec:/spec
+      - $PWD/bin/load-data:/bin/load-data
+    environment:
+      SOLR_URL: "http://solr:8983/solr/blacklight"
+      DO_INGEST: "${DO_INGEST}"
+      LC_ALL: "C.UTF-8"
+
+  solr:
+    image: solr:8.3.0
+    volumes:
+      - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
+      - .:/opt/solr/configs/tul_cob-catalog-solr
+    entrypoint:
+      - bash
+      - "-c"
+      - "precreate-core blacklight /opt/solr/configs/tul_cob-catalog-solr; \
+  exec solr -f -a '-Xms256m -Xmx512m'"
