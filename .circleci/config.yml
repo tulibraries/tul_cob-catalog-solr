@@ -26,6 +26,11 @@ jobs:
     machine: true
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}
+            - gem-cache-v1
       - run:
           name: Install Docker Compose
           command: |
@@ -35,6 +40,10 @@ jobs:
       - run:
           name: Build the app
           command: make up
+      - save_cache:
+          key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+              - vendor/bundle
       - run:
           name: Install Solr Documents
           command: make load-data
