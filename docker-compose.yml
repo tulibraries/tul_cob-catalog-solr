@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app:
     image: ruby:2.6-stretch
+    working_dir: /app
     depends_on:
       - solr
     tty: true
     volumes:
-      - $PWD/Gemfile:/Gemfile
-      - $PWD/spec:/spec
+      - .:/app
       - $PWD/bin/load-data:/bin/load-data
     environment:
       SOLR_URL: "http://solr:8983/solr/blacklight"
