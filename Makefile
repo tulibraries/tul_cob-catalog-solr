@@ -13,7 +13,7 @@ test:
 	$(DOCKER) exec app bundle exec rspec
 load-data:
 	$(DOCKER) exec app load-data
-reload-configs:
+reload-config:
 	$(DOCKER) exec solr solr-configs-reset
 ps:
 	$(DOCKER) ps
