@@ -8,7 +8,9 @@ while [[ "$STATUS" != "302" ]]; do
   echo waiting for setup to complete or equal 302.
   echo "currently: $STATUS"
   sleep 2
-  STATUS=$(docker exec solr1 curl -s -o /dev/null -w "%{http_code}" http://solr1:8983/solr)
+  STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr)
+done
+
 find ./spec/fixtures -type f -name '*.xml'  -exec bundle exec cob_index ingest '{}' \;
 
 bundle exec cob_index commit
