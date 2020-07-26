@@ -5,45 +5,34 @@ These are the Solr configuration files for the TUL Cob (LibrarySearch) Alma cata
 
 ## Prerequisites
 
-- These configurations are built for Solr 8.1
-- The instructions below presume a SolrCloud multi-node setup (using an external Zookeeper)
+- These configurations are built for Solr 8.3.1
 
 ## Local Testing / Development
+To test locally do the following.
 
-You need a local SolrCloud cluster running to load these into. For example, use the make commands + docker-compose file in https://github.com/tulibraries/ansible-playbook-solrcloud to start a cluster. That repository's makefile includes this set of configurations and collection (tul_cob-catalog) in its `make create-release-collections` and `make create-aliases` commands.
+* `make up`: Will spin up a local Solr instance and ruby container for running tests.
+* `make load-data`: Will load required data into Solr instance.
+* `make test`: Will run the search relevancy tests.
 
-If you want to go through those steps yourself, once you have a working SolrCloud cluster:
+### Miscellaneous
+#### Stating over
+To start over from scratch you can run `make down` followed by `make up`
 
-1. clone this repository locally & change into the top level directory of the repository
+There is a `make reload-config` which reloads the Solr config but this will not delete the documents that were already present.
 
-```
-$ git clone https://github.com/tulibraries/tul_cob-catalog-solr.git
-$ cd tul_cob-catalog-solr
-```
+#### Beyond the basics
+Anything more interesting than a simple local test should probably happen inside the respective container.
 
-2. zip the contents of this repository *without* the top-level directory
+* Use `make tty-app` to bash into the ruby container.
+* Use `make tty-solr` to bash into the solr container.
 
-```
-$ zip -r - * > tul_cob-catalog.zip
-```
+#### Gem updates
+Gemfile.lock MUST NOT be updated from outside the container; doing so may cause conflicts with bundler version that is used inside the container vs whatever the local version of bundler that you have installed.
 
-3. load the configs zip file into a new SolrCloud ConfigSet (change the solr url to whichever solr you're developing against)
+To that end, if you need to update a gem do the following:
+* `make tty-app`
+* Once inside the container run `bundle update [gem-name]`
 
-```
-$ curl -X POST --header "Content-Type:application/octet-stream" --data-binary @tul_cob-catalog.zip "http://localhost:8090/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog"
-```
-
-4. create a new SolrCloud Collection using that ConfigSet (change the solr url to whichever solr you're developing against)
-
-```
-$ curl "http://localhost:8090/solr/admin/collections?action=CREATE&name=tul_cob-catalog-1&numShards=1&replicationFactor=2&maxShardsPerNode=1&collection.configName=tul_cob-catalog"
-```
-
-5. create a new SolrCloud Alias pointing to that Collection (if you want to use an Alias; and change the solr url to whatever solr you're developing against):
-
-```
-$ curl "http://localhost:8090/solr/admin/collections?action=CREATEALIAS&name=tul_cob-catalog-1-dev&collections=tul_cob-catalog-1"
-```
 
 ## SolrCloud Deployment
 
