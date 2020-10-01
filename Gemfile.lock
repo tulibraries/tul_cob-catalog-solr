@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 0331daccd6f6f99988523725119e2120afd1c1fc
-  branch: fix-broke-arg-name
+  revision: 1fa8fb97167900d73117201d0872f9c40a88820a
+  branch: main
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -142,7 +142,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
