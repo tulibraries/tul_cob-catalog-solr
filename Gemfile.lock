@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/alma_rb.git
-  revision: 35cb23932152f9e611571e000488551ab2254952
-  branch: main
+  revision: 777b65df0bb7590bc7399233d83da30dff2698f3
+  tag: v0.3.1
   specs:
     alma (0.3.1)
       activesupport
@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 1fa8fb97167900d73117201d0872f9c40a88820a
-  branch: main
+  revision: 584eadc478128a3550eed3a159d15e9f58ca3058
+  tag: v0.6.4
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
