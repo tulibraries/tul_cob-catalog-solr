@@ -9,7 +9,7 @@ gem "rspec"
 gem "rails"
 gem "cob_index",
   git: "https://github.com/tulibraries/cob_index.git",
-  branch: "main"
+  tag: "v0.6.4"
 gem "alma",
   git: "https://github.com/tulibraries/alma_rb.git",
-  branch: "main"
+  tag: "v0.3.1"
