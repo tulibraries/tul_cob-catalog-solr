@@ -1,0 +1,1399 @@
+<?xml version="1.0"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>02390cam a2200517 a 4500</leader>
+    <controlfield tag="005">20190716120907.0</controlfield>
+    <controlfield tag="008">111220t20122012mdu      b    001 0deng  </controlfield>
+    <controlfield tag="001">991028920369703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="010">
+      <subfield code="a">2011051197</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9781442215375</subfield>
+      <subfield code="q">cloth</subfield>
+      <subfield code="q">alkaline paper</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">1442215372</subfield>
+      <subfield code="q">cloth</subfield>
+      <subfield code="q">alkaline paper</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9781442215399</subfield>
+      <subfield code="q">electronic</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">1442215399</subfield>
+      <subfield code="q">electronic</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(PPT)b5205939x-01tuli_inst</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)ocn795765756</subfield>
+      <subfield code="9">ExL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)752069622</subfield>
+      <subfield code="z">(OCoLC)783458528</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">ocn752069622</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCLC)ocn752069622</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">DLC</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">DLC</subfield>
+      <subfield code="d">YDX</subfield>
+      <subfield code="d">BTCTA</subfield>
+      <subfield code="d">BDX</subfield>
+      <subfield code="d">YDXCP</subfield>
+      <subfield code="d">E7B</subfield>
+      <subfield code="d">BWX</subfield>
+      <subfield code="d">OCLCQ</subfield>
+      <subfield code="d">CDX</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="042">
+      <subfield code="a">pcc</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="043">
+      <subfield code="a">n-us---</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="049">
+      <subfield code="a">IG$A</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="079">
+      <subfield code="a">ocn752069622</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="090">
+      <subfield code="a">E908.3</subfield>
+      <subfield code="b">.D67 2012</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Dorrien, Gary J.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n86070943</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="245">
+      <subfield code="a">The Obama question :</subfield>
+      <subfield code="b">a progressive perspective /</subfield>
+      <subfield code="c">Gary Dorrien.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">Lanham, Md. :</subfield>
+      <subfield code="b">Rowman &amp; Littlefield Publishers,</subfield>
+      <subfield code="c">[2012]</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="264">
+      <subfield code="c">&#xA9;2012</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">ix, 245 pages ;</subfield>
+      <subfield code="c">24 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="504">
+      <subfield code="a">Includes bibliographical references and index.</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="505">
+      <subfield code="a">Shortcut to Redemption -- Becoming Obama -- To the White House -- Saving Capitalism from Itself -- Timidly Bold Obamacare -- Moral Empire and Liberal War -- Banks and Budgets -- What Kind of Country?</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Obama, Barack</subfield>
+      <subfield code="x">Political and social views.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n94112934</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2002011435</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Progressivism (United States politics)</subfield>
+      <subfield code="x">History</subfield>
+      <subfield code="y">21st century.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2010107767</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2002012478</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Politics and government</subfield>
+      <subfield code="y">2009-2017.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2009003409</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Economic policy</subfield>
+      <subfield code="y">2009-</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2009006640</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Social policy</subfield>
+      <subfield code="y">1993-</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh92006374</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="907">
+      <subfield code="a">.b5205939x</subfield>
+      <subfield code="b">p    </subfield>
+      <subfield code="c">-</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">pstk </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">ocn752069622</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="b">1</subfield>
+      <subfield code="c">120522</subfield>
+      <subfield code="d">m</subfield>
+      <subfield code="e">a</subfield>
+      <subfield code="f">-</subfield>
+      <subfield code="g">4</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-06-24 12:46:55</subfield>
+      <subfield code="e">b5205939x-01tuli_inst</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607164732.0</subfield>
+      <subfield code="a">2017-06-20 10:56:07</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">ASRS</subfield>
+      <subfield code="c">ASRS</subfield>
+      <subfield code="h"> E908.3 </subfield>
+      <subfield code="i"> .D67 2012 </subfield>
+      <subfield code="8">22461541940003811</subfield>
+      <subfield code="updated">2019-04-26 20:47:48</subfield>
+      <subfield code="created">2019-04-26 20:47:46</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22461541940003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">ASRS</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074026448407</subfield>
+      <subfield code="e">ASRS</subfield>
+      <subfield code="8">23307483750003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">E908.3 .D67 2012</subfield>
+      <subfield code="updated">2019-04-26 20:48:12</subfield>
+      <subfield code="q">2017-06-20 10:56:07</subfield>
+      <subfield code="d">ASRS</subfield>
+      <subfield code="f">ASRS</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>07446cam a2200565 a 4500</leader>
+    <controlfield tag="005">20190715235644.0</controlfield>
+    <controlfield tag="008">110303s2011    nyua     b    001 0 eng  </controlfield>
+    <controlfield tag="001">991021733379703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="010">
+      <subfield code="a">2011009576</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9780415887700</subfield>
+      <subfield code="q">hardback</subfield>
+      <subfield code="q">acid-free paper</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">0415887704</subfield>
+      <subfield code="q">hardback</subfield>
+      <subfield code="q">acid-free paper</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9780415887717</subfield>
+      <subfield code="q">paperback</subfield>
+      <subfield code="q">acid-free paper</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">0415887712</subfield>
+      <subfield code="q">paperback</subfield>
+      <subfield code="q">acid-free paper</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9780203831519</subfield>
+      <subfield code="q">ebook</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">0203831519</subfield>
+      <subfield code="q">ebook</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(PPT)b49966273-01tuli_inst</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)ocn761176715</subfield>
+      <subfield code="9">ExL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)654317260</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">ocn654317260</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCLC)ocn654317260</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">DLC</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">DLC</subfield>
+      <subfield code="d">BTCTA</subfield>
+      <subfield code="d">YDXCP</subfield>
+      <subfield code="d">BWX</subfield>
+      <subfield code="d">IAY</subfield>
+      <subfield code="d">VRC</subfield>
+      <subfield code="d">CaONFJC</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="042">
+      <subfield code="a">pcc</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="043">
+      <subfield code="a">n-us---</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="049">
+      <subfield code="a">IG$A</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="079">
+      <subfield code="a">ocn654317260</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="090">
+      <subfield code="a">E907</subfield>
+      <subfield code="b">.O227 2011</subfield>
+    </datafield>
+    <datafield ind1="0" ind2="4" tag="245">
+      <subfield code="a">The Obama presidency :</subfield>
+      <subfield code="b">change and continuity /</subfield>
+      <subfield code="c">edited by Andrew J. Dowdle, Dirk C. van Raemdonck, and Robert Maranto.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">Routledge,</subfield>
+      <subfield code="c">2011.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">xviii, 232 pages :</subfield>
+      <subfield code="b">illustrations ;</subfield>
+      <subfield code="c">23 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+      <subfield code="a">Copyright date 2012.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="504">
+      <subfield code="a">Includes bibliographical references (pages [201]-224) and index.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">At his inauguration, President Barack Obama was seemingly poised to become America's strongest and most influential president since Ronald Reagan. However, President Obama's first two years in office have led to some notable surprises. What accounts for the political stability and change demonstrated by the Obama administration? Which factors shaping a presidency are structural, which are personal, and which are driven by events? How will decisions made in the first two years of the administration affect its future course? What lessons can we glean from past presidencies?</subfield>
+    </datafield>
+    <datafield ind1="8" ind2="0" tag="520">
+      <subfield code="a">This timely volume of notable thinkers on the presidency presents scholarly as well as applied insights on Obama's administration at the half-way point. Assessing the political context of his first two years, the inter-branch relations, and policy developments all provide the necessary grounding for students to make sense of the continuity and change that Barack Obama represents. Book jacket.</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="505">
+      <subfield code="a">The Setting -- Barack Obama: A Reagan of the Left? / Andrew J. Dowdle, Dirk C. van Raemdonck, Robert Maranto -- Obama: Change We Can Regime? -- A New Regime? -- Or Just a Continuation of the Old? -- The Stylistic Ironies of Barack Obama: Deliberative Reform -- Overview of the Book -- Making Race Go Away: President Obama and the Promise of a Post-racial Society / Wilbur C. Rich -- Race, Identity, and the Obama Candidacy -- Racial Investment in President Obama -- Barack Obama as President -- Real Change and Racial Inclusion -- If It Isn't about Race, What Is It? -- Conclusion -- Presidential Leadership and Public Opinion in an Age of Polarization / Jeffrey E. Cohen, Costas Panagopoulos -- Strategies for Presidential Leadership and Obama's Challenge -- Obama's Leadership Style: A Mixed Message? -- Trends in Public Evaluations of the Obama Presidency -- Wither the Obama Coalition? -- Obama's Leadership Style and Differential Reaction to His Presidency -- Moderate Disillusionment? -- Liberal Backlash? -- Conclusion -- Managing the Executive Branch -- The Obama Cabinet: A Team of Rivals or Pragmatic Governance? / Shirley Anne Warshaw -- Building the Obama Cabinet -- Political Balance in the Cabinet -- Geographic Balance in the Cabinet -- Gender and Racial Balance in the Cabinet -- Political Experience in the Cabinet -- Cabinets and Counselors -- Team Building; The Merger of Cabinets and Counselors -- Cabinet Rank: A Tool to Control the Policy Process -- Conclusion -- Presidential Appointments in the Obama Administration: An Early Evaluation / David E. Lewis -- Putting the Obama Team Together -- What Types of People Did Obama Appoint? -- Conclusion -- President Barack Obama, Unilateralist / Christopher S. Kelley, Melanie Cook Marlowe, Ryan J. Barilleaux -- The Trend towards Presidential Unilateralism -- George W. Bush and Unilateralism -- Obama the Unilateralist -- Influencing Regulatory Processes -- Obama and the Signing Statement -- Conclusion -- Continuity and Change in White House Communications: President Obama Meets the Press / Martha Joynt Kumar -- Presidential Addresses and Remarks -- Presidential Press Conferences -- Short Question and Answer Sessions -- Presidential Interviews -- President Obama and the News Media -- Managing Relations with the Other Branches -- No Place for a Community Organizer: Barack Obama's Leadership of Congress / Justin S. Vaughn -- Obama's Legislative Style -- Conflict between the Branches -- Conclusion: Lessons Learned and Life after the 2010 Midterms -- Beyond Two Terms: Shaping the Supreme Court and a Legacy / Richard L. Pacelle -- "An Informal and Limited Alliance" -- President Obama and the Imperative for Change -- An Obama Court in the Making? -- Conclusion -- Managing Policies -- Economic Policymaking during the Great Recession / Ted Gayer -- The State of Economics -- Monetary Policy -- Empirical Challenges to Fiscal Policymaking -- Theory of Fiscal Policymaking -- Fiscal Stimulus and Debt -- Multiplier Estimates -- The American Recovery and Reinvestment Act -- Conclusion -- President Obama's Health Care Reform: The Inevitable Impossible / Mark Carl Rom -- Health Care Reform Was Inevitable -- Health Care Reform Was Impossible -- Impossibilities, Inevitabilities, and Contingencies in the Process -- The Legislative Struggle -- Conclusion -- President Obama and Education: The Personal and the Political / Robert Maranto, Michael Q. McShane -- A Short History of Education Reform -- The Obama Education Agenda: The Personal Is Educational -- The Secretary Selection -- Defining Moments, Central Falls, and the DC Opportunity Scholarship Program -- Stimulus and Race to the Top -- Moving Forward -- An Education President of Achievement? -- Fighting Two Wars / Lawrence J. Korb, Laura Conley -- The National Security Environment -- Approaches to U.S. National Security Policy -- A Balanced Approach -- Strategy -- Fighting Two Wars -- Allies and Enemies -- Transformation or Triage? -- At the End of the Beginning: Judging President Obama -- Barack Obama's First Two Years: Policy Accomplishments, Political Failure / William A. Galston -- Introduction: Dueling Explanations for Political Failure -- The Seeds of Future Difficulties -- From Latent Difficulties to Actual Problems: The Economic Challenge -- The Politics of Agenda Management -- The Road Ahead.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="650">
+      <subfield code="a">Politics and government.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1919741</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Politics and government</subfield>
+      <subfield code="y">2009-2017.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2009003409</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="651">
+      <subfield code="a">United States.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n94112934</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="648">
+      <subfield code="a">2009-2017.</subfield>
+      <subfield code="2">fast</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Dowdle, Andrew.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n2011014619</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Van Raemdonck, Dirk C.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n2011014624</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Maranto, Robert,</subfield>
+      <subfield code="d">1958-</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n91008988</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="903">
+      <subfield code="a">MARCIVE-TOC201904</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20200629</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="907">
+      <subfield code="a">.b49966273</subfield>
+      <subfield code="b">p    </subfield>
+      <subfield code="c">-</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">pstk </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">ocn654317260</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="b">1</subfield>
+      <subfield code="c">111020</subfield>
+      <subfield code="d">m</subfield>
+      <subfield code="e">a</subfield>
+      <subfield code="f">-</subfield>
+      <subfield code="g">4</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-09-08 22:50:22</subfield>
+      <subfield code="e">b49966273-01tuli_inst</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607195138.0</subfield>
+      <subfield code="a">2017-06-20 06:08:08</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">ASRS</subfield>
+      <subfield code="c">ASRS</subfield>
+      <subfield code="h"> E907 </subfield>
+      <subfield code="i"> .O227 2011 </subfield>
+      <subfield code="8">22463493290003811</subfield>
+      <subfield code="updated">2019-04-30 20:19:40</subfield>
+      <subfield code="created">2019-04-30 20:19:34</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22463493290003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">ASRS</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074026338426</subfield>
+      <subfield code="e">ASRS</subfield>
+      <subfield code="8">23242159100003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">E907 .O227 2011</subfield>
+      <subfield code="updated">2020-02-17 20:05:13</subfield>
+      <subfield code="q">2017-06-20 06:08:08</subfield>
+      <subfield code="d">ASRS</subfield>
+      <subfield code="f">ASRS</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>02844cam a2200517 a 4500</leader>
+    <controlfield tag="005">20190923163922.0</controlfield>
+    <controlfield tag="008">110422s2012    enka     b    001 0 eng c</controlfield>
+    <controlfield tag="001">991028225249703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9780415686785</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">0415686784</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(PPT)b51791997-01tuli_inst</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)ocn799003913</subfield>
+      <subfield code="9">ExL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)714731151</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">ocn714731151</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCLC)ocn714731151</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">BTCTA</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">BTCTA</subfield>
+      <subfield code="d">YDXCP</subfield>
+      <subfield code="d">BWX</subfield>
+      <subfield code="d">UIU</subfield>
+      <subfield code="d">YOU</subfield>
+      <subfield code="d">CDX</subfield>
+      <subfield code="d">NYP</subfield>
+      <subfield code="d">IQU</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="042">
+      <subfield code="a">pcc</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="043">
+      <subfield code="a">n-us---</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="050">
+      <subfield code="a">E908</subfield>
+      <subfield code="b">.O23 2012</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="079">
+      <subfield code="a">ocn714731151</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="090">
+      <subfield code="a">E908.3</subfield>
+      <subfield code="b">.O23 2012</subfield>
+    </datafield>
+    <datafield ind1="0" ind2="0" tag="245">
+      <subfield code="a">Obama and race :</subfield>
+      <subfield code="b">history, culture, politics /</subfield>
+      <subfield code="c">edited by Richard H. King.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">London ;</subfield>
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">Routledge,</subfield>
+      <subfield code="c">2012.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">199 pages :</subfield>
+      <subfield code="b">illustrations ;</subfield>
+      <subfield code="c">26 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="505">
+      <subfield code="a">Introduction / Richard H. King -- The riddle of race / Emily Bernard -- 'A curious relationship' : Barack Obama, the 1960s and the election of 2008 / Brian Ward -- Barack Hussein Obama : the use of history in the creation of an 'American' president / George Lewis -- Becoming black, becoming president / Richard H. King -- Two great days in Harlem / Carmel King -- How to read Michelle Obama / Maria Lauret -- Barack Obama and the American island of the colour blind / Peter Kuryla -- Barack Obama as the post-racial candidate for a post-racial America : perspectives from Asian America and Hawaii / Jonathan Y. Okamura -- Barack Obama and the South : demography as electoral opportunity / Donald W. Beachler -- Teaching Obama : history, critical race theory and social work education / Damon Freeman.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="504">
+      <subfield code="a">Includes bibliographic references and index.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="650">
+      <subfield code="a">Elections.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/904324</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="650">
+      <subfield code="a">Presidents.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1075723</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="650">
+      <subfield code="a">Race relations.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1086509</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Presidents</subfield>
+      <subfield code="z">United States</subfield>
+      <subfield code="x">Election</subfield>
+      <subfield code="y">2008.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2010105921</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Elections</subfield>
+      <subfield code="z">United States</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh85041561</subfield>
+      <subfield code="x">Sociological aspects.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2001008870</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Race relations.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh85140494</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="651">
+      <subfield code="a">United States.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="651">
+      <subfield code="a">United States.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n94112934</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1915904</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1915904</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n2008054754</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="648">
+      <subfield code="a">2008.</subfield>
+      <subfield code="2">fast</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">King, Richard H.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79085733</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">150511</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE-SC</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20200629</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="907">
+      <subfield code="a">.b51791997</subfield>
+      <subfield code="b">multi</subfield>
+      <subfield code="c">-</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">b    </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">pstk </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">ocn714731151</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="b">4</subfield>
+      <subfield code="c">120619</subfield>
+      <subfield code="d">m</subfield>
+      <subfield code="e">a</subfield>
+      <subfield code="f">-</subfield>
+      <subfield code="g">0</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="a">06/19/12</subfield>
+      <subfield code="s">OCLC</subfield>
+      <subfield code="c">AT</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-09-08 22:16:07</subfield>
+      <subfield code="e">b51791997-01tuli_inst</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607224446.0</subfield>
+      <subfield code="a">2017-06-20 13:15:11</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">ASRS</subfield>
+      <subfield code="c">ASRS</subfield>
+      <subfield code="h"> E908.3 </subfield>
+      <subfield code="i"> .O23 2012 </subfield>
+      <subfield code="8">22463844960003811</subfield>
+      <subfield code="updated">2019-04-30 20:37:47</subfield>
+      <subfield code="created">2019-04-30 20:37:42</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">BLOCKSON</subfield>
+      <subfield code="c">rarestacks</subfield>
+      <subfield code="h">E908.3</subfield>
+      <subfield code="i">.O23 2012</subfield>
+      <subfield code="8">22323692320003811</subfield>
+      <subfield code="created">2017-06-20 13:15:11</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22463844960003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">ASRS</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074026482075</subfield>
+      <subfield code="e">ASRS</subfield>
+      <subfield code="8">23323692330003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">E908.3 .O23 2012</subfield>
+      <subfield code="updated">2019-04-30 20:38:08</subfield>
+      <subfield code="q">2017-06-20 13:15:11</subfield>
+      <subfield code="d">ASRS</subfield>
+      <subfield code="f">ASRS</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22323692320003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">rarestacks</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="e">rarestacks</subfield>
+      <subfield code="8">23323692310003811</subfield>
+      <subfield code="a">3</subfield>
+      <subfield code="i">E908.3 .O23 2012</subfield>
+      <subfield code="updated">2020-03-25 19:25:45</subfield>
+      <subfield code="q">2017-06-20 13:15:11</subfield>
+      <subfield code="d">BLOCKSON</subfield>
+      <subfield code="f">BLOCKSON</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>02216cam a2200469 a 4500</leader>
+    <controlfield tag="005">20190715212457.0</controlfield>
+    <controlfield tag="008">101130s2010    enka     b    001 0 eng  </controlfield>
+    <controlfield tag="001">991007815739703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="010">
+      <subfield code="a">2010283785</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9781844674497</subfield>
+      <subfield code="q">paperback</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">1844674495</subfield>
+      <subfield code="q">paperback</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(PPT)b45518269-01tuli_inst</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)ocn712570737</subfield>
+      <subfield code="9">ExL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)624417794</subfield>
+      <subfield code="z">(OCoLC)601094058</subfield>
+      <subfield code="z">(OCoLC)657175245</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">ocn624417794</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCLC)ocn624417794</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">UKM</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">UKM</subfield>
+      <subfield code="d">DLC</subfield>
+      <subfield code="d">BTCTA</subfield>
+      <subfield code="d">YDXCP</subfield>
+      <subfield code="d">C#P</subfield>
+      <subfield code="d">CUY</subfield>
+      <subfield code="d">BWX</subfield>
+      <subfield code="d">VP@</subfield>
+      <subfield code="d">ILC</subfield>
+      <subfield code="d">CDX</subfield>
+      <subfield code="d">FDA</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="042">
+      <subfield code="a">lccopycat</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="043">
+      <subfield code="a">n-us---</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="079">
+      <subfield code="a">ocn624417794</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="090">
+      <subfield code="a">E907</subfield>
+      <subfield code="b">.A44 2010</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Ali, Tariq.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79145473</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="245">
+      <subfield code="a">The Obama syndrome :</subfield>
+      <subfield code="b">surrender at home, war abroad /</subfield>
+      <subfield code="c">Tariq Ali.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">London ;</subfield>
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">Verso,</subfield>
+      <subfield code="c">2010.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">x, 156 pages :</subfield>
+      <subfield code="b">illustrations ;</subfield>
+      <subfield code="c">20 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="504">
+      <subfield code="a">Includes bibliographical references and index.</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="505">
+      <subfield code="a">An unprecedented historical event -- President of cant -- Surrender at home : a one-dimensional politician -- Appendices. Dispatches from the emergency room / Teri Reynolds ; A note on Yemen ; Per capita total current health care expenditures, US and selected countries, 2007.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">What has really changed since Bush left the White House? Ali argues that Obama's failures are paving the way for a Republican surge, while his own supporters become increasingly despondent.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="650">
+      <subfield code="a">International relations.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/977053</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="650">
+      <subfield code="a">Politics and government.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1919741</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Politics and government</subfield>
+      <subfield code="y">2009-2017.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2009003409</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">United States</subfield>
+      <subfield code="x">Foreign relations</subfield>
+      <subfield code="y">2009-2017.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2009000190</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="651">
+      <subfield code="a">United States.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n94112934</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Obama, Barack.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/348231</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="648">
+      <subfield code="a">2009-2017.</subfield>
+      <subfield code="2">fast</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20200629</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="907">
+      <subfield code="a">.b45518269</subfield>
+      <subfield code="b">p    </subfield>
+      <subfield code="c">-</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">pstk </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">ocn624417794</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="b">1</subfield>
+      <subfield code="c">110317</subfield>
+      <subfield code="d">m</subfield>
+      <subfield code="e">a</subfield>
+      <subfield code="f">-</subfield>
+      <subfield code="g">4</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="a">03/17/11</subfield>
+      <subfield code="s">LC</subfield>
+      <subfield code="c">YL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-09-09 01:08:32</subfield>
+      <subfield code="e">b45518269-01tuli_inst</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607182858.0</subfield>
+      <subfield code="a">2017-06-20 08:59:42</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">ASRS</subfield>
+      <subfield code="c">ASRS</subfield>
+      <subfield code="h"> E907 </subfield>
+      <subfield code="i"> .A44 2010 </subfield>
+      <subfield code="8">22464874070003811</subfield>
+      <subfield code="updated">2019-05-03 16:11:56</subfield>
+      <subfield code="created">2019-05-03 16:11:50</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22464874070003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">ASRS</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074026263020</subfield>
+      <subfield code="e">ASRS</subfield>
+      <subfield code="8">23289402240003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">E907 .A44 2010</subfield>
+      <subfield code="updated">2019-05-03 16:12:19</subfield>
+      <subfield code="q">2017-06-20 08:59:42</subfield>
+      <subfield code="d">ASRS</subfield>
+      <subfield code="f">ASRS</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>05435cam a2200613Ii 4500</leader>
+    <controlfield tag="005">20190930174621.0</controlfield>
+    <controlfield tag="008">180303t20182018nyuaf         000 0aeng d</controlfield>
+    <controlfield tag="001">991036955068203811</controlfield>
+    <datafield ind1=" " ind2=" " tag="019">
+      <subfield code="a">1026238834</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9781524763138</subfield>
+      <subfield code="q">(hardcover)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">1524763136</subfield>
+      <subfield code="q">(hardcover)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="z">9781524763152</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)1030413521</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="037">
+      <subfield code="b">Random House Inc, Attn Order Entry 400 Hahn rd, Westminster, MD, USA, 21157</subfield>
+      <subfield code="n">SAN 201-3975</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">NHP</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="e">rda</subfield>
+      <subfield code="c">NHP</subfield>
+      <subfield code="d">YDX</subfield>
+      <subfield code="d">MJ8</subfield>
+      <subfield code="d">OCLCO</subfield>
+      <subfield code="d">OCLCF</subfield>
+      <subfield code="d">GK8</subfield>
+      <subfield code="d">H4N</subfield>
+      <subfield code="d">WSD</subfield>
+      <subfield code="d">JQR</subfield>
+      <subfield code="d">OCLCO</subfield>
+      <subfield code="d">DAD</subfield>
+      <subfield code="d">OQX</subfield>
+      <subfield code="d">QQ3</subfield>
+      <subfield code="d">BUR</subfield>
+      <subfield code="d">JRZ</subfield>
+      <subfield code="d">KSG</subfield>
+      <subfield code="d">UAP</subfield>
+      <subfield code="d">JQM</subfield>
+      <subfield code="d">IGA</subfield>
+      <subfield code="d">WLU</subfield>
+      <subfield code="d">CTB</subfield>
+      <subfield code="d">VP@</subfield>
+      <subfield code="d">RCJ</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="043">
+      <subfield code="a">n-us---</subfield>
+      <subfield code="a">n-us-il</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="050">
+      <subfield code="a">E909.O24</subfield>
+      <subfield code="b">A3 2018</subfield>
+    </datafield>
+    <datafield ind1="0" ind2="4" tag="082">
+      <subfield code="a">973.932092</subfield>
+      <subfield code="a">B</subfield>
+      <subfield code="2">23</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n2008054754</subfield>
+      <subfield code="e">author.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="245">
+      <subfield code="a">Becoming /</subfield>
+      <subfield code="c">Michelle Obama.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="250">
+      <subfield code="a">First edition.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">Crown,</subfield>
+      <subfield code="c">[2018]</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="264">
+      <subfield code="c">&#xA9;2018</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">xiii, 426 pages, 16 unnumbered pages of plates :</subfield>
+      <subfield code="b">illustrations (chiefly color) ;</subfield>
+      <subfield code="c">25 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America, she helped create the most welcoming and inclusive White House in history. With unerring honesty and lively wit, she describes her triumphs and her disappointments, both public and private. A deeply personal reckoning of a woman of soul and substance who has steadily defied expectations.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">"An intimate, powerful, and inspiring memoir by the former First Lady of the United States. When she was a little girl, Michelle Robinson's world was the South Side of Chicago, where she and her brother, Craig, shared a bedroom in their family's upstairs apartment and played catch in the park, and where her parents, Fraser and Marian Robinson, raised her to be outspoken and unafraid. But life soon look her much further afield, from the halls of Princeton, where she learned for the first time what if felt like to be the only black woman in a room, to the glassy office tower where she worked as a high-powered corporate lawyer--and where, one summer morning, a law student named Barack Obama appeared in her office and upended all her carefully made plans. Here, for the first time, Michelle Obama describes the early years of her marriage as she struggles to balance her work and family with her husband's fast-moving political career. She takes us inside their private debate over whether he should make a run for the presidency and her subsequent role as a popular but oft-criticized figure during his campaign. Narrating with grace, good humor, and uncommon candor, she provides a vivid, behind-the-scenes account of her family's history-making launch into the global limelight as well as their life inside the White House over eight momentous years--as she comes to know her country and her country comes to know her. [This book] takes us through modest Iowa kitchens and ballrooms at Buckingham Palace, through moments of heart-stopping grief and profound resilience, bringing us deep into the soul of a singular, groundbreaking figure in history as she strives to live authentically, marshaling her personal strength and voice in service of a set of higher ideals. In telling her story with honesty and boldness, she issues a challenge to the rest of us: Who are we and who do we want to become?"--Dust jacket.</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="505">
+      <subfield code="a">Becoming me -- Becoming us -- Becoming more.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Presidents' spouses</subfield>
+      <subfield code="z">United States</subfield>
+      <subfield code="v">Biography.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2008109323</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">African American women lawyers</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh97007958</subfield>
+      <subfield code="z">Illinois</subfield>
+      <subfield code="z">Chicago</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n78086438</subfield>
+      <subfield code="v">Biography.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh99001237</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="650">
+      <subfield code="a">African American women lawyers.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/799505</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Legislators' spouses</subfield>
+      <subfield code="z">United States</subfield>
+      <subfield code="v">Biography.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2009129518</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="650">
+      <subfield code="a">Legislators' spouses.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/995904</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="650">
+      <subfield code="a">Presidents' spouses.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1075830</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="650">
+      <subfield code="a">Legislators' spouses.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/995904</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="650">
+      <subfield code="a">African American women lawyers.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/799505</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="650">
+      <subfield code="a">Presidents' spouses.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1075830</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="651">
+      <subfield code="a">Illinois</subfield>
+      <subfield code="z">Chicago.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204048</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="651">
+      <subfield code="a">United States.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="651">
+      <subfield code="a">United States.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="651">
+      <subfield code="a">Illinois</subfield>
+      <subfield code="z">Chicago.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1204048</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Autobiographies.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1919894</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Biographies.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1919896</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Autobiographies.</subfield>
+      <subfield code="2">lcgft</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/genreForms/gf2014026047</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="655">
+      <subfield code="a">Biographies.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1919896</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n2008054754</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1915904</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Obama, Michelle,</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1915904</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20200629</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="949">
+      <subfield code="a">B OBAMA</subfield>
+      <subfield code="i">39074032018269</subfield>
+      <subfield code="l">PLEIP</subfield>
+      <subfield code="t">40</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="949">
+      <subfield code="a">B OBAMA</subfield>
+      <subfield code="i">39074032018277</subfield>
+      <subfield code="l">PLEIP</subfield>
+      <subfield code="t">40</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="949">
+      <subfield code="a">B OBAMA</subfield>
+      <subfield code="i">39074032018558</subfield>
+      <subfield code="l">PLEIP</subfield>
+      <subfield code="t">40</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="949">
+      <subfield code="a">B OBAMA</subfield>
+      <subfield code="i">39074032018574</subfield>
+      <subfield code="l">PLEIP</subfield>
+      <subfield code="t">40</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="949">
+      <subfield code="a">B OBAMA</subfield>
+      <subfield code="i">39074032018582</subfield>
+      <subfield code="l">PLEIP</subfield>
+      <subfield code="t">40</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">(OCoLC)1030413521</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="997">
+      <subfield code="a">20181210130204.0</subfield>
+      <subfield code="c">YL</subfield>
+      <subfield code="d">TEU</subfield>
+      <subfield code="s">OCLC</subfield>
+      <subfield code="e">WCAT</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="997">
+      <subfield code="a">20190207111506.0</subfield>
+      <subfield code="c">CDC</subfield>
+      <subfield code="d">TMY</subfield>
+      <subfield code="s">OCLC</subfield>
+      <subfield code="e">WCAT</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-09-09 00:40:00</subfield>
+      <subfield code="e">BRDBD18221117</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607194917.0</subfield>
+      <subfield code="a">2018-11-19 17:48:56</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="8" ind2=" " tag="HLD">
+      <subfield code="b">GINSBURG</subfield>
+      <subfield code="c">leisure</subfield>
+      <subfield code="h">B OBA</subfield>
+      <subfield code="8">22446594260003811</subfield>
+      <subfield code="updated">2019-03-06 14:26:50</subfield>
+      <subfield code="created">2019-02-22 20:11:26</subfield>
+    </datafield>
+    <datafield ind1="8" ind2=" " tag="HLD">
+      <subfield code="b">MAIN</subfield>
+      <subfield code="c">leisure</subfield>
+      <subfield code="h">B OBAMA</subfield>
+      <subfield code="8">22438713590003811</subfield>
+      <subfield code="updated">2019-02-22 20:11:00</subfield>
+      <subfield code="created">2018-11-20 16:12:38</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">MAIN</subfield>
+      <subfield code="c">stacks</subfield>
+      <subfield code="h">E909.O24</subfield>
+      <subfield code="i">A3 2018</subfield>
+      <subfield code="t">0</subfield>
+      <subfield code="8">22439625970003811</subfield>
+      <subfield code="updated">2019-02-07 16:14:44</subfield>
+      <subfield code="created">2018-12-06 20:28:14</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">AMBLER</subfield>
+      <subfield code="t">1</subfield>
+      <subfield code="c">stacks</subfield>
+      <subfield code="h">E909.O24</subfield>
+      <subfield code="i">A3 2018</subfield>
+      <subfield code="8">22440811640003811</subfield>
+      <subfield code="updated">2019-02-07 16:14:44</subfield>
+      <subfield code="created">2019-01-11 20:05:01</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22438713590003811</subfield>
+      <subfield code="b">0</subfield>
+      <subfield code="h">8</subfield>
+      <subfield code="g">leisure</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074032018277</subfield>
+      <subfield code="e">leisure</subfield>
+      <subfield code="8">23438713560003811</subfield>
+      <subfield code="a">13</subfield>
+      <subfield code="i">B OBAMA</subfield>
+      <subfield code="updated">2020-10-25 21:25:34</subfield>
+      <subfield code="u">LOAN</subfield>
+      <subfield code="q">2018-11-20 16:15:10</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22438713590003811</subfield>
+      <subfield code="b">0</subfield>
+      <subfield code="h">8</subfield>
+      <subfield code="g">leisure</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074032018574</subfield>
+      <subfield code="e">leisure</subfield>
+      <subfield code="8">23439929940003811</subfield>
+      <subfield code="a">13</subfield>
+      <subfield code="i">B OBAMA</subfield>
+      <subfield code="updated">2020-09-02 19:06:52</subfield>
+      <subfield code="u">LOAN</subfield>
+      <subfield code="q">2018-12-10 18:03:06</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22438713590003811</subfield>
+      <subfield code="b">0</subfield>
+      <subfield code="h">8</subfield>
+      <subfield code="g">leisure</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074032018582</subfield>
+      <subfield code="e">leisure</subfield>
+      <subfield code="8">23439929950003811</subfield>
+      <subfield code="a">13</subfield>
+      <subfield code="i">B OBAMA</subfield>
+      <subfield code="updated">2019-11-08 16:22:36</subfield>
+      <subfield code="u">LOAN</subfield>
+      <subfield code="q">2018-12-10 18:02:53</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22438713590003811</subfield>
+      <subfield code="b">0</subfield>
+      <subfield code="h">8</subfield>
+      <subfield code="g">leisure</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074032018269</subfield>
+      <subfield code="e">leisure</subfield>
+      <subfield code="8">23438713570003811</subfield>
+      <subfield code="a">13</subfield>
+      <subfield code="i">B OBAMA</subfield>
+      <subfield code="updated">2020-02-26 17:10:30</subfield>
+      <subfield code="u">LOAN</subfield>
+      <subfield code="q">2018-11-20 16:14:57</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22439625970003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">stacks</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074031709934</subfield>
+      <subfield code="e">stacks</subfield>
+      <subfield code="8">23439625960003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">E909.O24 A3 2018</subfield>
+      <subfield code="updated">2020-09-09 16:38:06</subfield>
+      <subfield code="q">2018-12-06 20:28:14</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22440811640003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">stacks</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074024457780</subfield>
+      <subfield code="e">stacks</subfield>
+      <subfield code="l">0</subfield>
+      <subfield code="8">23440811630003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">E909.O24 A3 2018</subfield>
+      <subfield code="updated">2020-08-06 14:14:25</subfield>
+      <subfield code="q">2019-01-11 20:05:01</subfield>
+      <subfield code="d">AMBLER</subfield>
+      <subfield code="f">AMBLER</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22438713590003811</subfield>
+      <subfield code="b">0</subfield>
+      <subfield code="h">8</subfield>
+      <subfield code="g">leisure</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074032018558</subfield>
+      <subfield code="e">leisure</subfield>
+      <subfield code="l">0</subfield>
+      <subfield code="8">23439679880003811</subfield>
+      <subfield code="j">8</subfield>
+      <subfield code="a">13</subfield>
+      <subfield code="i">B OBAMA</subfield>
+      <subfield code="updated">2020-10-03 20:30:26</subfield>
+      <subfield code="u">LOAN</subfield>
+      <subfield code="k">B OBAMA</subfield>
+      <subfield code="q">2018-12-03 16:49:36</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22446594260003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">8</subfield>
+      <subfield code="g">leisure</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074501383871</subfield>
+      <subfield code="e">leisure</subfield>
+      <subfield code="8">23446594240003811</subfield>
+      <subfield code="a">13</subfield>
+      <subfield code="i">B OBA</subfield>
+      <subfield code="updated">2020-08-05 00:12:35</subfield>
+      <subfield code="q">2019-02-22 20:12:28</subfield>
+      <subfield code="d">GINSBURG</subfield>
+      <subfield code="f">GINSBURG</subfield>
+    </datafield>
+  </record>
+</collection>
