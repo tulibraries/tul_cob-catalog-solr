@@ -189,6 +189,7 @@
          text
        </str>
        <str name="pf">
+         title_statement_including_author_t^30000.0
          title_unstem_search^1000000.0
          subtitle_unstem_search^500000.0
          title_t^250000.0

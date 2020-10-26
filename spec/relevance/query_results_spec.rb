@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "spec_helper"
 
 RSpec.describe "query results spec" do
   solr = RSolr.connect(url: ENV["SOLR_URL"])
@@ -270,6 +271,23 @@ RSpec.describe "query results spec" do
           .before(secondary_ids)
       end
     end
+
+    context "search 'becoming obama'" do
+      let(:search_terms) { { search_string: "becoming obama" } }
+      let(:primary_ids) {
+        [ "991036955068203811" ] }
+      let(:secondary_ids) {
+        [ "991028920369703811",
+          "991021733379703811",
+          "991028225249703811",
+          "991007815739703811"] }
+
+      it "returns expected values" do
+        expect(ids).to include_items(primary_ids)
+          .before(secondary_ids)
+      end
+    end
+
   end
 end
 
