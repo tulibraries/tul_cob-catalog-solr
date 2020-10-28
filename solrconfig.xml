@@ -134,6 +134,7 @@
          imprint_prod_display,
          isbn_display,
          issn_display,
+         lc_call_number_display,
          lccn_display,
          library_facet,
          location_display,
