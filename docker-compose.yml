@@ -12,6 +12,7 @@ services:
       - $PWD/bin/load-data:/bin/load-data
     environment:
       SOLR_URL: "http://solr:8983/solr/blacklight"
+      SOLR_DISABLE_UPDATE_DATE_CHECK: "true"
       DO_INGEST: "${DO_INGEST}"
       LC_ALL: "C.UTF-8"
       BUNDLE_PATH: /app/vendor/bundle

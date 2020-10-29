@@ -6,7 +6,6 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem "rsolr"
 gem "rspec"
-gem "rails"
 gem "cob_index",
   git: "https://github.com/tulibraries/cob_index.git",
   tag: "v0.6.4"
