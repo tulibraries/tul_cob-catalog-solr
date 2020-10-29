@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "spec_helper"
 
 RSpec.describe "Searches" do
   solr = RSolr.connect(url: ENV["SOLR_URL"])

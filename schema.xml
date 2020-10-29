@@ -594,6 +594,7 @@
   <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
 
    <copyField source="*_display" dest="text" />
+   <copyField source="title_statement_display" dest="title_statement_including_author_t"/>
 
  <!-- spellcheck fields -->
    <!-- default spell check;  should match fields for default request handler -->
