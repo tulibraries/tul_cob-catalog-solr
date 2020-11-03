@@ -1,0 +1,2795 @@
+<?xml version="1.0"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<record>
+  <leader>02415cam a2200529Ia 4500</leader>
+  <controlfield tag="005">20200428165258.0</controlfield>
+  <controlfield tag="008">140526s2014    enka     f  b 001 0 eng d</controlfield>
+  <controlfield tag="001">991006445749703811</controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0123869374</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780123869371</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)880499702</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b5701131x-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">YDXCP</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">YDXCP</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">UKMGB</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">BTCTA</subfield>
+    <subfield code="d">LTSCA</subfield>
+    <subfield code="d">VET</subfield>
+    <subfield code="d">PPT</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocn880499702</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">RC564</subfield>
+    <subfield code="b">.K66 2014</subfield>
+  </datafield>
+  <datafield tag="096" ind1=" " ind2=" ">
+    <subfield code="a">WM 270</subfield>
+    <subfield code="b">K82d 2014</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Koob, George F.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n88039688</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Drugs, addiction, and the brain /</subfield>
+    <subfield code="c">George F. Koob, Michael A. Arends, Michel Le Moal.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Oxford :</subfield>
+    <subfield code="b">Academic Press,</subfield>
+    <subfield code="c">2014.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">viii, 342 pages :</subfield>
+    <subfield code="b">color illustrations ;</subfield>
+    <subfield code="c">25 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Drug abuse.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85039675</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Drug abuse.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/898480</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Drug addiction.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85089810</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Drug addiction.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1430217</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Brain</subfield>
+    <subfield code="x">Diseases.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85016332</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Brain</subfield>
+    <subfield code="x">Diseases.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/837607</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Neurobiology.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85091114</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Neurobiology.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1036315</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Behavior, Addictive.</subfield>
+    <subfield code="0">https://id.nlm.nih.gov/mesh/D016739</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Brain</subfield>
+    <subfield code="x">drug effects.</subfield>
+    <subfield code="0">https://id.nlm.nih.gov/mesh/D001921Q000187</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="2">
+    <subfield code="a">Substance-Related Disorders.</subfield>
+    <subfield code="0">https://id.nlm.nih.gov/mesh/D019966</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Handbooks and manuals.</subfield>
+    <subfield code="2">lcgft</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/genreForms/gf2014026109</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Handbooks and manuals.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1423877</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Arends, Michael A.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n2014189760</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Le Moal, Michel.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/nb2006001114</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20190703</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b5701131x</subfield>
+    <subfield code="b">p</subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk</subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)880499702</subfield>
+  </datafield>
+  <datafield tag="997" ind1=" " ind2=" ">
+    <subfield code="a">20180129141402.0</subfield>
+    <subfield code="c">CEP</subfield>
+    <subfield code="d">TEU</subfield>
+    <subfield code="s">OCLC</subfield>
+    <subfield code="e">WCAT</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">1</subfield>
+    <subfield code="c">141222</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">0</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="a">12/22/14</subfield>
+    <subfield code="s">OCLC</subfield>
+    <subfield code="c">AT</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-05-19 11:22:07</subfield>
+    <subfield code="e">b5701131x-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607170802.0</subfield>
+    <subfield code="a">2017-06-20 12:03:21</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">RC564</subfield>
+    <subfield code="i">.K66 2014</subfield>
+    <subfield code="8">22315462820003811</subfield>
+    <subfield code="created">2017-06-20 12:03:21</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22315462820003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074028722486</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23315462790003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">RC564 .K66 2014</subfield>
+    <subfield code="updated">2019-09-19 22:39:42</subfield>
+    <subfield code="q">2017-06-20 12:03:21</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22315462820003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074029731775</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23408342710003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">RC564 .K66 2014</subfield>
+    <subfield code="updated">2020-08-31 15:28:34</subfield>
+    <subfield code="q">2018-01-24 17:12:16</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>05570cam a2200493 i 4500</leader>
+  <controlfield tag="005">20190715211654.0</controlfield>
+  <controlfield tag="008">130509s2014    nyua          001 0 eng  </controlfield>
+  <controlfield tag="001">991006717469703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">2013018764</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780765636065</subfield>
+    <subfield code="q">(paperback)</subfield>
+    <subfield code="q">(alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0765636069</subfield>
+    <subfield code="q">(paperback)</subfield>
+    <subfield code="q">(alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b5708807x-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn904582682</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)843037540</subfield>
+    <subfield code="z">(OCoLC)842884482</subfield>
+    <subfield code="z">(OCoLC)875260997</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocn843037540</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocn843037540</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">YDX</subfield>
+    <subfield code="d">YDXCP</subfield>
+    <subfield code="d">UKMGB</subfield>
+    <subfield code="d">OCLCF</subfield>
+    <subfield code="d">AU@</subfield>
+    <subfield code="d">PPT</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocn843037540</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">HF5814</subfield>
+    <subfield code="b">.J77 2014</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Jugenheimer, Donald W.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79055683</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Advertising and public relations research /</subfield>
+    <subfield code="c">Donald W. Jugenheimer, Larry D. Kelley, Jerry Hudson, Samuel D. Bradley.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">Second edition.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Armonk, New York :</subfield>
+    <subfield code="b">M.E. Sharpe,</subfield>
+    <subfield code="c">[2014]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">viii, 367 pages :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">24 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Advertising and Public Relations Research is designed to serve as a comprehensive, primary text for research methods courses in Advertising and/or Public Relations programs. To fit the purpose of most undergraduate and masters'-level courses, the book concentrates on the uses and applications of research in advertising and public relations situations. Although the design and conduct of research is covered in ample detail, the primary goal of the book is not to make researchers of the readers themselves. Instead, the authors' goal is to provide the information needed by future practitioners to commission and apply research to their work problems in advertising and public relations. Advertising and Public Relations Research has been carefully crafted to enhance learning and comprehension. Each chapter begins with a bullet-point list of learning objectives. The text material (supplemented by plentiful exhibits) features the authors' clear, readable writing and applied orientation. Chapters conclude with a brief summary, discussion questions to help expand and test students' comprehension, suggested research exercises, and sources for additional information. Key Changes in the Second Edition, The new edition of Advertising and Public Relations Research features several new chapters as well as deeper content in existing areas based on feedback from students, instructors, and practitioners. New coverage includes: A new chapter devoted to focus groups, A new chapter on in-depth interviews A new chapter on content analysis, Greatly expanded chapters covering all forms of qualitative research, Updated examples and case studies throughout the book, This edition also features a first-ever Instructor's Manual, which includes a detailed chapter guide, PowerPoint slides, and sample test questions for each chapter. Book jacket.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Machine generated contents note: pt. I Introduction to Advertising and Public Relations Research -- 1.Needs for Research in Advertising and Public Relations -- 2.Some Research Definitions -- 3.Planning and Using Research -- 4.Designing Research -- pt. II Secondary Research in Advertising and Public Relations -- 5.Introduction to Secondary Research -- 6.Syndicated Research -- 7.Online Resources -- 8.Other Useful Resources -- pt. III Primary Research in Advertising and Public Relations: Qualitative Research -- 9.Uses of Qualitative Research -- 10.Focus Groups -- 11.Content Analysis -- 12.In-depth Interviews -- 13.Other Qualitative Methods -- 14.How Qualitative Research Can Enhance Quantitative Research -- 15.Handling Qualitative Findings -- pt. IV Primary Research in Advertising and Public Relations: Quantitative Research -- 16.Empirical Research: Survey Research -- 17.Sampling -- 18.Measuring Instruments -- 19.Question Wording -- 20.Interviewer Training --</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Contents note continued: 21.Obtaining Accurate Responses -- 22.Data Tabulation -- 23.Applications of Quantitative Research -- 24.Experimental Research -- 25.Experimental Approaches -- 26.Quasi-Experimental Research -- 27.Experimental Applications in Advertising and Public Relations -- pt. V Primary Research in Advertising and Public Relations: Other Research Methods -- 28.Historical and Legal Research and Critical Analysis -- pt. VI Advertising and Public Relations Research Data Analysis -- 29.Handling Data -- 30.Scaling Techniques -- 31.Mapping Techniques -- 32.Statistics -- 33.Statistical Analytic Tools -- pt. VII Practical Aspects of Advertising and Public Relations Research -- 34.Who Should Conduct Research? -- 35.Applying Research to Advertising and Public Relations Situations -- 36.The Research Report -- 37.Ethics in Research.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Advertising</subfield>
+    <subfield code="x">Research.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85001165</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Advertising</subfield>
+    <subfield code="x">Research.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/797745</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Public relations</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85108753</subfield>
+    <subfield code="x">Research.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh2002006576</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Public relations</subfield>
+    <subfield code="x">Research.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1082916</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Public relations.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1082892</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="903" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-TOC201904</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20200629</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b5708807x</subfield>
+    <subfield code="b">p    </subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocn843037540</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">5</subfield>
+    <subfield code="c">150223</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">0</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="a">02/23/14</subfield>
+    <subfield code="s">LC</subfield>
+    <subfield code="c">RM</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-07-16 08:37:32</subfield>
+    <subfield code="e">b5708807x-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190608035834.0</subfield>
+    <subfield code="a">2017-06-20 14:14:00</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">HF5814</subfield>
+    <subfield code="i">.J77 2014</subfield>
+    <subfield code="8">22330194120003811</subfield>
+    <subfield code="created">2017-06-20 14:14:00</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">ASRS</subfield>
+    <subfield code="c">ASRS</subfield>
+    <subfield code="h"> HF5814 </subfield>
+    <subfield code="i"> .J77 2014 </subfield>
+    <subfield code="8">22465334770003811</subfield>
+    <subfield code="updated">2019-05-03 21:11:36</subfield>
+    <subfield code="created">2019-05-03 21:11:31</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22330194120003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074029748811</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23330194110003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">HF5814 .J77 2014</subfield>
+    <subfield code="updated">2020-03-09 21:23:01</subfield>
+    <subfield code="q">2017-06-20 14:14:00</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22465334770003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">reserve</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074026880005</subfield>
+    <subfield code="e">ASRS</subfield>
+    <subfield code="8">23330194100003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">HF5814 .J77 2014</subfield>
+    <subfield code="updated">2020-01-11 16:20:42</subfield>
+    <subfield code="q">2017-06-20 14:14:00</subfield>
+    <subfield code="d">ASRS</subfield>
+    <subfield code="p">2017-12-22 16:42:46</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22330194120003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074031726573</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23441257460003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">HF5814 .J77 2014</subfield>
+    <subfield code="updated">2020-03-09 16:26:10</subfield>
+    <subfield code="q">2019-01-16 19:43:14</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>06640cam a2200577 a 4500</leader>
+  <controlfield tag="005">20190715212138.0</controlfield>
+  <controlfield tag="008">060214s2005    enka   f b    001 0 eng d</controlfield>
+  <controlfield tag="001">991007238449703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">2006295416</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0521829313</subfield>
+    <subfield code="q">hardback</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0521536200</subfield>
+    <subfield code="q">paperback</subfield>
+  </datafield>
+  <datafield tag="024" ind1="3" ind2=" ">
+    <subfield code="a">9780521829311 (hbk.)</subfield>
+  </datafield>
+  <datafield tag="024" ind1="3" ind2=" ">
+    <subfield code="a">9780521536202 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b28924745-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocn490830761</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">PPTb28924745</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm58555755</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocm58555755</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">UKM</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">UKM</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">BWKUK</subfield>
+    <subfield code="d">DLC</subfield>
+    <subfield code="d">PPT</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">lccopycat</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocm58555755</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">JC423</subfield>
+    <subfield code="b">.N484x 2005</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Newton, Kenneth,</subfield>
+    <subfield code="d">1940-</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n50006417</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Foundations of comparative politics :</subfield>
+    <subfield code="b">democracies of the modern world /</subfield>
+    <subfield code="c">Ken Newton and Jan W. Van Deth.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Cambridge, UK ;</subfield>
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Cambridge University Press,</subfield>
+    <subfield code="c">2005.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xxviii, 374 pages :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">26 cm.</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Cambridge textbooks in comparative politics.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and indexes.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This authoritative new introductory text covers the key concepts, theories and issues involved in the study of comparative politics. Focussing on democratic government, it covers all important topics in the field from constitutional design and institutions, through mass and elite politics, groups, parties, the media and governments, to policy making and implementation. The final chapter considers the future of the state and democracy in a globalising world. The authors draw on experiences and examples from around the world, and the book includes extensive supporting apparatus for students and teachers, including briefings, fact files, key terms, guides to further reading, and related websites. Each chapter ends with a section dealing with the major theoretical approaches to the subject. The aim is to give students a clear and comprehensive account of democratic politics and government at the start of the twenty-first century.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">The state: origins and development -- The development of the modern state -- What is a state? -- Territory, people and sovereignty -- The rise of the modern state -- State theories -- The democratic state -- The modern state and democracy -- Democracy and the rise of democratic states -- Redistribution and the welfare state -- Why study states? -- Theories of state and society -- The polity: structures and institutions -- Constitutions -- What a constitution is, and why we have them -- The division of powers -- The limits of constitutionalism -- Constitutional and institutional theories -- Presidential and parliamentary government -- Presidential systems -- Parliamentary systems -- Semi-presidential systems -- Presidential, parliamentary and semi-presidential systems compared -- Theories of parliamentary, presidential and semi-presidential government -- Multi-level government: international, national and sub-national -- Supra-national and international government -- The national level: federal and unitary states -- The interplay of multi-level government: the case of the European Union -- The arguments for and against centralisation and decentralisation -- Theories of multi-level government -- Policy making and legislating: executives and legislatures -- Making laws: executives and legislatures -- The functions of legislatures -- Theories of democratic institutions: consensus and majoritarian systems -- Implementation: the public bureaucracy -- The organisation of the state bureaucracy -- Policy making and administration -- The dictatorship of the official? -- The New Public Management: reinventing government -- Theories of public bureaucracy -- Citizens, elites and interest mediation -- Political attitudes and behaviour -- Political attitudes -- Political behaviour -- Theories of political attitudes and behaviour -- Pressure groups and social movements -- Political connections -- Pressure groups and social movements in action -- Determinants of power -- Corporatism, para-government and tri-partism/pluralism -- International NGOs -- Groups, pressure groups and democracy -- Theories of voluntary organisations -- The mass media -- The mass media and democracy -- Regulating the media -- Ownership and control -- The impact of the new media technology: globalisation and E-politics -- Theories of the mass media -- Voters and elections -- Elections -- Party voting -- Theories of voting -- Party government -- Party organisation -- New parties and movements -- Party systems and party families -- Coalition government -- Coalitions and government effectiveness -- Theories of parties -- Policies and performance -- Political ideologies: conservatism, liberalism, Christian democracy and socialism -- The nature of ideology -- Six democratic ideologies -- Theories of ideology -- Decision making -- Public policies: their nature and importance -- The public policy cycle -- Public policy structures -- Theories of decision making -- Defence and security -- The state and security -- Defence and national security -- Internal law and order -- Other forms of protection -- The limitations of state security -- Theories of security and conflict -- Welfare -- Welfare states and redistribution -- Social security -- Pensions and health programmes -- Social security and taxation -- Theories of the welfare state -- The future of the democratic state -- States and sovereignty -- The retreat of the state? -- Democracy without borders -- The future.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Comparative government.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85029298</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Comparative government.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/871341</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Representative government and representation.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85112947</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Representative government and representation.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1094941</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Deth, Jan W. van.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n90686582</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Cambridge textbooks in comparative politics</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/no2006010786</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">151016</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="903" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-TOC201904</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20190703</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b28924745</subfield>
+    <subfield code="b">multi</subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="915" ind1=" " ind2=" ">
+    <subfield code="a">56767</subfield>
+  </datafield>
+  <datafield tag="915" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm58555755</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">jtcas</subfield>
+    <subfield code="a">JC 423 .N484 2005</subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm58555755</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">3</subfield>
+    <subfield code="c">060302</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">0</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="a">03/02/06</subfield>
+    <subfield code="s">LC</subfield>
+    <subfield code="c">MW</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2019-07-16 01:21:38</subfield>
+    <subfield code="e">b28924745-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607145624.0</subfield>
+    <subfield code="a">2017-06-20 07:26:16</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">JAPAN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">JC 423 .N484 2005</subfield>
+    <subfield code="8">22266507860003811</subfield>
+    <subfield code="updated">2017-10-10 16:24:34</subfield>
+    <subfield code="created">2017-06-20 07:26:16</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">ASRS</subfield>
+    <subfield code="c">ASRS</subfield>
+    <subfield code="h"> JC423 </subfield>
+    <subfield code="i"> .N484x 2005 </subfield>
+    <subfield code="8">22464036830003811</subfield>
+    <subfield code="updated">2019-05-01 21:25:41</subfield>
+    <subfield code="created">2019-05-01 21:25:36</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22464036830003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">ASRS</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074025198417</subfield>
+    <subfield code="e">ASRS</subfield>
+    <subfield code="8">23266507820003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">JC423 .N484x 2005</subfield>
+    <subfield code="updated">2020-08-28 16:49:16</subfield>
+    <subfield code="q">2017-06-20 07:26:16</subfield>
+    <subfield code="d">ASRS</subfield>
+    <subfield code="f">ASRS</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22266507860003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">31982070388550</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23266507850003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">JC 423 .N484 2005</subfield>
+    <subfield code="updated">2019-11-27 02:25:49</subfield>
+    <subfield code="q">2017-06-20 07:26:16</subfield>
+    <subfield code="d">JAPAN</subfield>
+    <subfield code="f">JAPAN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>02505pam a22004934a 4500</leader>
+  <controlfield tag="005">20190715214839.0</controlfield>
+  <controlfield tag="008">050525s2006    enkab    b    001 0 eng  </controlfield>
+  <controlfield tag="001">991011880759703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">2005049871</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0195187962</subfield>
+    <subfield code="q">paperback</subfield>
+  </datafield>
+  <datafield tag="024" ind1="3" ind2=" ">
+    <subfield code="a">9780195187960</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b29881201-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn490923219</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">DLCOCM60550603</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm60550603</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocm60550603</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">C#P</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocm60550603</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">P40</subfield>
+    <subfield code="b">.M33 2006</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Macaulay, Ronald K. S.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n80056635</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="4">
+    <subfield code="a">The social art :</subfield>
+    <subfield code="b">language and its uses /</subfield>
+    <subfield code="c">Ronald Macaulay.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">Second edition.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Oxford ;</subfield>
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Oxford University Press,</subfield>
+    <subfield code="c">2006.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xii, 244 pages :</subfield>
+    <subfield code="b">illustrations, map ;</subfield>
+    <subfield code="c">24 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (pages 227-233) and index.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The Social Art is an engagingly written, highly accessible tour through the world of languages. Macaulay uses jokes, anecdotes, quotations, and examples to introduce readers to the full range of current linguistic knowledge, covering in 35 chapters, topics like language acquisition, phonology, morphology, syntax, semantics, dialects, conversation, narrative, swearing, and many others. In this revised and expanded second edition, Macaulay brings the book up to date with the last decade of progress in linguistics, adding more American examples, and updating bibliographies. Two new chapters have been added, on theories of language development and on the evolution of language. The Social Art is perfect for general readers and students who want to learn about what it is that linguists do.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Sociolinguistics.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85124195</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Sociolinguistics.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1123847</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Language and languages.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85074518</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Language and languages.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/992154</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="a">BNA</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="a">R7553362</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">060208AB0701</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="903" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-TOC201904</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20190703</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b29881201</subfield>
+    <subfield code="b">p    </subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm60550603</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">0</subfield>
+    <subfield code="c">060317</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">4</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2019-07-16 01:48:39</subfield>
+    <subfield code="e">b29881201-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607211944.0</subfield>
+    <subfield code="a">2017-06-20 07:44:01</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">P40</subfield>
+    <subfield code="i">.M33 2006</subfield>
+    <subfield code="8">22271443590003811</subfield>
+    <subfield code="created">2017-06-20 07:44:01</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22271443590003811</subfield>
+    <subfield code="b">0</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074018110635</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23271443580003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">P40 .M33 2006</subfield>
+    <subfield code="updated">2020-09-02 17:21:12</subfield>
+    <subfield code="u">LOAN</subfield>
+    <subfield code="q">2017-06-20 07:44:01</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22271443590003811</subfield>
+    <subfield code="b">0</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074030821326</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23271443570003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">P40 .M33 2006</subfield>
+    <subfield code="updated">2020-09-04 17:53:14</subfield>
+    <subfield code="u">LOAN</subfield>
+    <subfield code="q">2017-06-20 07:44:01</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>04534pam a22005654a 4500</leader>
+  <controlfield tag="005">20190716104944.0</controlfield>
+  <controlfield tag="008">060713s2007    mau      b    001 0 eng  </controlfield>
+  <controlfield tag="001">991014493319703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">2006048524</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0674023579</subfield>
+    <subfield code="q">cloth</subfield>
+    <subfield code="q">alkaline paper</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780674023574</subfield>
+    <subfield code="q">cloth</subfield>
+    <subfield code="q">alkaline paper</subfield>
+  </datafield>
+  <datafield tag="024" ind1="3" ind2=" ">
+    <subfield code="a">9780674023574</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b30635056-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn491821912</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">DLCOCM70668872</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm70668872</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocm70668872</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">C#P</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocm70668872</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">JV6455</subfield>
+    <subfield code="b">.N49 2007</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="4">
+    <subfield code="a">The new Americans :</subfield>
+    <subfield code="b">a guide to immigration since 1965 /</subfield>
+    <subfield code="c">edited by Mary C. Waters &amp; Reed Ueda ; with Helen B. Marrow.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Cambridge, Mass. :</subfield>
+    <subfield code="b">Harvard University Press,</subfield>
+    <subfield code="c">2007.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">viii, 721 pages ;</subfield>
+    <subfield code="c">24 cm.</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Harvard University Press reference library.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Immigration in Global Historical Perspective / Reed Ueda -- Immigration Control Policy: Law and Implementation / Aristide R. Zolberg -- Citizenship and Nationality Policy / Peter H. Schuck -- Refugees / David W. Haines -- Unauthorized Migration / Frank D. Bean, B. Lindsay Lowell -- Settlement Patterns in Metropolitan America / John R. Logan -- Ethnic and Racial Identity / Herbert J. Gans -- Intermarriage and Multiple Identities / Joel Perlmann, Mary C. Waters -- Assimilation / Richard Alba, Victor Nee -- Transforming Foreigners into Americans / Roger Waldinger -- Transnationalism / Ewa Morawska -- Pluralism and Group Relations / Jennifer L. Hochschild -- Immigrants and the Economy / Neeraj Kaushal, Cordelia W. Reimers, David M. Reimers -- Ethnic Politics / Michael Jones-Correa -- Ethnic Media / K. Viswanath, Karen Ka-man Lee -- Religion / Diana L. Eck -- Language / David Lopez, Vanesa Estrada -- Education / Carola Suarez-Orozco, Marcelo Suarez-Orozco -- Gender and Family / Patricia R. Pessar -- The Second Generation / Nancy Foner, Philip Kasinitz -- Africa: West / Marilyn Halter -- Africa: East / Abdi Kusow -- Africa: South Africa and Zimbabwe / Helen B. Marrow -- Canada / Donna R. Gabaccia -- Central America / Norma Stoltz Chinchilla, Nora Hamilton -- China: People's Republic of China / Xiao-huang Yin -- China: Outside the People's Republic of China / Jennifer Holdaway -- Colombia / Luis Eduardo Guarnizo, Marilyn Espitia -- Cuba / Lisandro Perez -- Dominican Republic / Peggy Levitt -- El Salvador / Cecilia Menjivar -- Europe: Western / Donna R. Gabaccia -- Europe: Central and Southeastern / Simone Ispa-Landa -- Haiti / Lisa Konczal, Alex Stepick -- India / Karen Isaksen Leonard -- Iran / Mehdi Bozorgmehr -- Jamaica / Milton Vickerman -- Korea / Pyong Gap Min -- Mexico / Albert M. Camarillo -- Middle East and North Africa / Steven J. Gold, Mehdi Bozorgmehr -- Pacific: Fiji, Tonga, Samoa / Cathy A. Small -- Pacific: Japan, Australia, New Zealand / Nana Oishi -- Philippines / Catherine Ceniza Choy -- Poland / Mary Patrice Erdmans -- Russia / Steven J. Gold -- South America / Helen B. Marrow -- South Asia / Nazli Kibria -- Southeast Asia / Carl L. Bankston III, Danielle Antoinette Hidalgo -- United Kingdom / Wendy D. Roth -- Vietnam / Ruben G. Rumbaut -- West Indies / Calvin B. Holder -- Immigration and Naturalization Legislation.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">Emigration and immigration.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/908690</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">Government policy.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1353198</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">History.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/958235</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Emigration and immigration</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">20th century.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh2007100070</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Emigration and immigration</subfield>
+    <subfield code="x">Government policy.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh2007100021</subfield>
+  </datafield>
+  <datafield tag="651" ind1="1" ind2="7">
+    <subfield code="a">United States.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+  </datafield>
+  <datafield tag="648" ind1=" " ind2="7">
+    <subfield code="a">20th century.</subfield>
+    <subfield code="2">fast</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Waters, Mary C.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n87929070</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Ueda, Reed.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n82124939</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Marrow, Helen B.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n2006055071</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Harvard University Press reference library</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n96002214</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="a">BNA</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="a">R1614648</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">161214</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">061213AB0701</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="903" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-TOC201904</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20200629</subfield>
+  </datafield>
+  <datafield tag="905" ind1="0" ind2="0">
+    <subfield code="a">Harvard University Press reference library</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b30635056</subfield>
+    <subfield code="b">multi</subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">astk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm70668872</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">4</subfield>
+    <subfield code="c">070226</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">4</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">0</subfield>
+    <subfield code="c">070226</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">4</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-09-08 21:14:48</subfield>
+    <subfield code="e">b30635056-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607183251.0</subfield>
+    <subfield code="a">2017-06-20 09:49:51</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">AMBLER</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">JV6455</subfield>
+    <subfield code="i">.N49 2007</subfield>
+    <subfield code="8">22297448250003811</subfield>
+    <subfield code="created">2017-06-20 09:49:51</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">ASRS</subfield>
+    <subfield code="c">ASRS</subfield>
+    <subfield code="h"> JV6455 </subfield>
+    <subfield code="i"> .N49 2007 </subfield>
+    <subfield code="8">22464140890003811</subfield>
+    <subfield code="updated">2019-05-01 21:30:14</subfield>
+    <subfield code="created">2019-05-01 21:30:12</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22297448250003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">reserve</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074025400060</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23297448240003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">JV6455 .N49 2007</subfield>
+    <subfield code="updated">2020-01-11 18:20:23</subfield>
+    <subfield code="q">2017-06-20 09:49:51</subfield>
+    <subfield code="d">AMBLER</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22464140890003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">reserve</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074022542203</subfield>
+    <subfield code="e">ASRS</subfield>
+    <subfield code="8">23297448260003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">JV6455 .N49 2007</subfield>
+    <subfield code="updated">2020-01-08 20:19:15</subfield>
+    <subfield code="q">2017-06-20 09:49:51</subfield>
+    <subfield code="d">ASRS</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>02247cam a2200553 a 4500</leader>
+  <controlfield tag="005">20190715141906.0</controlfield>
+  <controlfield tag="008">011003t20022002inu      b    000 0 eng  </controlfield>
+  <controlfield tag="001">991023887279703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">2001051571</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0872205908</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780872205901</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0872205894</subfield>
+    <subfield code="q">paperback</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780872205895</subfield>
+    <subfield code="q">paperback</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b32620068-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn491902748</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">48162798</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm48162798</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocm48162798</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">BTCTA</subfield>
+    <subfield code="d">YDXCP</subfield>
+  </datafield>
+  <datafield tag="041" ind1="1" ind2=" ">
+    <subfield code="a">eng</subfield>
+    <subfield code="h">grc</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocm48162798</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">B312.E5</subfield>
+    <subfield code="b">T75 2002</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="4">
+    <subfield code="a">The trials of Socrates :</subfield>
+    <subfield code="b">six classic texts /</subfield>
+    <subfield code="c">edited by C.D.C. Reeve.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Indianapolis :</subfield>
+    <subfield code="b">Hackett Pub. Co.,</subfield>
+    <subfield code="c">[2002]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2002</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">x, 186 pages ;</subfield>
+    <subfield code="c">22 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (pages 185-186).</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Plato -- Aristophanes -- Xenophon.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Trial and arbitral proceedings.</subfield>
+    <subfield code="2">lcgft</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/genreForms/gf2011026708</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Trial and arbitral proceedings.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1774319</subfield>
+  </datafield>
+  <datafield tag="655" ind1="2" ind2="7">
+    <subfield code="a">Trials, litigation, etc.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1423712</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="0">
+    <subfield code="a">Socrates.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79055329</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="7">
+    <subfield code="a">Socrates.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/35600</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="0">
+    <subfield code="a">Socrates</subfield>
+    <subfield code="v">Trials, litigation, etc.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79055329</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh99001302</subfield>
+  </datafield>
+  <datafield tag="600" ind1=" " ind2="7">
+    <subfield code="a">Socrates.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/35600</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Reeve, C. D. C.,</subfield>
+    <subfield code="d">1948-</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n87907801</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Meineck, Peter,</subfield>
+    <subfield code="d">1967-</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n98065204</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Doyle, James.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n2001093355</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Plato.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79139459</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Aristophanes.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79072756</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Xenophon.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n80036673</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20200629</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b32620068</subfield>
+    <subfield code="b">multi</subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pres </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm48162798</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">3</subfield>
+    <subfield code="c">080104</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">4</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="a">01/04/08</subfield>
+    <subfield code="s">LC</subfield>
+    <subfield code="c">AT</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-07-24 12:52:25</subfield>
+    <subfield code="e">b32620068-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607232747.0</subfield>
+    <subfield code="a">2017-06-20 05:51:54</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">JAPAN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">B312.E5</subfield>
+    <subfield code="i">T75 2002</subfield>
+    <subfield code="8">22465551050003811</subfield>
+    <subfield code="updated">2019-08-28 07:03:53</subfield>
+    <subfield code="created">2019-05-24 03:19:18</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">B312.E5</subfield>
+    <subfield code="i">T75 2002</subfield>
+    <subfield code="8">22426642820003811</subfield>
+    <subfield code="updated">2018-05-25 14:32:27</subfield>
+    <subfield code="created">2018-05-25 14:32:27</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">reserve</subfield>
+    <subfield code="h">B312.E5</subfield>
+    <subfield code="i">T75 2002</subfield>
+    <subfield code="8">22237221560003811</subfield>
+    <subfield code="created">2017-06-20 05:51:54</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22465551050003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">31982070520368</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23465552430003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">B312.E5 T75 2002</subfield>
+    <subfield code="updated">2020-01-23 23:49:07</subfield>
+    <subfield code="c">c. 2</subfield>
+    <subfield code="q">2019-05-23 02:03:18</subfield>
+    <subfield code="d">JAPAN</subfield>
+    <subfield code="f">JAPAN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22426642820003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">reserve</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074025875253</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23426642810003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">B312.E5 T75 2002</subfield>
+    <subfield code="updated">2020-03-11 16:43:33</subfield>
+    <subfield code="q">2018-05-25 14:32:27</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22465551050003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">31982070520376</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23465552440003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">B312.E5 T75 2002</subfield>
+    <subfield code="updated">2020-08-21 05:59:57</subfield>
+    <subfield code="q">2019-05-23 02:01:54</subfield>
+    <subfield code="d">JAPAN</subfield>
+    <subfield code="f">JAPAN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22237221560003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">reserve</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074023570518</subfield>
+    <subfield code="e">reserve</subfield>
+    <subfield code="8">23237221540003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">B312.E5 T75 2002</subfield>
+    <subfield code="updated">2020-02-03 15:35:28</subfield>
+    <subfield code="q">2017-06-20 05:51:54</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22237221560003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">reserve</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074026837922</subfield>
+    <subfield code="e">reserve</subfield>
+    <subfield code="8">23237221550003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">B312.E5 T75 2002</subfield>
+    <subfield code="updated">2020-02-11 16:51:30</subfield>
+    <subfield code="q">2017-06-20 05:51:54</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>04286pam a22006134a 4500</leader>
+  <controlfield tag="005">20190923163733.0</controlfield>
+  <controlfield tag="008">060710s2007    nyuab    b    001 0 eng  </controlfield>
+  <controlfield tag="001">991024540769703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">2006021528</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0415771382</subfield>
+    <subfield code="q">hardback</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780415771382</subfield>
+    <subfield code="q">hardback</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0415771390</subfield>
+    <subfield code="q">paperback</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780415771399</subfield>
+    <subfield code="q">paperback</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b32787625-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn491983713</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)70291948</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">DLCOCM70291948</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocn230963016</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm70291948</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocm70291948</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">BWKUK</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">f------</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocm70291948</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">DT20</subfield>
+    <subfield code="b">.A83 2007</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Asante, Molefi Kete,</subfield>
+    <subfield code="d">1942-</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n80060504</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="4">
+    <subfield code="a">The history of Africa :</subfield>
+    <subfield code="b">the quest for eternal harmony /</subfield>
+    <subfield code="c">Molefi Kete Asante.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">New York ;</subfield>
+    <subfield code="a">London :</subfield>
+    <subfield code="b">Routledge,</subfield>
+    <subfield code="c">2007.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xiii, 397 pages :</subfield>
+    <subfield code="b">illustrations, maps ;</subfield>
+    <subfield code="c">24 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (pages [377]-380) and index.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">There is a paradox about Africa: it remains a subject that attracts considerable attention yet rarely is there a full appreciation of its complexity. African historiography has typically consisted of writing Africa for Europe - instead of writing Africa for itself, as itself, from its own perspectives. The History of Africa redresses this by letting the perspectives of Africans themselves take center stage.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="8" ind2="0">
+    <subfield code="a">Authoritative and comprehensive, this book provides a wide-ranging history of Africa from earliest prehistory to the present day - using the cultural, social, political, and economic lenses of Africa as instruments to illuminate the ordinary lives of Africans. The result is afresh new survey that includes a wealth of indigenous ideas, African concepts, and traditional outlooks that have escaped the writing of African history in the West. This straightforward, illustrated, and factual text allows the reader to access the major developments, personalities, and events on the African continent. Written by a world expert, this groundbreaking survey is an indispensable guide to African history.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">pt. 1. The time of awakening -- Africa and the origin of humanity -- pt. 2. The age of literacy -- Africa and the beginning of civilization -- The rise of Kemet/Egypt -- The elements of early African civilization -- Governance and the political stability of Kemet -- pt. 3. The moment of realization -- The emergence of the great river kingdoms -- pt. 4. The age of construction -- The spread of classical empires and kingdoms -- The Sudanic empires : historians and their narratives -- Generators of traditional and contemporary Africa -- Societies of secrets : farmers and metallurgists -- pt. 5. The time of the chaos -- Arab and European missionaries, merchants, and mercenaries -- Resisting European and Arab slave traders -- pt. 6. The age of reconstruction -- Africa regains consciousness in a Pan-African explosion -- pt. 7. The time for consolidation -- Africa consolidates independence -- Toward a United States of Africa without compromise : creation of the African Union -- Chronology of African history -- Some African ethnic groups -- Major linguistic complexes.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">Civilization.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/862898</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">History.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/958235</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Africa</subfield>
+    <subfield code="x">History.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85001556</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Africa</subfield>
+    <subfield code="x">Civilization.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85001534</subfield>
+  </datafield>
+  <datafield tag="651" ind1="1" ind2="7">
+    <subfield code="a">Africa.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1239509</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="z">Access table of contents</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/toc/ecip0616/2006021528.html</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="z">Access description provided by publisher</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/enhancements/fy0704/2006021528-d.html</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="a">BNA</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="a">R2648578</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">070704AB0701</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="903" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-TOC201904</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-SC</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20200629</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b32787625</subfield>
+    <subfield code="b">multi</subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">b    </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">stem </subfield>
+    <subfield code="a">196 A798 H578 2007</subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="974" ind1="0" ind2="8">
+    <subfield code="t">University Archives</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm70291948</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">8</subfield>
+    <subfield code="c">070827</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">4</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">0</subfield>
+    <subfield code="c">070827</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">4</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-07-24 12:39:17</subfield>
+    <subfield code="e">b32787625-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607195410.0</subfield>
+    <subfield code="a">2017-06-20 06:29:43</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">DT20</subfield>
+    <subfield code="i">.A83 2007</subfield>
+    <subfield code="8">22248791480003811</subfield>
+    <subfield code="created">2017-06-20 06:29:43</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="8" ind2=" ">
+    <subfield code="b">SCRC</subfield>
+    <subfield code="c">rarestacks</subfield>
+    <subfield code="h">196 A798 H578 2007</subfield>
+    <subfield code="8">22248791540003811</subfield>
+    <subfield code="updated">2017-07-18 21:08:20</subfield>
+    <subfield code="created">2017-06-20 06:29:43</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">BLOCKSON</subfield>
+    <subfield code="c">rarestacks</subfield>
+    <subfield code="h">DT20</subfield>
+    <subfield code="i">.A83 2007</subfield>
+    <subfield code="8">22248791520003811</subfield>
+    <subfield code="created">2017-06-20 06:29:43</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">ASRS</subfield>
+    <subfield code="c">ASRS</subfield>
+    <subfield code="h"> DT20 </subfield>
+    <subfield code="i"> .A83 2007 </subfield>
+    <subfield code="8">22464393180003811</subfield>
+    <subfield code="updated">2019-05-02 20:24:09</subfield>
+    <subfield code="created">2019-05-02 20:24:06</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22464393180003811</subfield>
+    <subfield code="b">0</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">storage</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074023622277</subfield>
+    <subfield code="e">ASRS</subfield>
+    <subfield code="8">23248791460003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">DT20 .A83 2007</subfield>
+    <subfield code="updated">2019-08-28 19:14:11</subfield>
+    <subfield code="u">CLAIM_RETURNED_LOAN</subfield>
+    <subfield code="q">2017-06-20 06:29:43</subfield>
+    <subfield code="d">ASRS</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22248791540003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">8</subfield>
+    <subfield code="g">rarestacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074022834592</subfield>
+    <subfield code="e">rarestacks</subfield>
+    <subfield code="8">23248791530003811</subfield>
+    <subfield code="a">4</subfield>
+    <subfield code="i">196 A798 H578 2007</subfield>
+    <subfield code="updated">2018-09-24 18:48:46</subfield>
+    <subfield code="q">2017-06-20 06:29:43</subfield>
+    <subfield code="d">SCRC</subfield>
+    <subfield code="f">SCRC</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22248791520003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">rarestacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="e">rarestacks</subfield>
+    <subfield code="8">23248791510003811</subfield>
+    <subfield code="a">3</subfield>
+    <subfield code="i">DT20 .A83 2007</subfield>
+    <subfield code="updated">2020-03-25 19:26:47</subfield>
+    <subfield code="q">2017-06-20 06:29:43</subfield>
+    <subfield code="d">BLOCKSON</subfield>
+    <subfield code="f">BLOCKSON</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22248791480003811</subfield>
+    <subfield code="b">0</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074025484122</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23248791410003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">DT20 .A83 2007</subfield>
+    <subfield code="updated">2019-12-05 22:16:29</subfield>
+    <subfield code="u">LOAN</subfield>
+    <subfield code="q">2017-06-20 06:29:43</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>03883pam a2200577 a 4500</leader>
+  <controlfield tag="005">20190716123927.0</controlfield>
+  <controlfield tag="008">940310s1996    nyua     b    001 0 eng  </controlfield>
+  <controlfield tag="001">991034802759703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">94008998</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0195091124</subfield>
+    <subfield code="q">acid-free paper</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780195091120</subfield>
+    <subfield code="q">acid-free paper</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0195119126</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780195119121</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PPT)b17195780-01tuli_inst</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DLC    )ocn477160944</subfield>
+    <subfield code="9">ExL</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">DLC   94008998</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm30158105</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCLC)ocm30158105</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">OrLoB</subfield>
+  </datafield>
+  <datafield tag="079" ind1=" " ind2=" ">
+    <subfield code="a">ocm30158105</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">GN799.W26</subfield>
+    <subfield code="b">K44 1996</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Keeley, Lawrence H.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79028229</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">War before civilization /</subfield>
+    <subfield code="c">Lawrence H. Keeley.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="0">
+    <subfield code="a">Myth of the peaceful savage</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Oxford University Press,</subfield>
+    <subfield code="c">1996.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xiv, 245 pages :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">25 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Subtitle from cover: The myth of the peaceful savage.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (pages 225-239) and index.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">The pacified past : the anthropology of war -- The dogs of war : the prevalence and importance of war -- Policy by other means : tactics and weapons -- Imitating the tiger : forms of combat -- A skulking way of war : primitive warriors versus civilized soldiers -- The harvest of Mars : the casualties of war -- To the victor : the profits and losses of primitive war -- Crying havoc : the question of causes -- Bad neighborhoods : the contexts for war -- Naked, poor, and mangled peace : its desirability and fragility -- Beating swords into metaphors : the roots of the pacified past -- A trout in the milk : discussion and conclusions.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The myth of the peace-loving "noble savage" is persistent and pernicious. Indeed, for the last fifty years, most popular and scholarly works have agreed that prehistoric warfare was rare, harmless, unimportant, and, like smallpox, a disease of civilized societies alone. Prehistoric warfare, according to this view, was little more than a ritualized game, where casualties were limited and the effects of aggression relatively mild. Lawrence Keeley's groundbreaking War Before Civilization offers a devastating rebuttal to such comfortable myths and debunks the notion that warfare was introduced to primitive societies through contact with civilization (an idea he denounces as "the pacification of the past").</subfield>
+  </datafield>
+  <datafield tag="520" ind1="8" ind2=" ">
+    <subfield code="a">Building on much fascinating archeological and historical research and offering an astute comparison of warfare in civilized and prehistoric societies, from modern European nations to the Plains Indians of North America, War Before Civilization convincingly demonstrates that prehistoric warfare was in fact more deadly, more frequent, and more ruthless than modern war. To support this point, Keeley provides a wide-ranging look at warfare and brutality in the prehistoric world.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Warfare, Prehistoric.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh92006665</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Warfare, Prehistoric.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1170800</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Fortification, Prehistoric.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85050977</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Fortification, Prehistoric.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/933043</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Weapons, Prehistoric.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh86006303</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Weapons, Prehistoric.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1173080</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">161214</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20190703</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b17195780</subfield>
+    <subfield code="b">multi</subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="915" ind1=" " ind2=" ">
+    <subfield code="a">45009</subfield>
+  </datafield>
+  <datafield tag="935" ind1=" " ind2=" ">
+    <subfield code="a">00783047</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">astk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">jtcas</subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">pstk </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm30158105</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">4</subfield>
+    <subfield code="c">990101</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">a</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">0</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-02-13 09:49:33</subfield>
+    <subfield code="e">b17195780-01tuli_inst</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190607211430.0</subfield>
+    <subfield code="a">2017-06-20 07:03:54</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">AMBLER</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">GN799.W26</subfield>
+    <subfield code="i">K44 1996</subfield>
+    <subfield code="8">22260140810003811</subfield>
+    <subfield code="created">2017-06-20 07:03:54</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">GN799.W26</subfield>
+    <subfield code="i">K44 1996</subfield>
+    <subfield code="8">22260140850003811</subfield>
+    <subfield code="created">2017-06-20 07:03:54</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">JAPAN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">GN799.W26</subfield>
+    <subfield code="i">K44 1996</subfield>
+    <subfield code="8">22260140880003811</subfield>
+    <subfield code="created">2017-06-20 07:03:54</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22260140810003811</subfield>
+    <subfield code="b">0</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074028701357</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23260140790003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">GN799.W26 K44 1996</subfield>
+    <subfield code="updated">2020-02-26 17:07:40</subfield>
+    <subfield code="u">LOAN</subfield>
+    <subfield code="q">2017-06-20 07:03:54</subfield>
+    <subfield code="d">AMBLER</subfield>
+    <subfield code="f">AMBLER</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22260140880003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">31982060181825</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23260140860003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">GN799.W26 K44 1996</subfield>
+    <subfield code="updated">2017-06-20 07:04:31</subfield>
+    <subfield code="q">2017-06-20 07:03:54</subfield>
+    <subfield code="d">JAPAN</subfield>
+    <subfield code="f">JAPAN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22260140850003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074010044246</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23260140820003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">GN799.W26 K44 1996</subfield>
+    <subfield code="updated">2020-03-13 22:42:45</subfield>
+    <subfield code="q">2017-06-20 07:03:54</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>08415cam a2200697 i 4500</leader>
+  <controlfield tag="005">20190715190659.0</controlfield>
+  <controlfield tag="008">160923t20172017caua     b    001 0 eng  </controlfield>
+  <controlfield tag="001">991036833109803811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">  2016027635</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849923</subfield>
+    <subfield code="q">(set)</subfield>
+    <subfield code="q">(alk. paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849927</subfield>
+    <subfield code="q">(set)</subfield>
+    <subfield code="q">(alk. paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849947</subfield>
+    <subfield code="q">(volume 1)</subfield>
+    <subfield code="q">(alk. paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849943</subfield>
+    <subfield code="q">(volume 1)</subfield>
+    <subfield code="q">(alk. paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849954</subfield>
+    <subfield code="q">(volume 2)</subfield>
+    <subfield code="q">(alk. paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849951</subfield>
+    <subfield code="q">(volume 2)</subfield>
+    <subfield code="q">(alk. paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">9781440849930</subfield>
+    <subfield code="q">(set)</subfield>
+    <subfield code="q">(ebk)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">1440849935</subfield>
+    <subfield code="q">(set)</subfield>
+    <subfield code="q">(ebk)</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)959372431</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocn959372431</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">OCLCF</subfield>
+    <subfield code="d">YDX</subfield>
+    <subfield code="d">NKM</subfield>
+    <subfield code="d">NYP</subfield>
+    <subfield code="d">OBE</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">CTX</subfield>
+    <subfield code="d">ZCY</subfield>
+    <subfield code="d">IUL</subfield>
+    <subfield code="d">CHVBK</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">KPS</subfield>
+  </datafield>
+  <datafield tag="042" ind1=" " ind2=" ">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">E184.A1</subfield>
+    <subfield code="b">R293 2017</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">305.800973</subfield>
+    <subfield code="2">23</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">E184.A1</subfield>
+    <subfield code="b">R293 2017</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Race in America :</subfield>
+    <subfield code="b">how a pseudoscientific concept shaped human interaction /</subfield>
+    <subfield code="c">Patricia Reid-Merritt, editor ; foreword by Julianne Melveaux.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Santa Barbara, California :</subfield>
+    <subfield code="b">Praeger, an imprint of ABC-CLIO, LLC,</subfield>
+    <subfield code="c">[2017]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2017</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">2 volumes :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">25 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2="0">
+    <subfield code="g">Volume I.</subfield>
+    <subfield code="g">Part I.</subfield>
+    <subfield code="t">Defining Race : The Pseudoscientific Concept:</subfield>
+    <subfield code="g">1.Race in America : social constructs and social realities: an introduction /</subfield>
+    <subfield code="r">Patricia Reid-Merritt ;</subfield>
+    <subfield code="g">2.</subfield>
+    <subfield code="t">Revisiting race and racism : a critical examination of a pathology of oppression /</subfield>
+    <subfield code="r">Maulana Karenga ;</subfield>
+    <subfield code="g">3.</subfield>
+    <subfield code="t">Race and racism in American society : evolution toward new thought /</subfield>
+    <subfield code="r">Molefi Kete Asante ;</subfield>
+    <subfield code="g">4.</subfield>
+    <subfield code="t">Socially misconstrued usage of the racial concept in contemporary America /</subfield>
+    <subfield code="r">Barbara Alice Mann ;</subfield>
+    <subfield code="g">5.</subfield>
+    <subfield code="t">Race, ethnicity, and culture /</subfield>
+    <subfield code="r">Barbara Alice Mann --</subfield>
+    <subfield code="g">Part II.</subfield>
+    <subfield code="t">Defining Ourselves:</subfield>
+    <subfield code="g">6.</subfield>
+    <subfield code="t">Crafting the color line: the development of racial identity in American jurisprudence /</subfield>
+    <subfield code="r">Erica F. Cooper ;</subfield>
+    <subfield code="g">7.</subfield>
+    <subfield code="t">Race and social identity in the Obama age : a view from behind the veil /</subfield>
+    <subfield code="r">Mark Christian ;</subfield>
+    <subfield code="g">8.</subfield>
+    <subfield code="t">Race and social privilege in America /</subfield>
+    <subfield code="r">Beverly M. John ;</subfield>
+    <subfield code="g">9.</subfield>
+    <subfield code="t">Hispanic/Latino identity as racial misnomer /</subfield>
+    <subfield code="r">Justin D. Garci&#x301;a;</subfield>
+    <subfield code="g">10.</subfield>
+    <subfield code="t">Who and what are American Indians? /</subfield>
+    <subfield code="r">Jon Allan Reyhner --</subfield>
+    <subfield code="g">Part III.</subfield>
+    <subfield code="t">Conversations on Race:</subfield>
+    <subfield code="g">11.</subfield>
+    <subfield code="t">America : the miscegenous nation /</subfield>
+    <subfield code="r">John Thomas Mills and DeMond Shondell Miller ;</subfield>
+    <subfield code="g">12.</subfield>
+    <subfield code="t">Teaching about race and racism : preparing future generations /</subfield>
+    <subfield code="r">Tema Okun ;</subfield>
+    <subfield code="g">13.</subfield>
+    <subfield code="t">Success matters : reconceptualizing schools free from institutionalized racism and capitalistic constructs /</subfield>
+    <subfield code="r">Candice Jimerson-Johnson, Larry Canady, and Edom Leuleseged.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2="0">
+    <subfield code="g">Volume II.</subfield>
+    <subfield code="g">Part IV.</subfield>
+    <subfield code="t">Contemporary Manifestations:</subfield>
+    <subfield code="g">1.</subfield>
+    <subfield code="t">. Race and the quest for U.S. citizenship : birthright restrictionism and American constitutionalism /</subfield>
+    <subfield code="r">Michael S. Rodriguez ;</subfield>
+    <subfield code="g">2.</subfield>
+    <subfield code="t">Reparations as social polity : HR 40 and the debate over the study of reparations for slavery, Jim Crow, and continuing discrimination /</subfield>
+    <subfield code="r">Zachery Williams ;</subfield>
+    <subfield code="g">3.</subfield>
+    <subfield code="t">Legal perspectives on race /</subfield>
+    <subfield code="r">Natsu Taylor Saito ;</subfield>
+    <subfield code="g">4.</subfield>
+    <subfield code="t">Race and social justice /</subfield>
+    <subfield code="r">Laurence Armand French ;</subfield>
+    <subfield code="g">5.</subfield>
+    <subfield code="t">Perpetuation of racial and ethnic stereotypes in American media /</subfield>
+    <subfield code="r">Donnetrice C. Allison --</subfield>
+    <subfield code="g">Part V.</subfield>
+    <subfield code="t">Controversial Issues on Race and Racism:</subfield>
+    <subfield code="g">6.</subfield>
+    <subfield code="t">Holding the line : the challenge of passing a racial profiling bill in California /</subfield>
+    <subfield code="r">Shirley N. Weber ;</subfield>
+    <subfield code="g">7.</subfield>
+    <subfield code="t">Colorism and favoritism : an examination of skin tone bias and discrimination in the United States /</subfield>
+    <subfield code="r">JeffriAnne Wilder ;</subfield>
+    <subfield code="g">8.</subfield>
+    <subfield code="t">Race and social desirability : love, lust, and marriage /</subfield>
+    <subfield code="r">Ying Ma ;</subfield>
+    <subfield code="g">9.</subfield>
+    <subfield code="t">Color of mass incarceration /</subfield>
+    <subfield code="r">Daniel J. Mallinson ;</subfield>
+    <subfield code="g">10.</subfield>
+    <subfield code="t">Why Black Lives Matter : race and social reality for African Americans in the 21st century /</subfield>
+    <subfield code="r">Bishop Dwayne Royster and Stephen Ray --</subfield>
+    <subfield code="g">Part VI.</subfield>
+    <subfield code="t">Future of Race:</subfield>
+    <subfield code="g">11.</subfield>
+    <subfield code="t">Mythology of postracial America : on the shadowy color line in the 21st century /</subfield>
+    <subfield code="r">Bevery Tomek and Justin Bell.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Focusing on the socially explosive concept of race and how it has affected human interactions, this work examines the social and scientific definitions of race, the implementation of racialized policies and practices, the historical and contemporary manifestations of the use of race in shaping social interactions within U.S. society and elsewhere, and where our notions of race will likely lead. More than a decade and a half into the 21st century, the term "race" remains one of the most emotionally charged words in the human language. While race can be defined as "a local geographic or global human population distinguished as a more or less distinct group by genetically transmitted physical characteristics," the concept of race can better be understood as a socially defined construct-a system of human classification that carries tremendous weight, yet is complex, confusing, contradictory, controversial, and imprecise. This collection of essays focuses on the socially explosive concept of race and how it has shaped human interactions across civilization. The contributed work examines the social and scientific definitions of race, the implementation of racialized policies and practices, and the historical and contemporary manifestations of the use of race in shaping social interactions (primarily) in the United States-a nation where the concept of race is further convoluted by the nation's extensive history of miscegenation as well as the continuous flow of immigrant groups from countries whose definitions of race, ethnicity, and culture remain fluid. Readers will gain insights into subjects such as how we as individuals define ourselves through concepts of race, how race affects social privilege, "color blindness" as an obstacle to social change, legal perspectives on race, racialization of the religious experience, and how the media perpetuates racial stereotypes. (Publisher).</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Book features: Addresses a poignant topic that is always controversial, relevant, and addressed in mainstream and social media ; Examines the various socio-historical factors that contribute to our understanding of race as a concept, enabling readers to appreciate how "definitions" of race are complex, confusing, contradictory, controversial, and imprecise ; Inspects contemporary manifestations of race in the United States with regard to specific contexts, such as the quest for U.S. citizenship, welfare services, the legislative process, capitalism, and the perpetuation of racial stereotypes in the media. (Publisher).</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Race.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85110232</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Race.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1086436</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Ethnicity</subfield>
+    <subfield code="z">United States.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh2008103184</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Minorities</subfield>
+    <subfield code="z">United States.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85085816</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Group identity</subfield>
+    <subfield code="z">United States.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh2008105432</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">Ethnic relations.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/916005</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">History.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/958235</subfield>
+  </datafield>
+  <datafield tag="650" ind1="2" ind2="7">
+    <subfield code="a">Race relations.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1086509</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Group identity.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/948442</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Minorities.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1023088</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Ethnicity.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/916034</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Ethnic relations.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/916005</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Ethnicity.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/916034</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Group identity.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/948442</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Minorities.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1023088</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Race relations.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1086509</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Ethnische Beziehungen.</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Rasse.</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Race relations</subfield>
+    <subfield code="x">History.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh2007100006</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Ethnic relations</subfield>
+    <subfield code="x">History.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85140043</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh99005024</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="7">
+    <subfield code="a">United States.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="7">
+    <subfield code="a">USA.</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield tag="651" ind1="1" ind2="7">
+    <subfield code="a">United States.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+  </datafield>
+  <datafield tag="651" ind1="2" ind2="7">
+    <subfield code="a">United States.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1204155</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">History.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">http://id.worldcat.org/fast/1411628</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Online version:</subfield>
+    <subfield code="t">Race in America</subfield>
+    <subfield code="d">Santa Barbara, California : Praeger, an imprint of ABC-CLIO, LLC, [2017]</subfield>
+    <subfield code="z">9781440849930</subfield>
+    <subfield code="w">(DLC)  2016044548</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Reid-Merritt, Patricia,</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n96002234</subfield>
+    <subfield code="e">editor.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Malveaux, Julianne,</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n80045420</subfield>
+    <subfield code="e">writer of foreword.</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE-BF 20190703</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">MARCIVE 20200629</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocn959372431</subfield>
+  </datafield>
+  <datafield tag="997" ind1=" " ind2=" ">
+    <subfield code="a">20170911014808.0</subfield>
+    <subfield code="c">TUJ</subfield>
+    <subfield code="s">DLC</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-09-09 00:37:03</subfield>
+    <subfield code="e">ocn959372431</subfield>
+    <subfield code="d">MARCIVE</subfield>
+    <subfield code="f">20190608053348.0</subfield>
+    <subfield code="a">2017-09-11 05:54:27</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">ASRS</subfield>
+    <subfield code="c">ASRS</subfield>
+    <subfield code="h"> E184.A1 </subfield>
+    <subfield code="i"> R293 2017 </subfield>
+    <subfield code="8">22465395840003811</subfield>
+    <subfield code="updated">2019-05-03 21:14:25</subfield>
+    <subfield code="created">2019-05-03 21:14:22</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">JAPAN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">E184.A1</subfield>
+    <subfield code="i">R293 2017</subfield>
+    <subfield code="8">22400110000003811</subfield>
+    <subfield code="updated">2017-09-11 06:05:29</subfield>
+    <subfield code="created">2017-09-11 05:55:00</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">MAIN</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">E184.A1</subfield>
+    <subfield code="i">R293 2017</subfield>
+    <subfield code="8">22440028830003811</subfield>
+    <subfield code="updated">2018-12-13 16:59:38</subfield>
+    <subfield code="created">2018-12-13 16:59:38</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22440028830003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074031712292</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23440028820003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">E184.A1 R293 2017</subfield>
+    <subfield code="updated">2019-12-02 20:27:23</subfield>
+    <subfield code="c">v.1</subfield>
+    <subfield code="q">2018-12-13 16:59:38</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22465395840003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">storage</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074031712755</subfield>
+    <subfield code="e">ASRS</subfield>
+    <subfield code="8">23439988890003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">E184.A1 R293 2017</subfield>
+    <subfield code="updated">2019-08-24 14:20:34</subfield>
+    <subfield code="c">v.2</subfield>
+    <subfield code="q">2018-12-18 13:31:41</subfield>
+    <subfield code="d">ASRS</subfield>
+    <subfield code="f">MAIN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22400110000003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">31982070492931</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23400109970003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">E184.A1 R293 2017</subfield>
+    <subfield code="updated">2020-09-05 02:23:31</subfield>
+    <subfield code="c">v. 2</subfield>
+    <subfield code="q">2017-09-11 06:04:06</subfield>
+    <subfield code="d">JAPAN</subfield>
+    <subfield code="f">JAPAN</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22400110000003811</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">stacks</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">31982070493160</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="8">23400109980003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">E184.A1 R293 2017</subfield>
+    <subfield code="updated">2020-09-05 02:23:22</subfield>
+    <subfield code="c">v. 1</subfield>
+    <subfield code="q">2017-09-11 05:55:35</subfield>
+    <subfield code="d">JAPAN</subfield>
+    <subfield code="f">JAPAN</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>03731cam a2200649Ii 4500</leader>
+  <controlfield tag="005">20200901094533.0</controlfield>
+  <controlfield tag="008">191217t20202020nyu    e b    001 0 eng d</controlfield>
+  <controlfield tag="001">991037393997903811</controlfield>
+  <datafield tag="019" ind1=" " ind2=" ">
+    <subfield code="a">1143391563</subfield>
+    <subfield code="a">1165395521</subfield>
+    <subfield code="a">1174553489</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781620975459</subfield>
+    <subfield code="q">(hardcover)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1620975459</subfield>
+    <subfield code="q">(hardcover)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781620971932</subfield>
+    <subfield code="q">(paperback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1620971933</subfield>
+    <subfield code="q">(paperback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">9781620971949 (ebook)</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1132431777</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">BDP</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">BDP</subfield>
+    <subfield code="d">JTH</subfield>
+    <subfield code="d">OI6</subfield>
+    <subfield code="d">TCH</subfield>
+    <subfield code="d">NJR</subfield>
+    <subfield code="d">IK2</subfield>
+    <subfield code="d">NJR</subfield>
+    <subfield code="d">OCLCF</subfield>
+    <subfield code="d">TYV</subfield>
+    <subfield code="d">OCO</subfield>
+    <subfield code="d">VP@</subfield>
+    <subfield code="d">ILC</subfield>
+    <subfield code="d">JYJ</subfield>
+    <subfield code="d">O$M</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">RB0</subfield>
+    <subfield code="d">PJW</subfield>
+    <subfield code="d">OCL</subfield>
+    <subfield code="d">TXSCH</subfield>
+    <subfield code="d">CTU</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">HV9950</subfield>
+    <subfield code="b">.A437 2020</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">364.973</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Alexander, Michelle,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="4">
+    <subfield code="a">The new Jim Crow :</subfield>
+    <subfield code="b">mass incarceration in the age of colorblindness /</subfield>
+    <subfield code="c">Michelle Alexander.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="0">
+    <subfield code="a">Mass incarceration in the age of colorblindness</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">Tenth anniversary edition.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">New Press,</subfield>
+    <subfield code="c">[2020]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2020</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xlix, 377 pages ;</subfield>
+    <subfield code="c">23 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"Preface to the Tenth Anniversary Edition &#xA9;2020 by Michelle Alexander."--Title page verso.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (pages 331-364) and index.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">The rebirth of caste -- The lockdown -- The color of justice -- The cruel hand -- The new Jim Crow -- The fire this time.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">"Seldom does a book have the impact of The New Jim Crow. Since it was first published in 2010, it has been the winner of numerous awards and has spent nearly 250 weeks on the New York Times bestseller list. It has been cited in judicial decisions, read in countless faith-based and secular book clubs, and adopted in campus-wide and community-wide reads. Most important, it has inspired artists, philanthropists, policymakers, community leaders, and a whole generation of racial justice activists motivated by Michelle Alexander's searing indictment of our criminal justice system and her unforgettable argument that 'we have not ended racial caste in America; we have merely redesigned it'"--Back cover.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Racism in criminology</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Criminal justice, Administration of</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Discrimination in criminal justice administration</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African American prisoners</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African American men</subfield>
+    <subfield code="x">Social conditions.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Race discrimination</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Race relations.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African Americans</subfield>
+    <subfield code="x">Legal status, laws, etc.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African Americans</subfield>
+    <subfield code="x">Segregation</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Racism in criminology.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01740493</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">African Americans</subfield>
+    <subfield code="x">Segregation.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00799695</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">African Americans</subfield>
+    <subfield code="x">Legal status, laws, etc.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00799632</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">African American men</subfield>
+    <subfield code="x">Social conditions.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00799254</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">African American prisoners.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00799317</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Criminal justice, Administration of.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00883246</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Discrimination in criminal justice administration.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00895034</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Race discrimination.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01086465</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Race relations.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01086509</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="7">
+    <subfield code="a">United States.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01204155</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Law for laypersons.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01774275</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Instructional and educational works.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01919931</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">History.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01411628</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1132431777</subfield>
+  </datafield>
+  <datafield tag="997" ind1=" " ind2=" ">
+    <subfield code="a">20200824103530.0</subfield>
+    <subfield code="c">YL</subfield>
+    <subfield code="d">TEU</subfield>
+    <subfield code="s">OCLC</subfield>
+    <subfield code="e">WCAT</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-10-26 10:13:58</subfield>
+    <subfield code="e">991037393997903811</subfield>
+    <subfield code="d">OCLC</subfield>
+    <subfield code="f">20200824103738.0</subfield>
+    <subfield code="a">2020-02-18 20:26:52</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="HLD" ind1="0" ind2=" ">
+    <subfield code="b">AMBLER</subfield>
+    <subfield code="c">stacks</subfield>
+    <subfield code="h">HV9950</subfield>
+    <subfield code="i">.A437 2020</subfield>
+    <subfield code="8">22495659320003811</subfield>
+    <subfield code="updated">2020-08-24 14:38:27</subfield>
+    <subfield code="created">2020-02-18 20:27:37</subfield>
+  </datafield>
+  <datafield tag="ITM" ind1=" " ind2=" ">
+    <subfield code="r">22495659320003811</subfield>
+    <subfield code="b">0</subfield>
+    <subfield code="h">0</subfield>
+    <subfield code="g">aleisure</subfield>
+    <subfield code="t">BOOK</subfield>
+    <subfield code="9">39074031837560</subfield>
+    <subfield code="e">stacks</subfield>
+    <subfield code="l">0</subfield>
+    <subfield code="8">23495659310003811</subfield>
+    <subfield code="a">0</subfield>
+    <subfield code="i">HV9950 .A437 2020</subfield>
+    <subfield code="updated">2020-10-17 20:09:26</subfield>
+    <subfield code="u">LOAN</subfield>
+    <subfield code="q">2020-02-18 20:27:37</subfield>
+    <subfield code="d">AMBLER</subfield>
+    <subfield code="f">AMBLER</subfield>
+  </datafield>
+</record>
+</collection>

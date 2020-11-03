@@ -6,8 +6,9 @@ RSpec.describe "query results spec" do
 
   let(:search_term) { search_terms.values.join(" ") }
   let(:per_page) { 20 }
+  let(:extra_params) { {} }
 
-  let(:response) { solr.get("search", params: { q: search_term, rows: per_page }) }
+  let(:response) { solr.get("search", params: { q: search_term, rows: per_page }.merge(extra_params)) }
   let(:ids) { (response.dig("response", "docs") || []).map { |doc| doc.fetch("id") }.compact }
 
   describe "Query results as JSON" do
@@ -288,6 +289,28 @@ RSpec.describe "query results spec" do
       end
     end
 
+    context "boost ebooks" do
+      let(:search_terms) { { search_string: "addiction brains" } }
+      let(:ebook_ids) {
+        [ "991036861668103811" ] }
+      let(:print_ids) {
+        [ "991006445749703811"] }
+
+      context "no boost param" do
+        it "puts print book first" do
+          expect(ids).to include_items(print_ids)
+            .before(ebook_ids)
+        end
+      end
+
+      context "bq=creator_facet:Ebook+Central^35" do
+        let(:extra_params) { { bq: "creator_facet:Ebook Central^35" } }
+        it "puts ebook first" do
+          expect(ids).to include_items(ebook_ids)
+            .before(print_ids)
+        end
+      end
+    end
   end
 end
 

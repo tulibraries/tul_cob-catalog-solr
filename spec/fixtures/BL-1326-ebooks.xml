@@ -1,0 +1,1980 @@
+<?xml version="1.0"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<record>
+  <leader>02253nam  22005653i 4500</leader>
+  <controlfield tag="005">20180315150315.0</controlfield>
+  <controlfield tag="006">m        d        </controlfield>
+  <controlfield tag="007">cr||n|||||||||</controlfield>
+  <controlfield tag="008">160923t20172017caua    ob    001 0 eng d</controlfield>
+  <controlfield tag="001">991030183259703811</controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849923</subfield>
+    <subfield code="q">(set ;</subfield>
+    <subfield code="q">alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849927</subfield>
+    <subfield code="q">(set ;</subfield>
+    <subfield code="q">alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849947</subfield>
+    <subfield code="q">(volume 1 ;</subfield>
+    <subfield code="q">alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849943</subfield>
+    <subfield code="q">(volume 1 ;</subfield>
+    <subfield code="q">alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849954</subfield>
+    <subfield code="q">(volume 2 ;</subfield>
+    <subfield code="q">alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849951</subfield>
+    <subfield code="q">(volume 2 ;</subfield>
+    <subfield code="q">alkaline paper)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849930 (MyiLibrary)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1440849935</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781440849930</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaONFJC)cis36768728</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">984681</subfield>
+    <subfield code="b">MIL</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaONFJC</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">CaONFJC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="4">
+    <subfield code="a">E184.A1</subfield>
+    <subfield code="b">R293 2017eb</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">305.800973</subfield>
+    <subfield code="2">23</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">E184.A1</subfield>
+    <subfield code="b">R293 2017eb</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Race in America</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">how a pseudoscientific concept shaped human interaction /</subfield>
+    <subfield code="c">Patricia Reid-Merritt, editor ; foreword by Julianne Malveaux.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Santa Barbara, California :</subfield>
+    <subfield code="b">Praeger, an imprint of ABC-CLIO, LLC,</subfield>
+    <subfield code="c">[2017]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2017</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (2 volumes) :</subfield>
+    <subfield code="b">illustrations</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">Access is available to the Temple Community through use of a networked computer with a Temple IP address.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on print version record.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Race.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Ethnicity</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Minorities</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Group identity</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Race relations</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Ethnic relations</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Electronic books.</subfield>
+    <subfield code="2">local</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Reid-Merritt, Patricia,</subfield>
+    <subfield code="e">editor.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">MyiLibrary.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Print version:</subfield>
+    <subfield code="z">9781440849923</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">http://libproxy.temple.edu/login?url=http://lib.myilibrary.com/detail.asp?id=984681</subfield>
+    <subfield code="z">Connect to MyiLibrary resource.</subfield>
+  </datafield>
+  <datafield tag="907" ind1=" " ind2=" ">
+    <subfield code="a">.b64148567</subfield>
+    <subfield code="b">w    </subfield>
+    <subfield code="c">-</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="l">w    </subfield>
+    <subfield code="g">1</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="b">1</subfield>
+    <subfield code="d">m</subfield>
+    <subfield code="e">@</subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">0</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-06-24 08:54:32</subfield>
+    <subfield code="e">b64148567-01tuli_inst</subfield>
+    <subfield code="d">COUTTS</subfield>
+    <subfield code="f">20170209161854.0</subfield>
+    <subfield code="a">2017-06-20 06:23:28</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2017-11-30 19:58:30</subfield>
+    <subfield code="i">61400924510003811</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="c">MyiLibrary</subfield>
+    <subfield code="created">2017-06-22 12:27:10</subfield>
+    <subfield code="j">62400924500003811</subfield>
+    <subfield code="a">53383592220003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991030183259703811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53383592220003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>06681nam a22009375i 4500</leader>
+  <controlfield tag="001">991036741871203811</controlfield>
+  <controlfield tag="005">20190708092533.0</controlfield>
+  <controlfield tag="006">m|||||o||d||||||||</controlfield>
+  <controlfield tag="007">cr cn|||||||||</controlfield>
+  <controlfield tag="008">190708s2009    mau    fo  d z      eng d</controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0-674-04493-2</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.4159/9780674044937</subfield>
+    <subfield code="2">doi</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CKB)1000000000519963</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(SSID)ssj0000082266</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBManifestationID)11126094</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBTitleCode)TC0000082266</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBWorkID)10136659</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKB)10291472</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaBNVSL)slc00229121</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(Credo)hupnewam2007</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)436850660</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(Credo)74023574</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC3300040</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-B1597)457797</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1024020167</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1029824222</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1032677995</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1037969465</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1041985221</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1046609251</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1047032749</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)227206786</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)979967814</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-B1597)9780674044937</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(EXLCZ)991000000000519963</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DE-B1597</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DE-B1597</subfield>
+    <subfield code="e">rda</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="044" ind1=" " ind2=" ">
+    <subfield code="a">mau</subfield>
+    <subfield code="c">US-MA</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">JV6455.N49 2007eb</subfield>
+  </datafield>
+  <datafield tag="072" ind1=" " ind2="7">
+    <subfield code="a">SOC007000</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">325.73</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="4">
+    <subfield code="a">The New Americans :</subfield>
+    <subfield code="b">A Guide to Immigration since 1965 /</subfield>
+    <subfield code="c">Helen B. Marrow, Mary C. Waters, Reed Ueda.</subfield>
+  </datafield>
+  <datafield tag="263" ind1=" " ind2=" ">
+    <subfield code="a">20080415080808.0</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Cambridge, MA : </subfield>
+    <subfield code="b">Harvard University Press, </subfield>
+    <subfield code="c">[2009]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2007</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (58 entries) :</subfield>
+    <subfield code="b">2 images, digital files.</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+  </datafield>
+  <datafield tag="490" ind1="0" ind2=" ">
+    <subfield code="a">Harvard University Press Reference Library</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Bibliographic Level Mode of Issuance: Monograph</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">English</subfield>
+  </datafield>
+  <datafield tag="506" ind1=" " ind2=" ">
+    <subfield code="a">Access restricted to authorized users and institutions.</subfield>
+  </datafield>
+  <datafield tag="538" ind1=" " ind2=" ">
+    <subfield code="a">Mode of access: World Wide Web.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2="0">
+    <subfield code="t">Frontmatter -- </subfield>
+    <subfield code="t">Contents -- </subfield>
+    <subfield code="t">Introduction / </subfield>
+    <subfield code="r">Waters, Mary C. / Ueda, Reed -- </subfield>
+    <subfield code="t">Immigration in Global Historical Perspective / </subfield>
+    <subfield code="r">Ueda, Reed -- </subfield>
+    <subfield code="t">Immigration Control Policy: Law and Implementation / </subfield>
+    <subfield code="r">Zolberg, Aristide R. -- </subfield>
+    <subfield code="t">Citizenship and Nationality Policy / </subfield>
+    <subfield code="r">Schuck, Peter H. -- </subfield>
+    <subfield code="t">Refugees / </subfield>
+    <subfield code="r">Haines, David W. -- </subfield>
+    <subfield code="t">Unauthorized Migration / </subfield>
+    <subfield code="r">Bean, Frank D. / Lowell, B. Lindsay -- </subfield>
+    <subfield code="t">Settlement Patterns in Metropolitan America / </subfield>
+    <subfield code="r">Logan, John R. -- </subfield>
+    <subfield code="t">Ethnic and Racial Identity / </subfield>
+    <subfield code="r">Gans, Herbert J. -- </subfield>
+    <subfield code="t">Intermarriage and Multiple Identities / </subfield>
+    <subfield code="r">Perlmann, Joel / Waters, Mary C. -- </subfield>
+    <subfield code="t">Assimilation / </subfield>
+    <subfield code="r">Alba, Richard / Nee, Victor -- </subfield>
+    <subfield code="t">Transforming Foreigners into Americans / </subfield>
+    <subfield code="r">Waldinger, Roger -- </subfield>
+    <subfield code="t">Transnationalism / </subfield>
+    <subfield code="r">Morawska, Ewa -- </subfield>
+    <subfield code="t">Pluralism and Group Relations / </subfield>
+    <subfield code="r">Hochschild, Jennifer L. -- </subfield>
+    <subfield code="t">Immigrants and the Economy / </subfield>
+    <subfield code="r">Kaushal, Neeraj / Reimers, Cordelia W. / Reimers, David M. -- </subfield>
+    <subfield code="t">Ethnic Politics / </subfield>
+    <subfield code="r">Jones-Correa, Michael -- </subfield>
+    <subfield code="t">Ethnic Media / </subfield>
+    <subfield code="r">Viswanath, K. / Lee, Karen Ka-man -- </subfield>
+    <subfield code="t">Religion / </subfield>
+    <subfield code="r">Eck, Diana L. -- </subfield>
+    <subfield code="t">Language / </subfield>
+    <subfield code="r">L&#xF3;pez, David / Estrada, Vanesa -- </subfield>
+    <subfield code="t">Education / </subfield>
+    <subfield code="r">Su&#xE1;rez-Orozco, Carola / Su&#xE1;rez-Orozco, Marcelo -- </subfield>
+    <subfield code="t">Gender and Family / </subfield>
+    <subfield code="r">Pessar, Patricia R. -- </subfield>
+    <subfield code="t">The Second Generation / </subfield>
+    <subfield code="r">Foner, Nancy / Kasinitz, Philip -- </subfield>
+    <subfield code="t">Africa: West / </subfield>
+    <subfield code="r">Halter, Marilyn -- </subfield>
+    <subfield code="t">Africa: East / </subfield>
+    <subfield code="r">Kusow, Abdi -- </subfield>
+    <subfield code="t">Africa: South Africa and Zimbabwe / </subfield>
+    <subfield code="r">Marrow, Helen B. -- </subfield>
+    <subfield code="t">Canada / </subfield>
+    <subfield code="r">Gabaccia, Donna R. -- </subfield>
+    <subfield code="t">Central America. Guatemala, Honduras, Nicaragua / </subfield>
+    <subfield code="r">Chinchilla, Norma Stoltz / Hamilton, Nora -- </subfield>
+    <subfield code="t">China: People's Republic of China / </subfield>
+    <subfield code="r">Yin, Xiao-huang -- </subfield>
+    <subfield code="t">China: Outside the People's Republic of China / </subfield>
+    <subfield code="r">Holdaway, Jennifer -- </subfield>
+    <subfield code="t">Colombia / </subfield>
+    <subfield code="r">Guarnizo, Luis Eduardo / Espitia, Marilyn -- </subfield>
+    <subfield code="t">Cuba / </subfield>
+    <subfield code="r">P&#xE9;rez, Lisandro -- </subfield>
+    <subfield code="t">Dominican Republic / </subfield>
+    <subfield code="r">Levitt, Peggy -- </subfield>
+    <subfield code="t">El Salvador / </subfield>
+    <subfield code="r">Menj&#xED;var, Cecilia -- </subfield>
+    <subfield code="t">Europe: Central and Southeastern. Bulgaria, Former Czechoslovakia, Hungary, Romania, Former Yugoslavia / </subfield>
+    <subfield code="r">Ispa-Landa, Simone -- </subfield>
+    <subfield code="t">Haiti / </subfield>
+    <subfield code="r">Konczal, Lisa / Stepick, Alex -- </subfield>
+    <subfield code="t">India / </subfield>
+    <subfield code="r">Leonard, Karen Isaksen -- </subfield>
+    <subfield code="t">Iran / </subfield>
+    <subfield code="r">Bozorgmehr, Mehdi -- </subfield>
+    <subfield code="t">Jamaica / </subfield>
+    <subfield code="r">Vickerman, Milton -- </subfield>
+    <subfield code="t">Korea / </subfield>
+    <subfield code="r">Min, Pyong Gap -- </subfield>
+    <subfield code="t">Mexico / </subfield>
+    <subfield code="r">Camarillo, Albert M. -- </subfield>
+    <subfield code="t">Middle East and North Africa / </subfield>
+    <subfield code="r">Gold, Steven J. / Bozorgmehr, Mehdi -- </subfield>
+    <subfield code="t">Pacific: Fiji, Tonga, Samoa / </subfield>
+    <subfield code="r">Small, Cathy A. -- </subfield>
+    <subfield code="t">Pacific: Japan, Australia, New Zealand / </subfield>
+    <subfield code="r">Oishi, Nana -- </subfield>
+    <subfield code="t">Philippines / </subfield>
+    <subfield code="r">Choy, Catherine Ceniza -- </subfield>
+    <subfield code="t">Poland / </subfield>
+    <subfield code="r">Erdmans, Mary Patrice -- </subfield>
+    <subfield code="t">Russia / </subfield>
+    <subfield code="r">Gold, Steven J. -- </subfield>
+    <subfield code="t">South America. Ecuador, Peru, Brazil, Argentina, Venezuela / </subfield>
+    <subfield code="r">Marrow, Helen B. -- </subfield>
+    <subfield code="t">South Asia. Pakistan, Bangladesh, Sri Lanka, Nepal / </subfield>
+    <subfield code="r">Kibria, Nazli -- </subfield>
+    <subfield code="t">Southeast Asia. Laos, Cambodia, Thailand / </subfield>
+    <subfield code="r">Bankston, Carl L. / Hidalgo, Danielle Antoinette -- </subfield>
+    <subfield code="t">United Kingdom / </subfield>
+    <subfield code="r">Roth, Wendy D. -- </subfield>
+    <subfield code="t">Vietnam / </subfield>
+    <subfield code="r">Rumbaut, Rub&#xE9;n G. -- </subfield>
+    <subfield code="t">West Indies. Antigua, Bahamas, Barbados, Grenada, Guadeloupe, Guyana, Martinique, St. Kitts, Trinidad / </subfield>
+    <subfield code="r">Holder, Calvin B. -- </subfield>
+    <subfield code="t">Appendix: Immigration and Naturalization Legislation -- </subfield>
+    <subfield code="t">Acknowledgments -- </subfield>
+    <subfield code="t">Contributors -- </subfield>
+    <subfield code="t">Index</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The United States has always been a nation of immigrants, shaped by successive waves of new arrivals. This comprehensive guide, edited and written by an interdisciplinary group of prominent scholars, provides an authoritative account of the most recent surge of immigrants. Based on the latest U.S. Census data and scholarly research, The New Americans is an essential reference for anyone curious about the changing face of America.</subfield>
+  </datafield>
+  <datafield tag="588" ind1="0" ind2=" ">
+    <subfield code="a">Description based on online resource; title from PDF title page (publisher's Web site, viewed 08. Jul 2019)</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Emigration and immigration</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="y">20th century.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Emigration and immigration</subfield>
+    <subfield code="x">Government policy.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="0">
+    <subfield code="a">Electronic books.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">SOCIAL SCIENCE / Emigration &amp; Immigration.</subfield>
+    <subfield code="2">bisacsh</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Credo Reference (Firm)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Marrow, Helen B., </subfield>
+    <subfield code="e">editor.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Ueda, Reed, </subfield>
+    <subfield code="e">editor.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Waters, Mary C., </subfield>
+    <subfield code="e">editor.</subfield>
+  </datafield>
+  <datafield tag="776" ind1=" " ind2=" ">
+    <subfield code="z">1-84972-272-2</subfield>
+  </datafield>
+  <datafield tag="776" ind1=" " ind2=" ">
+    <subfield code="z">0-674-02357-9</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Harvard University Press reference library.</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">BOOK</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-10-26 01:46:25</subfield>
+    <subfield code="e">991000000000519963</subfield>
+    <subfield code="d">NON_SFX</subfield>
+    <subfield code="f">20080415080808.0</subfield>
+    <subfield code="a">2012-02-25 22:29:21</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="i">61419889170003811</subfield>
+    <subfield code="updated">2018-04-18 23:54:14</subfield>
+    <subfield code="e">Ebook Central</subfield>
+    <subfield code="c">Ebook Central Academic Complete</subfield>
+    <subfield code="created">2018-04-18 23:53:40</subfield>
+    <subfield code="j">62419889160003811</subfield>
+    <subfield code="a">53421241150003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036741871203811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">614200000000000002</subfield>
+    <subfield code="8">53421241150003811</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="i">61391550000003811</subfield>
+    <subfield code="updated">2017-07-05 19:17:41</subfield>
+    <subfield code="e">CREDOreference</subfield>
+    <subfield code="c">CREDOreference Academic Core</subfield>
+    <subfield code="created">2017-07-05 19:16:53</subfield>
+    <subfield code="j">62391549990003811</subfield>
+    <subfield code="a">53391546860003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036741871203811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">611000000000001535</subfield>
+    <subfield code="8">53391546860003811</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="i">61391921830003811</subfield>
+    <subfield code="updated">2017-07-07 21:52:25</subfield>
+    <subfield code="e">EBSCOhost</subfield>
+    <subfield code="c">EBSCOhost Academic eBook Collection (North America)</subfield>
+    <subfield code="created">2017-07-07 21:51:24</subfield>
+    <subfield code="j">62391921820003811</subfield>
+    <subfield code="a">53392447730003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036741871203811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">613640000000000029</subfield>
+    <subfield code="8">53392447730003811</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="i">61462386960003811</subfield>
+    <subfield code="updated">2019-04-29 20:06:41</subfield>
+    <subfield code="e">EBSCOhost</subfield>
+    <subfield code="c">EBSCOhost Ebook Public Library Collection - North America</subfield>
+    <subfield code="created">2019-04-29 20:05:35</subfield>
+    <subfield code="j">62462386950003811</subfield>
+    <subfield code="a">53463414780003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036741871203811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">614900000000000308</subfield>
+    <subfield code="8">53463414780003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>01068nam  2200301 a 4500</leader>
+  <controlfield tag="001">991036745104203811</controlfield>
+  <controlfield tag="005">20170918171506.0</controlfield>
+  <controlfield tag="006">m     o  d |      </controlfield>
+  <controlfield tag="007">cr -n---------</controlfield>
+  <controlfield tag="008">940310s1996    nyuab   ob    001 0 eng d</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="z">   94008998 </subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1-283-11329-5</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9786613113290</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0-19-976153-1</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CKB)2670000000083645</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(EBL)694019</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)726734954</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(SSID)ssj0000526473</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBManifestationID)12231017</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBTitleCode)TC0000526473</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBWorkID)10537549</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKB)10444327</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(SSID)ssj0001667637</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBManifestationID)16456610</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBTitleCode)TC0001667637</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBWorkID)15001629</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKB)10735653</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC694019</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(EXLCZ)992670000000083645</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">MiAaPQ</subfield>
+    <subfield code="c">MiAaPQ</subfield>
+    <subfield code="d">MiAaPQ</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">GN799.W26</subfield>
+    <subfield code="b">K44 1996</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">303.660901</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Keeley, Lawrence H.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">War before civilization</subfield>
+    <subfield code="h">[electronic resource] /</subfield>
+    <subfield code="c">Lawrence H. Keeley.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Oxford University Press,</subfield>
+    <subfield code="c">1996.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (264 p.)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Description based upon print version of record.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">""Cover""; ""Contents""; ""1. The Pacified Past: The Anthropology of War""; ""2. The Dogs of War: The Prevalence and Importance of War""; ""3. Policy by Other Means: Tactics and Weapons""; ""4. Imitating the Tiger: Forms of Combat""; ""5. A Skulking Way of War: Primitive Warriors Versus Civilized Soldiers""; ""6. The Harvest of Mars: The Casualties of War""; ""7. To the Victor: The Profits and Losses of Primitive War""; ""8. Crying Havoc: The Question of Causes""; ""9. Bad Neighborhoods: The Contexts for War""; ""10. Naked, Poor, and Mangled Peace: Its Desirability and Fragility""</subfield>
+  </datafield>
+  <datafield tag="505" ind1="8" ind2=" ">
+    <subfield code="a">""11. Beating Swords into Metaphors: The Roots of the Pacified Past""""12. A Trout in the Milk: Discussion and Conclusions""; ""Appendix: Tables""; ""Notes""; ""Bibliography""; ""Index""; ""A""; ""B""; ""C""; ""D""; ""E""; ""F""; ""G""; ""H""; ""I""; ""J""; ""K""; ""L""; ""M""; ""N""; ""P""; ""R""; ""S""; ""T""; ""U""; ""V""; ""W""; ""X""; ""Y""; ""Z""</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The myth of the peace-loving ""noble savage"" is persistent and pernicious. Indeed, for the last fifty years, most popular and scholarly works have agreed that prehistoric warfare was rare, harmless, unimportant, and, like smallpox, a disease of civilized societies alone. Prehistoric warfare, according to this view, was little more than a ritualized game, where casualties were limited and the effects of aggression relatively mild. Lawrence Keeley's groundbreaking War Before Civilization offers a devastating rebuttal to such comfortable myths and debunks the notion that warfare was introduced t</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">English</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Warfare, Prehistoric.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Fortification, Prehistoric.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Weapons, Prehistoric.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="4">
+    <subfield code="a">Electronic books.</subfield>
+  </datafield>
+  <datafield tag="776" ind1=" " ind2=" ">
+    <subfield code="z">0-19-509112-4</subfield>
+  </datafield>
+  <datafield tag="776" ind1=" " ind2=" ">
+    <subfield code="z">0-19-511912-6</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">BOOK</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2019-01-17 09:41:26</subfield>
+    <subfield code="e">992670000000083645</subfield>
+    <subfield code="d">NON_SFX</subfield>
+    <subfield code="f">20160803134623.0</subfield>
+    <subfield code="a">2012-02-26 00:28:55</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2018-04-19 01:40:19</subfield>
+    <subfield code="i">61419889170003811</subfield>
+    <subfield code="e">Ebook Central</subfield>
+    <subfield code="c">Ebook Central Academic Complete</subfield>
+    <subfield code="created">2018-04-19 01:39:41</subfield>
+    <subfield code="j">62419889160003811</subfield>
+    <subfield code="a">53421941390003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036745104203811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">614200000000000002</subfield>
+    <subfield code="8">53421941390003811</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2017-07-07 22:05:52</subfield>
+    <subfield code="i">61391921830003811</subfield>
+    <subfield code="e">EBSCOhost</subfield>
+    <subfield code="c">EBSCOhost Academic eBook Collection (North America)</subfield>
+    <subfield code="created">2017-07-07 22:04:58</subfield>
+    <subfield code="j">62391921820003811</subfield>
+    <subfield code="a">53392491630003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036745104203811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">613640000000000029</subfield>
+    <subfield code="8">53392491630003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>01058nam  2200301 a 4500</leader>
+  <controlfield tag="001">991036813459503811</controlfield>
+  <controlfield tag="005">20170810200121.0</controlfield>
+  <controlfield tag="006">m     o  d |      </controlfield>
+  <controlfield tag="007">cr cn|||||||||</controlfield>
+  <controlfield tag="008">050525s2006    enkab   ob    001 0 eng d</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="z">  2005049871</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1-283-23237-5</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9786613232373</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0-19-990841-9</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CKB)2550000000045290</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)750174738</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaPaEBR)ebrary10492586</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(SSID)ssj0000541365</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBManifestationID)12205749</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBTitleCode)TC0000541365</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKBWorkID)10498976</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(PQKB)11784404</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC3054261</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(EXLCZ)992550000000045290</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">MiAaPQ</subfield>
+    <subfield code="c">MiAaPQ</subfield>
+    <subfield code="d">MiAaPQ</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">P40</subfield>
+    <subfield code="b">.M33 2006</subfield>
+  </datafield>
+  <datafield tag="082" ind1=" " ind2=" ">
+    <subfield code="a">306.44</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Macaulay, Ronald K. S.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="4">
+    <subfield code="a">The social art</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">language and its uses /</subfield>
+    <subfield code="c">Ronald Macaulay.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">2nd ed.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Oxford ;</subfield>
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Oxford University Press,</subfield>
+    <subfield code="c">2006.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (257 p.) </subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Bibliographic Level Mode of Issuance: Monograph</subfield>
+  </datafield>
+  <datafield tag="546" ind1=" " ind2=" ">
+    <subfield code="a">English</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 227-233) and index.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Sociolinguistics.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Language and languages.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="4">
+    <subfield code="a">Electronic books.</subfield>
+  </datafield>
+  <datafield tag="776" ind1=" " ind2=" ">
+    <subfield code="z">0-19-518796-2</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">BOOK</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2019-01-16 06:23:45</subfield>
+    <subfield code="e">2550000000045290</subfield>
+    <subfield code="d">PQNKB</subfield>
+    <subfield code="f">20160806010135.0</subfield>
+    <subfield code="a">2012-02-26 02:40:57</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2017-07-07 22:05:53</subfield>
+    <subfield code="i">61391921830003811</subfield>
+    <subfield code="e">EBSCOhost</subfield>
+    <subfield code="c">EBSCOhost Academic eBook Collection (North America)</subfield>
+    <subfield code="created">2017-07-07 22:04:58</subfield>
+    <subfield code="j">62391921820003811</subfield>
+    <subfield code="a">53392492090003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036813459503811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">613640000000000029</subfield>
+    <subfield code="8">53392492090003811</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2018-11-05 16:18:34</subfield>
+    <subfield code="i">61437208860003811</subfield>
+    <subfield code="e">EBSCOhost</subfield>
+    <subfield code="c">Ebscohost Ebooks University Press Collection (North America)</subfield>
+    <subfield code="created">2018-11-05 16:15:47</subfield>
+    <subfield code="j">62437208850003811</subfield>
+    <subfield code="a">53437653060003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036813459503811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">614930000000000023</subfield>
+    <subfield code="8">53437653060003811</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2019-07-16 05:59:38</subfield>
+    <subfield code="i">61419889170003811</subfield>
+    <subfield code="e">Ebook Central</subfield>
+    <subfield code="c">Ebook Central Academic Complete</subfield>
+    <subfield code="created">2019-07-16 05:59:38</subfield>
+    <subfield code="j">62419889160003811</subfield>
+    <subfield code="a">53470680390003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036813459503811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="h">614200000000000002</subfield>
+    <subfield code="8">53470680390003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>01899nam  2200481 i 4500</leader>
+  <controlfield tag="006">m     o  d |      </controlfield>
+  <controlfield tag="007">cr cnu||||||||</controlfield>
+  <controlfield tag="008">140804t20142014enka    ob    001 0 eng d</controlfield>
+  <controlfield tag="001">991036861668103811</controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780123869371</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780123869593 (Proquest Ebook Central)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0123869595</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780123869593</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC1741071</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)884015335</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaONFJC)EBC1741071</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">1741071</subfield>
+    <subfield code="b">Proquest Ebook Central</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaONFJC</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">CaONFJC</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">HV5801</subfield>
+    <subfield code="b">.K663 2014</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2=" ">
+    <subfield code="a">613.8</subfield>
+    <subfield code="2">23</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Koob, George F.,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Drugs, addiction, and the brain /</subfield>
+    <subfield code="c">George F. Koob, Michael A. Arends, Michel Le Moal.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">Oxford, England ;</subfield>
+    <subfield code="a">Waltham, Massachusetts :</subfield>
+    <subfield code="b">Elsevier :</subfield>
+    <subfield code="b">Academic Press,</subfield>
+    <subfield code="c">2014.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2014</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (351 pages) :</subfield>
+    <subfield code="b">illustrations, tables</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on online resource; title from PDF title page (ebrary, viewed August 4, 2014).</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Drug abuse.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Drug addicts</subfield>
+    <subfield code="x">Alcohol use.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Drug addicts</subfield>
+    <subfield code="x">Psychology.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Arends, Michael A.,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Le Moal, Michel,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Ebook Central.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Print version:</subfield>
+    <subfield code="a">Koob, George F.</subfield>
+    <subfield code="t">Drugs, addiction, and the brain.</subfield>
+    <subfield code="d">Oxford, England ; Waltham, Massachusetts : Elsevier ; Academic Press, c2014 </subfield>
+    <subfield code="h">viii, 342 pages </subfield>
+    <subfield code="z">9780123869371</subfield>
+  </datafield>
+  <datafield tag="797" ind1="2" ind2=" ">
+    <subfield code="a">ProQuest (Firm)</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">http://ebookcentral.proquest.com/lib/templeuniv-ebooks/detail.action?docID=1741071</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="k">MAIN</subfield>
+    <subfield code="g">E_BOOK</subfield>
+    <subfield code="l">web</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="q">012218</subfield>
+    <subfield code="s">179.91</subfield>
+    <subfield code="u">1aetf</subfield>
+    <subfield code="v">coutt</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="f">acqrat</subfield>
+    <subfield code="h">EBCUA</subfield>
+    <subfield code="i">23363446</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">EBC1741071</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-03-16 09:21:42</subfield>
+    <subfield code="e">EBC1741071</subfield>
+    <subfield code="d">COUTTS</subfield>
+    <subfield code="a">2018-01-22 20:49:14</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2018-01-25 14:52:50</subfield>
+    <subfield code="i">61402288210003811</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="c">Ebook Central</subfield>
+    <subfield code="created">2018-01-22 20:49:45</subfield>
+    <subfield code="j">62402288200003811</subfield>
+    <subfield code="a">53407761770003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036861668103811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53407761770003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>01564nam  2200469 a 4500</leader>
+  <controlfield tag="006">m     o  d |      </controlfield>
+  <controlfield tag="007">cr cn|||||||||</controlfield>
+  <controlfield tag="008">060710s2007    nyuab   ob    001 0 eng d</controlfield>
+  <controlfield tag="001">991036931931603811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="z">  2006021528</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0415771382 (hbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0415771390 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780203820780</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780415771382 (hbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780415771399 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781135013493 (Proquest Ebook Central)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1135013497</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781135013493</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC1813103</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)893332912</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaONFJC)EBC1813103</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">1813103</subfield>
+    <subfield code="b">Proquest Ebook Central</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaONFJC</subfield>
+    <subfield code="c">CaONFJC</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">DT20</subfield>
+    <subfield code="b">.A83 2007</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">960</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Asante, Molefi Kete,</subfield>
+    <subfield code="d">1942-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="4">
+    <subfield code="a">The history of Africa</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">the quest for eternal harmony /</subfield>
+    <subfield code="c">Molefi Kete Asante.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">2nd ed.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">New York ;</subfield>
+    <subfield code="a">London :</subfield>
+    <subfield code="b">Routledge,</subfield>
+    <subfield code="c">2007.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xiii, 397 p. :</subfield>
+    <subfield code="b">ill., maps.</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. [377]-380) and index.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Africa</subfield>
+    <subfield code="x">History.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">Africa</subfield>
+    <subfield code="x">Civilization.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">ProQuest (Firm)</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Ebook Central.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">https://ebookcentral.proquest.com/lib/templeuniv-ebooks/detail.action?docID=1813103</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="k">MAIN</subfield>
+    <subfield code="g">E_BOOK</subfield>
+    <subfield code="l">web</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="q">090618</subfield>
+    <subfield code="s">297.00</subfield>
+    <subfield code="u">1aetf</subfield>
+    <subfield code="v">coutt</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="f">acqrat</subfield>
+    <subfield code="h">ALLOW FOR DUPLICATIONEBCNL</subfield>
+    <subfield code="i">29890870</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">EBC1813103</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2018-09-11 07:05:03</subfield>
+    <subfield code="e">EBC1813103</subfield>
+    <subfield code="d">COUTTS</subfield>
+    <subfield code="a">2018-09-06 19:26:15</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2018-09-10 14:15:47</subfield>
+    <subfield code="i">61402288210003811</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="c">Ebook Central</subfield>
+    <subfield code="created">2018-09-06 19:26:37</subfield>
+    <subfield code="j">62402288200003811</subfield>
+    <subfield code="a">53431789920003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036931931603811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53431789920003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>01396cam a2200397 i 4500</leader>
+  <controlfield tag="008">180706r20152014enkab   o     001 0 eng d</controlfield>
+  <controlfield tag="001">991036972365803811</controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781317507352</subfield>
+    <subfield code="q">(e-book: Mobi)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781317507369</subfield>
+    <subfield code="q">(e-book: ePub)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781138127487</subfield>
+    <subfield code="q">(hardback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780765636065</subfield>
+    <subfield code="q">(paperback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781315716565 (Taylor and Francis)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1315716569</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781315716565</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaONFJC)EBCYE58456</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">YE58456</subfield>
+    <subfield code="b">Taylor and Francis</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaONFJC</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">CaONFJC</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">HF5814</subfield>
+    <subfield code="b">.J77 2015</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">659.072</subfield>
+    <subfield code="b">J935</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Jugenheimer, Donald W.</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Advertising and public relations research /</subfield>
+    <subfield code="c">Donald W. Jugenheimer. [et al.].</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">Second edition.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">London ;</subfield>
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Routledge,</subfield>
+    <subfield code="c">2015.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (viii, 367 pages)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">"First published 2014 by M.E. Sharpe"--t.p. verso.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Advertising</subfield>
+    <subfield code="x">Research.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Public relations</subfield>
+    <subfield code="x">Research.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Jugenheimer, Donald W.,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Print version: </subfield>
+    <subfield code="z">9781138127487</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">https://www.taylorfrancis.com/books/9781315716565</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="k">MAIN</subfield>
+    <subfield code="g">E_BOOK</subfield>
+    <subfield code="l">web</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="q">012519</subfield>
+    <subfield code="s">198.00</subfield>
+    <subfield code="u">1aetf</subfield>
+    <subfield code="v">coutt</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="f">acqrat</subfield>
+    <subfield code="h">TAYFUA</subfield>
+    <subfield code="i">31453932</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">cis31453932</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-02-13 19:21:14</subfield>
+    <subfield code="e">cis31453932</subfield>
+    <subfield code="d">COUTTS</subfield>
+    <subfield code="a">2019-01-25 15:35:00</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2019-02-04 12:32:39</subfield>
+    <subfield code="i">61441356970003811</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="c">Taylor &amp; Francis Ebooks</subfield>
+    <subfield code="created">2019-01-25 15:35:39</subfield>
+    <subfield code="j">62441356960003811</subfield>
+    <subfield code="a">53442220640003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991036972365803811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53442220640003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>02083nam  22005413i 4500</leader>
+  <controlfield tag="005">20200824101707.0</controlfield>
+  <controlfield tag="006">m        d        </controlfield>
+  <controlfield tag="007">cr||n|||||||||</controlfield>
+  <controlfield tag="008">191217t20202020nyu     ob    001 0 eng d</controlfield>
+  <controlfield tag="001">991037714620603811</controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781620975459</subfield>
+    <subfield code="q">(Hardback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1620975459</subfield>
+    <subfield code="q">(Hardback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781620971932</subfield>
+    <subfield code="q">(Paperback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1620971933</subfield>
+    <subfield code="q">(Paperback)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781620971949 (Proquest Ebook Central)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">1620971941</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781620971949</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC5651869</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)1130906008</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaONFJC)EBC5651869</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">5651869</subfield>
+    <subfield code="b">Proquest Ebook Central</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaONFJC</subfield>
+    <subfield code="e">rda</subfield>
+    <subfield code="c">CaONFJC</subfield>
+  </datafield>
+  <datafield tag="043" ind1=" " ind2=" ">
+    <subfield code="a">n-us---</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="4">
+    <subfield code="a">HV9950</subfield>
+    <subfield code="b">.A437 2020eb</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">364.973</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Alexander, Michelle,</subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="4">
+    <subfield code="a">The new Jim Crow</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">mass incarceration in the age of colorblindness /</subfield>
+    <subfield code="c">Michelle Alexander.</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="0">
+    <subfield code="a">Mass incarceration in the age of colorblindness</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">10th anniversary edition.</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">The New Press,</subfield>
+    <subfield code="c">[2020]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">&#xA9;2020</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (xlix, 377 pages)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and index.</subfield>
+  </datafield>
+  <datafield tag="588" ind1=" " ind2=" ">
+    <subfield code="a">Description based on print version record.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Criminal justice, Administration of</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Discrimination in criminal justice administration</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African American prisoners</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">African American men</subfield>
+    <subfield code="x">Social conditions.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Race discrimination</subfield>
+    <subfield code="z">United States.</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="x">Race relations.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Electronic books.</subfield>
+    <subfield code="2">local</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">https://ebookcentral.proquest.com/lib/templeuniv-ebooks/detail.action?docID=5651869</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="k">&lt;web&gt;</subfield>
+    <subfield code="g">E_BOOK</subfield>
+    <subfield code="l">web</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="q">081920</subfield>
+    <subfield code="s">37.98</subfield>
+    <subfield code="u">1arsf</subfield>
+    <subfield code="v">coutt</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="f">acqrat</subfield>
+    <subfield code="h">Want to upgrade to unlimited accessEBCUA</subfield>
+    <subfield code="i">57361875</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">EBC5651869</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-10-26 09:38:14</subfield>
+    <subfield code="e">EBC5651869</subfield>
+    <subfield code="d">COUTTS</subfield>
+    <subfield code="f">20200102084815.0</subfield>
+    <subfield code="a">2020-08-19 19:45:15</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="i">61402288210003811</subfield>
+    <subfield code="updated">2020-08-24 11:16:32</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="c">Ebook Central</subfield>
+    <subfield code="created">2020-08-19 19:46:02</subfield>
+    <subfield code="j">62402288200003811</subfield>
+    <subfield code="a">53529871310003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991037714620603811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53529871310003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>01666nam  2200517 a 4500</leader>
+  <controlfield tag="006">m     o  d |      </controlfield>
+  <controlfield tag="007">cr cn|||||||||</controlfield>
+  <controlfield tag="008">011003s2002    inu     ob    000 0 eng d</controlfield>
+  <controlfield tag="005">20200825154025.0</controlfield>
+  <controlfield tag="001">991037714871703811</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="z">  2001051571</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0872205894 (pbk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0872205908</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780872205895</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781603846936 (Proquest Ebook Central)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">160384693X</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9781603846936</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(MiAaPQ)EBC775227</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)755414285</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(CaONFJC)EBC775227</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">775227</subfield>
+    <subfield code="b">Proquest Ebook Central</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">CaONFJC</subfield>
+    <subfield code="c">CaONFJC</subfield>
+  </datafield>
+  <datafield tag="041" ind1="1" ind2=" ">
+    <subfield code="a">eng</subfield>
+    <subfield code="h">grc</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">B312.E5</subfield>
+    <subfield code="b">T75 2002</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">183.2</subfield>
+    <subfield code="a">183'.2--dc21</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="4">
+    <subfield code="a">The trials of Socrates</subfield>
+    <subfield code="h">[electronic resource] :</subfield>
+    <subfield code="b">six classic texts /</subfield>
+    <subfield code="c">edited by C.D.C. Reeve.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Indianapolis :</subfield>
+    <subfield code="b">Hackett Pub. Co.,</subfield>
+    <subfield code="c">c2002.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">x, 186 p.</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 185-186).</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="0">
+    <subfield code="a">Socrates</subfield>
+    <subfield code="v">Trials, litigation, etc.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2="0">
+    <subfield code="a">Socrates.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Philosophers.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Aristophanes.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Plato.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Xenophon.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Doyle, James.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Meineck, Peter,</subfield>
+    <subfield code="d">1967-</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Reeve, C. D. C.,</subfield>
+    <subfield code="d">1948-</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">ProQuest (Firm)</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">https://ebookcentral.proquest.com/lib/templeuniv-ebooks/detail.action?docID=775227</subfield>
+  </datafield>
+  <datafield tag="960" ind1=" " ind2=" ">
+    <subfield code="k">&lt;web&gt;</subfield>
+    <subfield code="g">E_BOOK</subfield>
+    <subfield code="l">web</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="q">082020</subfield>
+    <subfield code="s">42.00</subfield>
+    <subfield code="u">1ADCF</subfield>
+    <subfield code="v">coutt</subfield>
+  </datafield>
+  <datafield tag="961" ind1=" " ind2=" ">
+    <subfield code="f">acqrat</subfield>
+    <subfield code="h">Allow duplicationEBCNL</subfield>
+    <subfield code="i">25553305</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">EBC775227</subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-08-26 08:39:52</subfield>
+    <subfield code="e">EBC775227</subfield>
+    <subfield code="d">COUTTS</subfield>
+    <subfield code="a">2020-08-20 20:01:05</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2020-08-25 18:06:20</subfield>
+    <subfield code="i">61402288210003811</subfield>
+    <subfield code="d">MAIN</subfield>
+    <subfield code="c">Ebook Central</subfield>
+    <subfield code="created">2020-08-20 20:01:35</subfield>
+    <subfield code="j">62402288200003811</subfield>
+    <subfield code="a">53529911290003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991037714871703811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53529911290003811</subfield>
+  </datafield>
+</record>
+<record>
+  <leader>04802cam a2200925Ia 4500</leader>
+  <controlfield tag="005">20200901064552.1</controlfield>
+  <controlfield tag="006">m     o  d        </controlfield>
+  <controlfield tag="007">cr cnu---unuuu</controlfield>
+  <controlfield tag="008">070110s2005    enka   fob    001 0 eng d</controlfield>
+  <controlfield tag="001">991037717270803811</controlfield>
+  <datafield tag="019" ind1=" " ind2=" ">
+    <subfield code="a">85794290</subfield>
+    <subfield code="a">171137362</subfield>
+    <subfield code="a">667038977</subfield>
+    <subfield code="a">817922877</subfield>
+    <subfield code="a">1051465029</subfield>
+    <subfield code="a">1172904430</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0511126263</subfield>
+    <subfield code="q">(electronic bk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780511126260</subfield>
+    <subfield code="q">(electronic bk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0511124120</subfield>
+    <subfield code="q">(electronic bk. ;</subfield>
+    <subfield code="q">Adobe Reader)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780511124129</subfield>
+    <subfield code="q">(electronic bk. ;</subfield>
+    <subfield code="q">Adobe Reader)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0511125402</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780511125409</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780511806810</subfield>
+    <subfield code="q">(electronic bk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0511806817</subfield>
+    <subfield code="q">(electronic bk.)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">0521829313</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">9780521829311</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">0521536200</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="z">9780521536202</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)77570775</subfield>
+    <subfield code="z">(OCoLC)85794290</subfield>
+    <subfield code="z">(OCoLC)171137362</subfield>
+    <subfield code="z">(OCoLC)667038977</subfield>
+    <subfield code="z">(OCoLC)817922877</subfield>
+    <subfield code="z">(OCoLC)1051465029</subfield>
+    <subfield code="z">(OCoLC)1172904430</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)ocm77570775 </subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="b">OverDrive, Inc.</subfield>
+    <subfield code="n">http://www.overdrive.com</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">18D8B654-7703-49DA-80C5-906BAC5E98D3</subfield>
+    <subfield code="b">OverDrive, Inc.</subfield>
+    <subfield code="n">http://www.overdrive.com</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">N$T</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="e">pn</subfield>
+    <subfield code="c">N$T</subfield>
+    <subfield code="d">YDXCP</subfield>
+    <subfield code="d">OCLCG</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">TEFOD</subfield>
+    <subfield code="d">IDEBK</subfield>
+    <subfield code="d">NRU</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">E7B</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">CAMBR</subfield>
+    <subfield code="d">OCLCF</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">DEBSZ</subfield>
+    <subfield code="d">TEFOD</subfield>
+    <subfield code="d">EBLCP</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">OCLCA</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">HEBIS</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">MM9</subfield>
+    <subfield code="d">AU@</subfield>
+    <subfield code="d">OCLCO</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">OCLCA</subfield>
+    <subfield code="d">OCLCQ</subfield>
+    <subfield code="d">K6U</subfield>
+  </datafield>
+  <datafield tag="049" ind1=" " ind2=" ">
+    <subfield code="a">TEUU</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="4">
+    <subfield code="a">JC423</subfield>
+    <subfield code="b">.N484 2005eb</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">320.3</subfield>
+    <subfield code="2">22</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Newton, Kenneth,</subfield>
+    <subfield code="d">1940-</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Foundations of comparative politics :</subfield>
+    <subfield code="b">democracies of the modern world /</subfield>
+    <subfield code="c">Ken Newton and Jan W. Van Deth.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Cambridge ;</subfield>
+    <subfield code="a">New York :</subfield>
+    <subfield code="b">Cambridge University Press,</subfield>
+    <subfield code="c">2005.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 online resource (xxviii, 374 pages) :</subfield>
+    <subfield code="b">illustrations</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">computer</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">online resource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Cambridge textbooks in comparative politics</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references and indexes.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This authoritative new introductory text covers the key concepts, theories and issues involved in the study of comparative politics. Focusing on democratic government, it covers all important topics in the field. The book includes extensive supporting apparatus, including briefings, fact files, key terms, guides to further reading, and related websites.</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Cover; Half-title; Series-title; Title; Copyright; Dedication; Contents; Acknowledgements; Briefings; Fact files; Controversies; Tables; Figures; Abbreviations and acronyms; Key terms and concepts; PART I The state: origins and development; PART II The polity: structures and institutions; PART III Citizens, elites and interest mediation; PART IV Policies and performance; Glossary of key terms; Index of names; Index of subjects.</subfield>
+  </datafield>
+  <datafield tag="588" ind1="0" ind2=" ">
+    <subfield code="a">Print version record.</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">Cambridge University Press</subfield>
+    <subfield code="b">Cambridge eBooks and Partner Presses: All Books</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">Access is available to the Temple Community through use of a networked computer with a Temple IP address.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Democracy.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Comparative government.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Representative government and representation.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Comparative government.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00871341</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Democracy.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst00890077</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Representative government and representation.</subfield>
+    <subfield code="2">fast</subfield>
+    <subfield code="0">(OCoLC)fst01094941</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="0">
+    <subfield code="a">Electronic books.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Deth, Jan W. van.</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Print version:</subfield>
+    <subfield code="a">Newton, Kenneth, 1940-</subfield>
+    <subfield code="t">Foundations of comparative politics.</subfield>
+    <subfield code="d">Cambridge ; New York : Cambridge University Press, 2005</subfield>
+    <subfield code="z">0521829313</subfield>
+    <subfield code="z">0521536200</subfield>
+    <subfield code="w">(DLC)  2006295416</subfield>
+    <subfield code="w">(OCoLC)58555755</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Cambridge textbooks in comparative politics</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">https://doi.org/10.1017/CBO9780511806810</subfield>
+  </datafield>
+  <datafield tag="979" ind1=" " ind2=" ">
+    <subfield code="a">ocm77570775 </subfield>
+  </datafield>
+  <datafield tag="ADM" ind1=" " ind2=" ">
+    <subfield code="b">2020-09-03 10:17:18</subfield>
+    <subfield code="e">ocm77570775</subfield>
+    <subfield code="d">OCLC</subfield>
+    <subfield code="f">20200901064552.1</subfield>
+    <subfield code="a">2020-09-02 12:23:37</subfield>
+    <subfield code="c">false</subfield>
+  </datafield>
+  <datafield tag="PRT" ind1=" " ind2=" ">
+    <subfield code="updated">2020-09-02 12:24:24</subfield>
+    <subfield code="i">61530087730003811</subfield>
+    <subfield code="c">Cambridge Core Ebooks</subfield>
+    <subfield code="created">2020-09-02 12:24:21</subfield>
+    <subfield code="j">62530087720003811</subfield>
+    <subfield code="a">53530949670003811</subfield>
+    <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991037717270803811</subfield>
+    <subfield code="9">Available</subfield>
+    <subfield code="8">53530949670003811</subfield>
+  </datafield>
+</record>
+</collection>
