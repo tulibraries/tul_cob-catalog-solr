@@ -4,10 +4,10 @@
 # However, sometimes Solr is still loading and we need to wait until it's done
 # befoe we can begin.
 
-STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr)
+STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr/admin/cores)
 
-while [[ "$STATUS" != "302" ]]; do
-  echo waiting for setup to complete or equal 302.
+while [[ "$STATUS" == "200" ]]; do
+  echo waiting for setup to complete or equal 200.
   echo "currently: $STATUS"
   sleep 2
   STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr)
@@ -15,8 +15,6 @@ done
 
 export SOLR_DISABLE_UPDATE_DATE_CHECK=yes
 
-for file in $(find ./spec/fixtures -type f -name '*.xml'); do
-  bundle exec cob_index ingest $file
-done
+find ./spec/fixtures -type f -name '*.xml' -exec bundle exec cob_index ingest '{}' --no-commit \;
 
 bundle exec cob_index commit
