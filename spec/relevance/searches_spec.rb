@@ -34,6 +34,8 @@ RSpec.describe "Searches" do
 
     it "returns a document for that creator" do
       title = docs.first["title_statement_display"].join
+      # First result will be the one that has "Virginia Scott" in title and in
+      # creator fields (work_access_point field combines title and author).
       expect(title).to eq("Google / Virginia Scott.")
     end
   end
