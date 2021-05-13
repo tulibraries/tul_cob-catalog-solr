@@ -13,7 +13,7 @@ RSpec.describe "Searches" do
   context "search for Google" do
     let(:search_term) { "Google" }
 
-    it "returns a documetn with Google in it's title" do
+    it "returns a document with Google in it's title" do
       title = docs.first["title_statement_display"].join
       expect(title).to eq("Google / Virginia Scott.")
     end
@@ -101,6 +101,17 @@ RSpec.describe "Searches" do
     it "returns a document with that specific lccn" do
       title = docs.first["title_statement_display"].join
       expect(title).to eq("Religious liberty : the positive dimension : an address / by Franklin H. Littell at Doane College on April 26, 1966.")
+    end
+  end
+
+  describe "searching with a creator name and title" do
+    context "Martin Game Of Thrones" do
+      let(:search_term) { "Martin Game of Thrones" }
+
+      it "should return the book written by him and not a book about him" do
+        title = docs.first["title_statement_display"].join
+        expect(title).to eq("A game of thrones / George R.R. Martin.")
+      end
     end
   end
 end
