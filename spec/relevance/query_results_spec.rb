@@ -203,15 +203,15 @@ RSpec.describe "query results spec" do
 
     context "search 'journal of materials chemistry'" do
       let(:search_terms) { { title: "journal of materials chemistry" } }
-      let(:primary_ids) { [ "991036749632703811" ] }
-      let(:secondary_ids) {
+      let(:primary_ids) {
         [ "991036749633503811",
           "991036749630403811",
+          "991036749632703811",
           "991036749630103811" ] }
 
       it "returns expected values" do
         expect(ids).to include_items(primary_ids)
-          .before(secondary_ids)
+          .within_the_first(5)
       end
     end
 
