@@ -124,6 +124,7 @@
          call_number_display,
          contributor_display,
          creator_display,
+         date_added_facet,
          format,
          holdings_display,
          holdings_summary_display,
