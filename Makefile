@@ -10,7 +10,8 @@ tty-app:
 tty-solr:
 	$(DOCKER) exec solr bash
 test:
-	$(DOCKER) exec app bundle exec rspec
+	#$(DOCKER) exec app bundle exec rspec ./spec/relevance/name_initials_query_spec.rb
+	$(DOCKER) exec app bundle exec rspec 
 load-data:
 	$(DOCKER) exec app load-data
 reload-config:
