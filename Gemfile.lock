@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 2d065772ca0824c8941509956d85bbabc7acf58d
-  tag: v0.6.9
+  revision: 77ae7fd4097dffb6733544a686ff63fb1469bea5
+  tag: v0.6.10
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -110,7 +110,7 @@ GEM
     rspec-support (3.10.2)
     ruby2_keywords (0.0.4)
     scrub_rb (1.0.1)
-    slop (4.8.2)
+    slop (4.9.0)
     traject (3.5.0)
       concurrent-ruby (>= 0.8.0)
       dot-properties (>= 0.1.1)
