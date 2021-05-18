@@ -4,7 +4,7 @@
 # However, sometimes Solr is still loading and we need to wait until it's done
 # befoe we can begin.
 
-STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr/admin/cores)
+STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr)
 
 while [[ "$STATUS" != "302" ]]; do
   echo waiting for setup to complete or equal 302.

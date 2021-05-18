@@ -102,7 +102,7 @@ RSpec.describe "Searches" do
       title = docs.first["title_statement_display"].join
       expect(title).to eq("Religious liberty : the positive dimension : an address / by Franklin H. Littell at Doane College on April 26, 1966.")
     end
-  end
+    end
 
   describe "searching with a creator name and title" do
     context "Martin Game Of Thrones" do

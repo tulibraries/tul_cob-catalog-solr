@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection xmlns='http://www.loc.gov/MARC21/slim' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd'>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>01172nam 2200373 i 4500</leader>
+    <controlfield tag="001">991037481351903811</controlfield>
+    <controlfield tag="005">20201119112625.0</controlfield>
+    <controlfield tag="006">m o d | </controlfield>
+    <controlfield tag="007">cr#cnu||||||||</controlfield>
+    <controlfield tag="008">171008s2012 sp o 001 1 spa d</controlfield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">84-206-7389-7</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(CKB)3790000000476898</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(MiAaPQ)EBC4909461</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(EXLCZ)993790000000476898</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">FINmELB</subfield>
+      <subfield code="b">spa</subfield>
+      <subfield code="e">rda</subfield>
+      <subfield code="c">FINmELB</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="050">
+      <subfield code="a">PR823</subfield>
+      <subfield code="b">E428 2012</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="080">
+      <subfield code="a">821.111-3</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="082">
+      <subfield code="a">823.009</subfield>
+      <subfield code="2">23</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Eliot, George.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="245">
+      <subfield code="a">Silas Marner /</subfield>
+      <subfield code="c">George Eliot.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">Madrid :</subfield>
+      <subfield code="b">Difusora Larousse - Alianza Editorial,</subfield>
+      <subfield code="c">[2012]</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">1 online resource (158 páginas sin numerar)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">computer</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">online resource</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+      <subfield code="a">Contiene índice.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="588">
+      <subfield code="a">Description based on online resource; title from PDF title page (ebrary, viewed October 08, 2017).</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">English fiction.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="650">
+      <subfield code="a">Novela inglesa.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">English literature.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="650">
+      <subfield code="a">Literatura inglesa.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="655">
+      <subfield code="a">Libros electronicos.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="797">
+      <subfield code="a">e-libro, Corp.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="776">
+      <subfield code="z">84-206-6957-1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="906">
+      <subfield code="a">BOOK</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-12-01 12:15:57</subfield>
+      <subfield code="e">(CKB)3790000000476898</subfield>
+      <subfield code="d">EBC</subfield>
+      <subfield code="a">2017-11-11 15:18:22</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="PRT">
+      <subfield code="updated">2020-04-09 22:03:38</subfield>
+      <subfield code="i">61508713510003811</subfield>
+      <subfield code="e">Ebook Central</subfield>
+      <subfield code="c">Elibro via Ebook Central Premium</subfield>
+      <subfield code="created">2020-04-09 22:02:19</subfield>
+      <subfield code="j">62508713500003811</subfield>
+      <subfield code="a">53509216060003811</subfield>
+      <subfield code="b">https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01TULI_INST/openurl?u.ignore_date_coverage=true&amp;rft.mms_id=991037481351903811</subfield>
+      <subfield code="9">Available</subfield>
+      <subfield code="h">613790000000001515</subfield>
+      <subfield code="8">53509216060003811</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>01069aam a2200289Ii 4500</leader>
+    <controlfield tag="005">20191202195855.0</controlfield>
+    <controlfield tag="008">180810s2019 enk 000 p eng d</controlfield>
+    <controlfield tag="001">991037310799703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">0571351131</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9780571351138</subfield>
+      <subfield code="q">(hardback)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)1128268119</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">YDX</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">YDX</subfield>
+      <subfield code="d">BDX</subfield>
+      <subfield code="d">OCLCQ</subfield>
+      <subfield code="d">UKMGB</subfield>
+      <subfield code="d">OCLCQ</subfield>
+      <subfield code="d">PPT</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="050">
+      <subfield code="a">PS3509.L43</subfield>
+      <subfield code="b">W3 2019</subfield>
+    </datafield>
+    <datafield ind1="0" ind2="4" tag="082">
+      <subfield code="a">821.912</subfield>
+      <subfield code="2">23</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Eliot, T. S.</subfield>
+      <subfield code="q">(Thomas Stearns),</subfield>
+      <subfield code="d">1888-1965</subfield>
+      <subfield code="e">author.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79006870</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="245">
+      <subfield code="a">The waste land /</subfield>
+      <subfield code="c">T.S. Eliot.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="250">
+      <subfield code="a">Faber and Faber 90th anniversary special edition.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">London :</subfield>
+      <subfield code="b">Faber &amp; Faber,</subfield>
+      <subfield code="c">2019.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">41 pages ;</subfield>
+      <subfield code="c">20 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Poetry.</subfield>
+      <subfield code="2">lcgft</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/genreForms/gf2014026481</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Poetry.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1423828</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20191217</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">(OCoLC)1128268119</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="997">
+      <subfield code="a">20191118085855.0</subfield>
+      <subfield code="c">CEP</subfield>
+      <subfield code="d">TEU</subfield>
+      <subfield code="s">OCLC</subfield>
+      <subfield code="e">WCAT</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2021-03-05 12:44:44</subfield>
+      <subfield code="e">991037310799703811</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20191202195855.0</subfield>
+      <subfield code="a">2019-09-27 19:08:35</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">AMBLER</subfield>
+      <subfield code="c">stacks</subfield>
+      <subfield code="h">PS3509.L43</subfield>
+      <subfield code="i">W3 2019</subfield>
+      <subfield code="8">22474493290003811</subfield>
+      <subfield code="updated">2019-11-18 14:19:06</subfield>
+      <subfield code="created">2019-09-27 19:08:57</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22474493290003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">stacks</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074031800808</subfield>
+      <subfield code="e">stacks</subfield>
+      <subfield code="l">0</subfield>
+      <subfield code="8">23474493280003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">PS3509.L43 W3 2019</subfield>
+      <subfield code="updated">2020-10-01 15:56:42</subfield>
+      <subfield code="q">2019-09-27 19:08:57</subfield>
+      <subfield code="d">AMBLER</subfield>
+      <subfield code="f">AMBLER</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>01851nam a2200457 4500</leader>
+    <controlfield tag="005">20190715234344.0</controlfield>
+    <controlfield tag="008">950511s1956 enk b 001 0 eng </controlfield>
+    <controlfield tag="001">991020180379703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="010">
+      <subfield code="a">57000548 /L</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(PPT)b14139078-01tuli_inst</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(CStRLIN)ocn471405572</subfield>
+      <subfield code="9">ExL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">PATG95-B29625</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">ocm01005306</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCLC)ocm01005306</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="b">eng</subfield>
+      <subfield code="c">IaU</subfield>
+      <subfield code="d">NIC</subfield>
+      <subfield code="d">PU</subfield>
+      <subfield code="d">PPT</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="079">
+      <subfield code="a">ocm01005306</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="090">
+      <subfield code="a">PQ2344.Z5C55 1956</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Chiari, Joseph.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79007031</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="245">
+      <subfield code="a">Symbolisme from Poe to Mallarmé;</subfield>
+      <subfield code="b">the growth of a myth. /</subfield>
+      <subfield code="c">Foreword by T.S. Eliot.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">London :</subfield>
+      <subfield code="b">Rockliff,</subfield>
+      <subfield code="c">[1956]</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">x, 198 pages ;</subfield>
+      <subfield code="c">22 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="504">
+      <subfield code="a">Includes bibliographical references (pages 188-192) and index.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Symbolism in literature.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh85131419</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="650">
+      <subfield code="a">Symbolism in literature.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1759341</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Mallarmé, Stéphane,</subfield>
+      <subfield code="d">1842-1898.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79045066</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Mallarmé, Stéphane,</subfield>
+      <subfield code="d">1842-1898.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/34378</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Poe, Edgar Allan,</subfield>
+      <subfield code="d">1809-1849.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79029745</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="600">
+      <subfield code="a">Poe, Edgar Allan,</subfield>
+      <subfield code="d">1809-1849.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/32674</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Poe, Edgar Allan,</subfield>
+      <subfield code="d">1809-1849.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/32674</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="600">
+      <subfield code="a">Mallarmé, Stéphane,</subfield>
+      <subfield code="d">1842-1898.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/34378</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20200629</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="907">
+      <subfield code="a">.b14139078</subfield>
+      <subfield code="b">p </subfield>
+      <subfield code="c">-</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="935">
+      <subfield code="a">00445986</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">pstk </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="950">
+      <subfield code="l">P</subfield>
+      <subfield code="i">05/11/95 N</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="955">
+      <subfield code="l">P</subfield>
+      <subfield code="c">0</subfield>
+      <subfield code="i">05/11/95 C</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">ocm01005306</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="b">1</subfield>
+      <subfield code="c">990101</subfield>
+      <subfield code="d">m</subfield>
+      <subfield code="e">a</subfield>
+      <subfield code="f">-</subfield>
+      <subfield code="g">0</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="a">05/11/95</subfield>
+      <subfield code="t">c</subfield>
+      <subfield code="s">9114</subfield>
+      <subfield code="l">PATG</subfield>
+      <subfield code="n">PPT</subfield>
+      <subfield code="w">PAUGC002804891B</subfield>
+      <subfield code="d">05/11/95</subfield>
+      <subfield code="b">TB</subfield>
+      <subfield code="i">950511</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2020-07-24 12:44:04</subfield>
+      <subfield code="e">b14139078-01tuli_inst</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607144805.0</subfield>
+      <subfield code="a">2017-06-20 06:50:31</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">MAIN</subfield>
+      <subfield code="c">stacks</subfield>
+      <subfield code="h">PQ2344.Z5C55 1956</subfield>
+      <subfield code="8">22255711350003811</subfield>
+      <subfield code="created">2017-06-20 06:50:31</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22255711350003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">stacks</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="9">39074003382942</subfield>
+      <subfield code="e">stacks</subfield>
+      <subfield code="8">23255711320003811</subfield>
+      <subfield code="a">0</subfield>
+      <subfield code="i">PQ2344.Z5C55 1956</subfield>
+      <subfield code="updated">2017-06-20 06:51:07</subfield>
+      <subfield code="q">2017-06-20 06:50:31</subfield>
+      <subfield code="d">MAIN</subfield>
+      <subfield code="f">MAIN</subfield>
+    </datafield>
+  </record>
+  <record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>01781cam a2200445Ia 4500</leader>
+    <controlfield tag="005">20190923161653.0</controlfield>
+    <controlfield tag="008">050627t20052005nyu b 000 1 eng d</controlfield>
+    <controlfield tag="001">991002633159703811</controlfield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">1593082797</subfield>
+      <subfield code="q">paperback</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="020">
+      <subfield code="a">9781593082796</subfield>
+      <subfield code="q">paperback</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(PPT)b43263835-01tuli_inst</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)ocn680642121</subfield>
+      <subfield code="9">ExL</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)60747139</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">ocm60747139</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCLC)ocm60747139</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">DAJ</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">DAJ</subfield>
+      <subfield code="d">BAKER</subfield>
+      <subfield code="d">BTCTA</subfield>
+      <subfield code="d">OCLCG</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="050">
+      <subfield code="a">PS3509.L43</subfield>
+      <subfield code="b">A6 2005</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="079">
+      <subfield code="a">ocm60747139</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="090">
+      <subfield code="a">PS3509.L43</subfield>
+      <subfield code="b">A6 2005</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Eliot, T. S.</subfield>
+      <subfield code="q">(Thomas Stearns),</subfield>
+      <subfield code="d">1888-1965.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/names/n79006870</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="245">
+      <subfield code="a">The waste land and other poems /</subfield>
+      <subfield code="c">T.S. Eliot.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">Barnes &amp; Noble Classics,</subfield>
+      <subfield code="c">[2005]</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="264">
+      <subfield code="c">©2005</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">xxxi, 121 pages ;</subfield>
+      <subfield code="c">21 cm</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="504">
+      <subfield code="a">Includes bibliographical references (119-121).</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="505">
+      <subfield code="a">The world of T.S. Eliot and his poetry -- Introduction by Randy Malamud -- Prufrock and other observations (1917) -- Poems 1920 -- The waste land (1922) -- Endnotes -- Inspired by T.S. Eliot and The Waste Land -- Comments &amp; questions.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">American poetry</subfield>
+      <subfield code="y">20th century.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh85004387</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="7" tag="650">
+      <subfield code="a">American poetry.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/807348</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Fiction.</subfield>
+      <subfield code="2">lcgft</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/genreForms/gf2014026339</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Fiction.</subfield>
+      <subfield code="2">fast</subfield>
+      <subfield code="0">http://id.worldcat.org/fast/1423787</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="648">
+      <subfield code="a">20th century.</subfield>
+      <subfield code="2">fast</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">101112</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="902">
+      <subfield code="a">MARCIVE-BF 20190703</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE-SC</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="904">
+      <subfield code="a">MARCIVE 20200629</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="907">
+      <subfield code="a">.b43263835</subfield>
+      <subfield code="b">b </subfield>
+      <subfield code="c">-</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="945">
+      <subfield code="l">b </subfield>
+      <subfield code="g">1</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">ocm60747139</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="b">0</subfield>
+      <subfield code="c">100615</subfield>
+      <subfield code="d">m</subfield>
+      <subfield code="e">a</subfield>
+      <subfield code="f">-</subfield>
+      <subfield code="g">4</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="a">06/15/10</subfield>
+      <subfield code="s">OCLC</subfield>
+      <subfield code="c">AB</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ADM">
+      <subfield code="b">2021-03-05 12:50:08</subfield>
+      <subfield code="e">b43263835-01tuli_inst</subfield>
+      <subfield code="d">MARCIVE</subfield>
+      <subfield code="f">20190607213407.0</subfield>
+      <subfield code="a">2017-06-20 10:47:31</subfield>
+      <subfield code="c">false</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="HLD">
+      <subfield code="b">BLOCKSON</subfield>
+      <subfield code="c">rarestacks</subfield>
+      <subfield code="h">PS3509.L43</subfield>
+      <subfield code="i">A6 2005</subfield>
+      <subfield code="8">22306167390003811</subfield>
+      <subfield code="created">2017-06-20 10:47:31</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="ITM">
+      <subfield code="r">22306167390003811</subfield>
+      <subfield code="b">1</subfield>
+      <subfield code="h">0</subfield>
+      <subfield code="g">rarestacks</subfield>
+      <subfield code="t">BOOK</subfield>
+      <subfield code="e">rarestacks</subfield>
+      <subfield code="8">23306167380003811</subfield>
+      <subfield code="a">3</subfield>
+      <subfield code="i">PS3509.L43 A6 2005</subfield>
+      <subfield code="updated">2020-03-25 19:30:35</subfield>
+      <subfield code="q">2017-06-20 10:47:31</subfield>
+      <subfield code="d">BLOCKSON</subfield>
+      <subfield code="f">BLOCKSON</subfield>
+    </datafield>
+  </record>
+</collection>

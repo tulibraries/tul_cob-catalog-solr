@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3.3"
 
 services:
   app:
@@ -22,6 +22,9 @@ services:
     volumes:
       - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
       - .:/opt/solr/configs/tul_cob-catalog-solr
+    ports:
+      - 8983
+
     entrypoint:
       - bash
       - "-c"
