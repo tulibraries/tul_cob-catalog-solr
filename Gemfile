@@ -8,7 +8,7 @@ gem "rsolr"
 gem "rspec"
 gem "cob_index",
   git: "https://github.com/tulibraries/cob_index.git",
-  tag: "v0.6.9"
+  tag: "v0.6.10"
 gem "alma",
   git: "https://github.com/tulibraries/alma_rb.git",
   tag: "v0.3.1"

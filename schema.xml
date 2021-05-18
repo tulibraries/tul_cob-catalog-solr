@@ -484,7 +484,7 @@
    <!-- pub_date sort uses new trie-based int fields, which are recommended for any int and are displayable, sortable, and range-quer
    we use 'tint' for faster range-queries. -->
    <field name="pub_date_sort" type="tint" indexed="true" stored="true" multiValued="false"/>
-   <field name="date_added_facet" type="tint" indexed="true" stored="true" multiValued="false"/>
+   <field name="date_added_facet" type="tint" indexed="true" stored="true" multiValued="true"/>
 
    <field name="lc_outer_facet" type="string" indexed="true" stored="true" multiValued="false" />
    <field name="lc_inner_facet" type="string" indexed="true" stored="true" multiValued="false" />
