@@ -202,6 +202,12 @@ RSpec.describe "query results spec" do
     end
 
     context "search 'journal of materials chemistry'" do
+      # We updated this test to only check that the primary ids all appear
+      # within the first five results because changes to the
+      # title_unstem_search boost caused it to fail. We think the the intent of
+      # this test  was to show the boosting effects  caused by
+      # title_uniform_unstem_search boost, but perhaps we need another test
+      # that is more clear for that case.
       let(:search_terms) { { title: "journal of materials chemistry" } }
       let(:primary_ids) {
         [ "991036749633503811",

@@ -23,8 +23,7 @@ services:
       - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
       - .:/opt/solr/configs/tul_cob-catalog-solr
     ports:
-      - 8983
-
+      - 8983:8983
     entrypoint:
       - bash
       - "-c"
