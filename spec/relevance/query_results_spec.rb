@@ -182,13 +182,22 @@ RSpec.describe "query results spec" do
       end
     end
 
-    context "search '991035120939703811'" do
-      let(:search_terms) { {  callnum: '"PN1997.2 .S462x 2003"' } }
+    context "search PN1997.2 .S462x 2003" do
+      let(:search_terms) { {  callnum: "PN1997.2 .S462x 2003" } }
       let(:primary_ids) { [ "991035120939703811" ] }
       it "returns expected values" do
         expect(ids).to include_items(primary_ids)
       end
     end
+
+    context "search \" PN1997.2 .S462x 2003 \"" do
+      let(:search_terms) { {  callnum: "\"PN1997.2 .S462x 2003\"" } }
+      let(:primary_ids) { [ "991035120939703811" ] }
+      it "returns expected values" do
+        expect(ids).to include_items(primary_ids)
+      end
+    end
+
 
     context "search 'bicycle thieves'" do
       let(:search_terms) { { title: "bicycle thieves" } }
