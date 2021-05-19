@@ -68,7 +68,6 @@
 
     <!-- The StrField type is not analyzed, but indexed/stored verbatim. -->
     <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
-
     <!-- boolean type: "true" or "false" -->
     <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
     <!--Binary data type. The data should be sent/retrieved in as Base64 encoded Strings -->
@@ -178,28 +177,6 @@
        </analyzer>
      </fieldType>
 
-    <!-- One can also specify an existing Analyzer class that has a
-         default constructor via the class attribute on the analyzer element
-    <fieldType name="text_greek" class="solr.TextField">
-      <analyzer class="org.apache.lucene.analysis.el.GreekAnalyzer"/>
-    </fieldType>
-    -->
-
-    <!-- A text field that only splits on whitespace for exact matching of words -->
-    <fieldType name="text_ws" class="solr.TextField" positionIncrementGap="100">
-      <analyzer type="index">
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.FlattenGraphFilterFactory"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-      </analyzer>
-      <analyzer type="query">
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-      </analyzer>
-    </fieldType>
-
     <!-- A general text field that has reasonable, generic
          cross-language defaults: it tokenizes with StandardTokenizer,
 	 , and down cases.  At query time only, it
@@ -246,75 +223,12 @@
         <tokenizer class="solr.WhitespaceTokenizerFactory"/>
         <filter class="solr.ICUFoldingFilterFactory" /> <!-- NFKC, case folding, diacritics removed -->
         <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0" splitOnCaseChange="1"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory"
+          generateWordParts="1" generateNumberParts="1" catenateWords="0"
+          catenateNumbers="0" catenateAll="0" splitOnCaseChange="1"/>
          <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
         <filter class="solr.PorterStemFilterFactory"/>
-      </analyzer>
-    </fieldType>
-
-    <!-- A text field with defaults appropriate for English, plus
-	 aggressive word-splitting and autophrase features enabled.
-	 This field is just like text_en, except it adds
-	 WordDelimiterFilter to enable splitting and matching of
-	 words on case-change, alpha numeric boundaries, and
-	 non-alphanumeric chars.  This means certain compound word
-	 cases will work, for example query "wi fi" will match
-	 document "WiFi" or "wi-fi".  However, other cases will still
-	 not match, for example if the query is "wifi" and the
-	 document is "wi fi" or if the query is "wi-fi" and the
-	 document is "wifi".
-        -->
-    <fieldType name="text_en_splitting" class="solr.TextField" positionIncrementGap="100" autoGeneratePhraseQueries="true">
-      <analyzer type="index">
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <!-- in this example, we will only use synonyms at query time
-        <filter class="solr.SynonymFilterFactory" synonyms="index_synonyms.txt" ignoreCase="true" expand="false"/>
-        -->
-        <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.KeywordMarkerFilterFactory" protected="protwords.txt"/>
-        <filter class="solr.PorterStemFilterFactory"/>
-      </analyzer>
-      <analyzer type="query">
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0" splitOnCaseChange="1"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.KeywordMarkerFilterFactory" protected="protwords.txt"/>
-        <filter class="solr.PorterStemFilterFactory"/>
-      </analyzer>
-    </fieldType>
-
-    <!-- Less flexible matching, but less false matches.  Probably not ideal for product names,
-         but may be good for SKUs.  Can insert dashes in the wrong place and still match. -->
-    <fieldType name="text_en_splitting_tight" class="solr.TextField" positionIncrementGap="100" autoGeneratePhraseQueries="true">
-      <analyzer>
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="false"/>
-        <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="0" generateNumberParts="0" catenateWords="1" catenateNumbers="1" catenateAll="0"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.KeywordMarkerFilterFactory" protected="protwords.txt"/>
-        <filter class="solr.EnglishMinimalStemFilterFactory"/>
-        <!-- this filter can remove any duplicate tokens that appear at the same position - sometimes
-             possible with WordDelimiterFilter in conjuncton with stemming. -->
-        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
-      </analyzer>
-    </fieldType>
-
-    <!-- Just like text_general except it reverses the characters of
-	 each token, to enable more efficient leading wildcard queries. -->
-    <fieldType name="text_general_rev" class="solr.TextField" positionIncrementGap="100">
-      <analyzer type="index">
-        <tokenizer class="solr.StandardTokenizerFactory"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.ReversedWildcardFilterFactory" withOriginal="true"
-           maxPosAsterisk="3" maxPosQuestion="2" maxFractionAsterisk="0.33"/>
-      </analyzer>
-      <analyzer type="query">
-        <tokenizer class="solr.StandardTokenizerFactory"/>
-        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
     </fieldType>
 
@@ -333,16 +247,6 @@
           <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
        </analyzer>
     </fieldType>
-
-    <!-- charFilter + WhitespaceTokenizer  -->
-    <!--
-    <fieldType name="text_char_norm" class="solr.TextField" positionIncrementGap="100" >
-      <analyzer>
-        <charFilter class="solr.MappingCharFilterFactory" mapping="mapping-ISOLatin1Accent.txt"/>
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-      </analyzer>
-    </fieldType>
-    -->
 
     <!-- This is an example of using the KeywordTokenizer along
          With various TokenFilterFactories to produce a sortable field
@@ -377,70 +281,12 @@
       </analyzer>
     </fieldType>
 
-    <fieldtype name="phonetic" stored="false" indexed="true" class="solr.TextField" >
-      <analyzer>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
-        <filter class="solr.DoubleMetaphoneFilterFactory" inject="false"/>
-      </analyzer>
-    </fieldtype>
-
-    <fieldtype name="payloads" stored="false" indexed="true" class="solr.TextField" >
-      <analyzer>
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <!--
-        The DelimitedPayloadTokenFilter can put payloads on tokens... for example,
-        a token of "foo|1.4"  would be indexed as "foo" with a payload of 1.4f
-        Attributes of the DelimitedPayloadTokenFilterFactory :
-         "delimiter" - a one character delimiter. Default is | (pipe)
-	 "encoder" - how to encode the following value into a playload
-	    float -> org.apache.lucene.analysis.payloads.FloatEncoder,
-	    integer -> o.a.l.a.p.IntegerEncoder
-	    identity -> o.a.l.a.p.IdentityEncoder
-            Fully Qualified class name implementing PayloadEncoder, Encoder must have a no arg constructor.
-         -->
-        <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="float"/>
-      </analyzer>
-    </fieldtype>
-
-    <!-- lowercases the entire field value, keeping it as a single token.  -->
-    <fieldType name="lowercase" class="solr.TextField" positionIncrementGap="100">
-      <analyzer>
-        <tokenizer class="solr.KeywordTokenizerFactory"/>
-        <filter class="solr.LowerCaseFilterFactory" />
-      </analyzer>
-    </fieldType>
-
-    <fieldType name="text_path" class="solr.TextField" positionIncrementGap="100">
-      <analyzer>
-        <tokenizer class="solr.PathHierarchyTokenizerFactory"/>
-      </analyzer>
-    </fieldType>
-
     <!-- since fields of this type are by default not stored or indexed,
          any data added to them will be ignored outright.  -->
     <fieldtype name="ignored" stored="false" indexed="false" multiValued="true" class="solr.StrField" />
 
-    <!-- This point type indexes the coordinates as separate fields (subFields)
-      If subFieldType is defined, it references a type, and a dynamic field
-      definition is created matching *___<typename>.  Alternately, if
-      subFieldSuffix is defined, that is used to create the subFields.
-      Example: if subFieldType="double", then the coordinates would be
-        indexed in fields myloc_0___double,myloc_1___double.
-      Example: if subFieldSuffix="_d" then the coordinates would be indexed
-        in fields myloc_0_d,myloc_1_d
-      The subFields are an implementation detail of the fieldType, and end
-      users normally should not need to know about them.
-     -->
-    <fieldType name="point" class="solr.PointType" dimension="2" subFieldSuffix="_d"/>
-
     <!-- A specialized field for geospatial search. If indexed, this fieldType must not be multivalued. -->
     <fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coordinate"/>
-
-   <!--
-    A Geohash is a compact representation of a latitude longitude pair in a single field.
-    See http://wiki.apache.org/solr/SpatialSearch
-   -->
-    <fieldtype name="geohash" class="solr.GeoHashField"/>
  </types>
 
 
@@ -553,12 +399,6 @@
    <dynamicField name="*spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
    <dynamicField name="*suggest" type="textSuggest" indexed="true" stored="false" multiValued="true" />
 
-   <!-- uncomment the following to ignore any fields that don't already match an existing
-        field name or dynamic field, rather than reporting them as an error.
-        alternately, change the type="ignored" to some other type e.g. "text" if you want
-        unknown fields indexed and/or stored by default -->
-   <!--dynamicField name="*" type="ignored" multiValued="true" /-->
-
  </fields>
 
  <!-- Field to use to determine and enforce document uniqueness.
@@ -599,25 +439,6 @@
    <copyField source="*_display" dest="text" />
    <copyField source="title_statement_display" dest="title_statement_including_author_t"/>
 
- <!-- spellcheck fields -->
-   <!-- default spell check;  should match fields for default request handler -->
-   <!-- it won't work with a copy of a copy field -->
-   <copyField source="*_t" dest="spell"/>
-   <copyField source="*_facet" dest="spell"/>
-   <!-- title spell check;  should match fields for title request handler -->
-   <copyField source="title_t" dest="title_spell"/>
-   <copyField source="subtitle_t" dest="title_spell"/>
-   <copyField source="title_uniform_t" dest="title_spell"/>
-   <copyField source="title_addl_t" dest="title_spell"/>
-   <copyField source="title_added_entry_t" dest="title_spell"/>
-   <copyField source="title_series_t" dest="title_spell"/>
-   <!-- author spell check; should match fields for author request handler -->
-   <copyField source="creator_t" dest="author_spell"/>
-   <!-- subject spell check; should match fields for subject request handler -->
-   <copyField source="subject_topic_facet" dest="subject_spell"/>
-   <copyField source="subject_t" dest="subject_spell"/>
-   <copyField source="subject_addl_t" dest="subject_spell"/>
-
    <!-- search fields for advanced search form-->
    <copyField source="title_display" dest="title_t"/>
    <copyField source="title_uniform_display" dest="title_uniform_t"/>
@@ -655,38 +476,5 @@
    <copyField source="subject_topic_facet" dest="opensearch_display"/>
    <copyField source="subject_t" dest="opensearch_display"/>
    <copyField source="subject_addl_t" dest="opensearch_display"/>
-
-
-   <!-- for suggestions
-     Suggestions are not used, and are breaking on immense fields
-     <copyField source="*_t" dest="suggest"/>
-     <copyField source="*_facet" dest="suggest"/>
-   -->
-
-   <!-- Above, multiple source fields are copied to the [text] field.
-	  Another way to map multiple source fields to the same
-	  destination field is to use the dynamic field syntax.
-	  copyField also supports a maxChars to copy setting.  -->
-
-   <!-- <copyField source="*_t" dest="text" maxChars="3000"/> -->
-
-   <!-- copy name to alphaNameSort, a field designed for sorting by name -->
-   <!-- <copyField source="name" dest="alphaNameSort"/> -->
-
-
- <!-- Similarity is the scoring routine for each document vs. a query.
-      A custom similarity may be specified here, but the default is fine
-      for most applications.  -->
- <!-- <similarity class="org.apache.lucene.search.DefaultSimilarity"/> -->
- <!-- ... OR ...
-      Specify a SimilarityFactory class name implementation
-      allowing parameters to be used.
- -->
- <!--
- <similarity class="com.example.solr.CustomSimilarityFactory">
-   <str name="paramkey">param value</str>
- </similarity>
- -->
-
 
 </schema>
