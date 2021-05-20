@@ -98,13 +98,8 @@
        <int name="rows">10</int>
        <bool name="sow">false</bool>
        <str name="q.alt">*:*</str>
-       <str name="mm">5&lt;-1</str>
-       <str name="mm">8&lt;75%</str>
-       <!-- Note that relaxing mm may cause undesired side effects,
-       hurting the precision of the search,
-       depending on the nature of your index content. -->
-       <bool name="mm.autoRelax">true</bool>
        <str name="wt">json</str>
+       <str name="mm">8&lt;-1 8&lt;90%</str>
 
        <bool name="lowercaseOperators">false</bool>
        <int name="ps">3</int>
