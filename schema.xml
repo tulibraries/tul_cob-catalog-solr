@@ -156,7 +156,7 @@
     <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
       <analyzer type="index">
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
         <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
         <filter class="solr.FlattenGraphFilterFactory"/>
         <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
@@ -164,7 +164,7 @@
       </analyzer>
       <analyzer type="query">
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
         <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
         <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
