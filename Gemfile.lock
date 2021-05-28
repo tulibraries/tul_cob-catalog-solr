@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 77ae7fd4097dffb6733544a686ff63fb1469bea5
-  tag: v0.6.10
+  revision: 8a7d7b252d0a5a83dc794cdb1c4d05cc2e82ab4f
+  tag: v0.7.0
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -51,7 +51,7 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
-    ffi (1.15.0)
+    ffi (1.15.1)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -86,7 +86,7 @@ GEM
     minitest (5.14.4)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nokogiri (1.11.4)
+    nokogiri (1.11.6)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     public_suffix (4.0.6)
