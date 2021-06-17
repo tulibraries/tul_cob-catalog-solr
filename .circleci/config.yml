@@ -23,7 +23,8 @@ workflows:
               only: /.*/
 jobs:
   run_tests:
-    machine: true
+    docker:
+      - image: cimg/base:2021.04
     steps:
       - checkout
       - restore_cache:
@@ -31,6 +32,7 @@ jobs:
             - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
             - gem-cache-v1-{{ arch }}-{{ .Branch }}
             - gem-cache-v1
+      - setup_remote_docker
       - run:
           name: Install Docker Compose
           command: |
