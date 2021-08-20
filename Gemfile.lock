@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 4c979bf81f8492cb8387752add3208ce21c774ef
-  tag: v0.8.1
+  revision: aff5e4afc4a05b019d464f1ef04d73a7eb487b17
+  tag: v0.8.2
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -84,12 +84,12 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
-    mini_portile2 (2.5.3)
+    mini_portile2 (2.6.1)
     minitest (5.14.4)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nokogiri (1.11.7)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.12.3)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     public_suffix (4.0.6)
     racc (1.5.2)
