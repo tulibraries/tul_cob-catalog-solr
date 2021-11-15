@@ -431,7 +431,8 @@
    <copyField source="note_related_display" dest="note_related_t"/>
    <copyField source="note_accruals_display" dest="note_accruals_t"/>
    <copyField source="note_local_display" dest="note_local_t"/>
-   <copyField source="donor_info_display" dest="donor_info_t"/>
+   <copyField source="donor_info_ms" dest="donor_info_t"/>
+   <copyField source="genre_ms" dest="genre_t"/>
 
    <!-- OpenSearch query field should match request handler search fields -->
    <copyField source="title_t" dest="opensearch_display"/>
