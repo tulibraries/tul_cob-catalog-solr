@@ -52,7 +52,7 @@ jobs:
           command: make test
   run_deploy:
     docker:
-      - image: circleci/python:3.6.6
+      - image: cimg/base:stable
         environment:
           PIPENV_VENV_IN_PROJECT: true
     steps:
