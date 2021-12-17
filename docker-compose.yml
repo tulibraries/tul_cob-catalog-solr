@@ -18,7 +18,7 @@ services:
       BUNDLE_PATH: /app/vendor/bundle
 
   solr:
-    image: solr:8.11.0
+    image: solr:8.11.1
     volumes:
       - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
       - .:/opt/solr/configs/tul_cob-catalog-solr
