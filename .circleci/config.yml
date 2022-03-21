@@ -23,7 +23,8 @@ workflows:
               only: /.*/
 jobs:
   run_tests:
-    machine: true
+    docker:
+      - image: cimg/python:3.7.11
     steps:
       - checkout
       - restore_cache:
@@ -52,7 +53,7 @@ jobs:
           command: make test
   run_deploy:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/python:3.7.11
         environment:
           PIPENV_VENV_IN_PROJECT: true
     steps:
