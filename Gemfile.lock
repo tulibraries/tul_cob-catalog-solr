@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 88694fa69bd5f51a84540d21cfb60218742c3e7c
-  tag: v0.8.8
+  revision: e288f4eddbc5dbe33abd71b9e7c03738f38b3029
+  tag: 0.8.9
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -57,12 +57,12 @@ GEM
       rake
     gli (2.21.0)
     hashie (5.0.0)
-    http (5.0.4)
+    http (5.1.0)
       addressable (~> 2.8)
       http-cookie (~> 1.0)
       http-form_data (~> 2.2)
       llhttp-ffi (~> 0.4.0)
-    http-cookie (1.0.4)
+    http-cookie (1.0.5)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
     httparty (0.18.1)
@@ -79,7 +79,7 @@ GEM
       rexml
       scrub_rb (>= 1.0.1, < 2)
       unf
-    marc-fastxmlwriter (1.0.0)
+    marc-fastxmlwriter (1.1.0)
       marc (~> 1.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
@@ -128,7 +128,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8.1)
+    unf_ext (0.0.8.2)
     xml-simple (1.1.8)
     yell (2.2.2)
     zeitwerk (2.4.2)
