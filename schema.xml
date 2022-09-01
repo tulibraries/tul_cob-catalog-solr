@@ -442,6 +442,7 @@
    <copyField source="title_added_entry_t" dest="opensearch_display"/>
    <copyField source="title_series_t" dest="opensearch_display"/>
    <copyField source="creator_t" dest="opensearch_display"/>
+   <copyField source="creator_facet" dest="creator_ms"/>
    <!-- <copyField source="author_addl_t" dest="opensearch_display"/> -->
    <copyField source="subject_topic_facet" dest="opensearch_display"/>
    <copyField source="subject_t" dest="opensearch_display"/>
