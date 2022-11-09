@@ -134,6 +134,7 @@
          lccn_display,
          library_facet,
          location_display,
+         note_summary_display,
          oclc_number_display,
          pub_date,
          purchase_order,
