@@ -417,6 +417,7 @@
    <copyField source="alma_mms_display" dest="alma_mms_t"/>
    <copyField source="title_series_display" dest="title_series_t"/>
    <copyField source="note_display" dest="note_t"/>
+   <copyField source="note_award_display" dest="note_t"/>
    <copyField source="note_with_display" dest="note_with_t"/>
    <copyField source="note_diss_display" dest="note_diss_t"/>
    <copyField source="note_biblio_display" dest="note_biblio_t"/>
