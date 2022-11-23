@@ -9,7 +9,5 @@ gem "rspec"
 gem "cob_index",
   git: "https://github.com/tulibraries/cob_index.git",
   tag: "v0.10.0"
-gem "alma",
-  git: "https://github.com/tulibraries/alma_rb.git",
-  tag: "v0.3.1"
+gem "alma"
 gem "lc_solr_sortable", git: "https://github.com/tulibraries/lc_solr_sortable", branch: "main"
