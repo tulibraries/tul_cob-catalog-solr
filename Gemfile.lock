@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: f860e27638c133ae3b39a1333c6bf61c57e6881d
-  tag: v0.10.0
+  revision: 1e84cd699e37deb6893b21342aa2731330672aed
+  tag: v0.10.1
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -83,7 +83,7 @@ GEM
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    public_suffix (5.0.0)
+    public_suffix (5.0.1)
     racc (1.6.1)
     rake (13.0.6)
     rexml (3.2.5)
