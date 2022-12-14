@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: f860e27638c133ae3b39a1333c6bf61c57e6881d
-  tag: v0.10.0
+  revision: 3ee351c435c3d029e629b19b649a10ce0736228c
+  branch: v0.11.0
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: https://github.com/tulibraries/lc_solr_sortable
-  revision: adf370b897645e036b9a1adcd0e114cb32786725
+  revision: a7935a813dee150bfb213427b80f291de651ac35
   branch: main
   specs:
     lc_solr_sortable (0.1.0)
@@ -40,10 +40,10 @@ GEM
     ezwadl (0.1.0)
       httparty (~> 0.14)
       nokogiri (~> 1.6)
-    faraday (2.3.0)
-      faraday-net_http (~> 2.0)
+    faraday (2.7.1)
+      faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (2.0.3)
+    faraday-net_http (3.0.2)
     ffi (1.15.5)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -77,13 +77,13 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mini_portile2 (2.8.0)
     minitest (5.16.3)
     multi_xml (0.6.0)
-    nokogiri (1.13.10)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
-    public_suffix (5.0.0)
+    nokogiri (1.13.10-x86_64-linux)
+      racc (~> 1.4)
+    public_suffix (5.0.1)
     racc (1.6.1)
     rake (13.0.6)
     rexml (3.2.5)
@@ -99,14 +99,14 @@ GEM
     rspec-expectations (3.12.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
-    rspec-mocks (3.12.0)
+    rspec-mocks (3.12.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
     ruby2_keywords (0.0.5)
     scrub_rb (1.0.1)
     slop (4.9.3)
-    traject (3.7.0)
+    traject (3.8.1)
       concurrent-ruby (>= 0.8.0)
       dot-properties (>= 0.1.1)
       hashie (>= 3.1, < 6)
@@ -127,7 +127,8 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   alma
@@ -137,4 +138,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   2.1.4
+   2.3.26
