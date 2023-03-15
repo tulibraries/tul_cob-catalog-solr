@@ -259,6 +259,14 @@
 
     <!-- A specialized field for geospatial search. If indexed, this fieldType must not be multivalued. -->
     <fieldType name="location" class="solr.LatLonPointSpatialField" docValues="true" />
+
+    <!-- For fields you do not want split into tokens -->
+    <fieldType name="simple_string" class="solr.TextField" omitNorms="true">
+      <analyzer>
+        <tokenizer class="solr.KeywordTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+    </fieldType>
  </types>
 
 
@@ -324,6 +332,7 @@
 
    <field name="work_access_point" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="purchase_order" type="boolean" indexed="false" stored="true" multiValued="false" default="false" />
+   <field name="call_number_t" type="string" indexed="true" stored="true" multiValued="true"/>
 
 
    <!-- Dynamic field definitions.  If a field name is not found, dynamicFields
