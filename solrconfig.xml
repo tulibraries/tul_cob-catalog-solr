@@ -184,6 +184,7 @@
          subject_topic_unstem_search^1000.0
          subject_unstem_search^750.0
          subject_topic_facet^625.0
+         creator_group_t^500.0
          subject_t^500.0
          creator_t^100.0
          subject_addl_unstem_search^250.0
