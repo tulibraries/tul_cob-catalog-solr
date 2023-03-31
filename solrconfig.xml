@@ -213,6 +213,7 @@
          subject_topic_unstem_search^10000.0
          subject_unstem_search^7500.0
          subject_topic_facet^6250.0
+         creator_group_t^5000.0
          subject_t^5000.0
          note_toc_unstem_search~0^6000.0
          note_summary_unstem_search~0^6000.0
