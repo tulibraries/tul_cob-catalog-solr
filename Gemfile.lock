@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: adea8dcf1b9b14917bf4b75a6725d2f1be2ed66e
-  tag: v0.12.0
+  revision: a6d364ae31995588f16760865ea4e9ecaf7a2ff4
+  tag: v0.13.0
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -23,7 +23,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.1)
+    addressable (2.8.3)
       public_suffix (>= 2.0.2, < 6.0)
     alma (0.4.0)
       activesupport
