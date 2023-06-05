@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: a6d364ae31995588f16760865ea4e9ecaf7a2ff4
-  tag: v0.13.0
+  revision: 54ec072624ab3a9455900233f175211d1fe8cdb9
+  tag: v0.13.1
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -23,7 +23,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.3)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     alma (0.4.0)
       activesupport
@@ -77,11 +77,11 @@ GEM
     mini_mime (1.1.2)
     minitest (5.18.0)
     multi_xml (0.6.0)
-    nokogiri (1.14.3-arm64-darwin)
+    nokogiri (1.15.2-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.3-x86_64-darwin)
+    nokogiri (1.15.2-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.3-x86_64-linux)
+    nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
     public_suffix (5.0.1)
     racc (1.6.2)
