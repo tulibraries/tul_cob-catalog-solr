@@ -3,7 +3,6 @@ version: "3.3"
 services:
   app:
     image: cimg/ruby:3.3.0
-    platform: linux/x86_64
     working_dir: /app
     depends_on:
       - solr
@@ -20,7 +19,6 @@ services:
 
   solr:
     image: solr:8.11.1
-    platform: linux/x86_64
     volumes:
       - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
       - .:/opt/solr/configs/tul_cob-catalog-solr
