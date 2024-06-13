@@ -20,6 +20,7 @@ services:
   solr:
     image: solr:9.6.1
     volumes:
+      - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
       - $PWD:/opt/solr/conf/tul_cob-catalog-solr
     ports:
       - 8983:8983
@@ -30,5 +31,3 @@ services:
       - /opt/solr/conf/tul_cob-catalog-solr
       - "-Xms256m"
       - "-Xmx512m"
-
-
