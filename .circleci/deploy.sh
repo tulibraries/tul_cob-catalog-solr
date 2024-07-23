@@ -20,9 +20,9 @@ validate_create() {
 }
 echo
 echo "***"
-echo "* Sending tul_cob-catalog-$CIRCLE_TAG configs to SolrCloud."
+echo "* Sending tul_cob-catalog-$CIRCLE_TAG configs to solrcloud-rocky."
 echo "***"
-RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary @/home/circleci/solrconfig.zip "https://solrcloud.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog-$CIRCLE_TAG")
+RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary @/home/circleci/solrconfig.zip "https://solrcloud-rocky8.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog-$CIRCLE_TAG")
 validate_status
 echo
 echo "***"
