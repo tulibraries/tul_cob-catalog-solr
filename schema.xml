@@ -170,6 +170,24 @@
       </analyzer>
     </fieldType>
 
+    <!-- A general text field that has unstemmed, generic
+        cross-language defaults: it tokenizes with StandardTokenizer,
+        and down cases. -->
+    <fieldType name="text_exact" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.FlattenGraphFilterFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
     <!-- A text field with defaults appropriate for English: it
         tokenizes with StandardTokenizer, down cases, protects words from protwords.txt, and
         finally applies Porter's stemming.  The query time analyzer
@@ -339,7 +357,7 @@
     <dynamicField name="*_ms"  type="string"  indexed="true"  stored="true" multiValued="true"/>
     <dynamicField name="*_l"  type="long"   indexed="true"  stored="true"/>
     <dynamicField name="*_t"  type="text_en"    indexed="true"  stored="true" multiValued="true"/>
-    <dynamicField name="*_txt" type="text_general"    indexed="true"  stored="true" multiValued="true"/>
+    <dynamicField name="*_txt" type="text_exact"    indexed="true"  stored="true" multiValued="true"/>
     <dynamicField name="*_b"  type="boolean" indexed="true"  stored="true"/>
     <dynamicField name="*_f"  type="float"  indexed="true"  stored="true"/>
     <dynamicField name="*_d"  type="double" indexed="true"  stored="true"/>
@@ -354,6 +372,7 @@
     <dynamicField name="random_*" type="random" />
     <dynamicField name="*_facet" type="string" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*_sort" type="alphaOnlySort" indexed="true" stored="false" multiValued="false" />
+    <dynamicField name="*_unstem_search" type="text_exact" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
     <dynamicField name="*suggest" type="textSuggest" indexed="true" stored="false" multiValued="true" />
 
@@ -374,21 +393,31 @@
   <copyField source="creator_group_display" dest="creator_group_t"/>
 
   <!-- unstemmed fields -->
-  <copyField source="title_t" dest="title_txt"/>
-  <copyField source="subtitle_t" dest="subtitle_txt"/>
-  <copyField source="title_statement_t" dest="title_statement_txt"/>
-  <copyField source="title_uniform_t" dest="title_uniform_txt"/>
-  <copyField source="title_addl_t" dest="title_addl_txt"/>
-  <copyField source="title_added_entry_t" dest="title_added_entry_txt"/>
-  <copyField source="title_series_t" dest="title_series_txt"/>
-  <copyField source="creator_t" dest="creator_txt"/>
-  <copyField source="subject_display" dest="subject_txt"/>
-  <!-- <copyField source="author_addl_t" dest="author_addl_txt"/> -->
-  <copyField source="subject_t" dest="subject_txt"/>
-  <copyField source="subject_addl_t" dest="subject_addl_txt"/>
-  <copyField source="subject_topic_facet" dest="subject_topic_txt"/>
-  <copyField source="note_toc_display" dest="note_toc_txt"/>
-  <copyField source="note_summary_display" dest="note_summary_txt"/>
+  <copyField source="title_txt" dest="title_unstem_search"/>
+  <copyField source="title_txt" dest="title_t"/>
+  <copyField source="subtitle_txt" dest="subtitle_unstem_search"/>
+  <copyField source="subtitle_txt" dest="subtitle_t"/>
+  <copyField source="title_statement_txt" dest="title_statement_unstem_search"/>
+  <copyField source="title_statement_txt" dest="title_statement_t"/>
+  <copyField source="title_uniform_txt" dest="title_uniform_unstem_search"/>
+  <copyField source="title_uniform_txt" dest="title_uniform_t"/>
+  <copyField source="title_addl_txt" dest="title_addl_unstem_search"/>
+  <copyField source="title_addl_txt" dest="title_addl_t"/>
+  <copyField source="title_added_entry_txt" dest="title_added_entry_unstem_search"/>
+  <copyField source="title_added_entry_txt" dest="title_added_entry_t"/>
+  <copyField source="title_series_txt" dest="title_series_unstem_search"/>
+  <copyField source="title_series_txt" dest="title_series_t"/>
+  <copyField source="creator_txt" dest="creator_unstem_search"/>
+  <copyField source="creator_txt" dest="creator_t"/>
+  <copyField source="subject_display" dest="subject_unstem_search"/>
+  <!-- <copyField source="author_addl_t" dest="author_addl_unstem_search"/> -->
+  <copyField source="subject_txt" dest="subject_unstem_search"/>
+  <copyField source="subject_txt" dest="subject_t"/>
+  <copyField source="subject_addl_txt" dest="subject_addl_unstem_search"/>
+  <copyField source="subject_addl_txt" dest="subject_addl_t"/>
+  <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
+  <copyField source="note_toc_display" dest="note_toc_unstem_search"/>
+  <copyField source="note_summary_display" dest="note_summary_unstem_search"/>
 
   <!-- sort fields  NOTE: no longer feasible with multiple dates -->
   <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
