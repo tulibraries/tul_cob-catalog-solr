@@ -105,8 +105,8 @@
        <float name="tie">0.01</float>
 
        <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^3500.0</str>
-       <str name="bq">(library_based_boost_t:boost)^10000.0</str>
-       <str name="bq">(library_based_boost_t:no_boost)^0.001</str>
+       <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
+       <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
        <str name="fq">-suppress_items_b:true</str>
 
        <!-- NOT using marc_display because it is large and will slow things down for search results -->
@@ -359,8 +359,8 @@
       <int name="ps">3</int>
       <float name="tie">0.01</float>
       <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^3500.0</str>
-      <str name="bq">(library_based_boost_t:boost)^10000.0</str>
-      <str name="bq">(library_based_boost_t:no_boost)^0.001</str>
+      <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
+      <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
       <str name="fq">-suppress_items_b:true</str>
 
       <str name="fl">
