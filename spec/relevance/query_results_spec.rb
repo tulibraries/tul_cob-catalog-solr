@@ -320,3 +320,29 @@ RSpec.describe "include_items().within_index().before()" do
       .before(["c", "b"])
   end
 end
+
+RSpec.describe "phrase queries with more than two words" do
+  solr = RSolr.connect(url: ENV["SOLR_URL"])
+  let(:per_page) { 20 }
+  it "phrase query to have less results than regular query" do
+    phrase_query_results = solr.get("search", params: { q: '"book readers"', rows: per_page })
+    not_phrase_query_results = solr.get("search", params: { q: "book readers", rows: per_page })
+    phrase_query_results_numFound = JSON.parse(phrase_query_results.response[:body])["response"]["numFound"]
+    not_phrase_query_results_numFound = JSON.parse(not_phrase_query_results.response[:body])["response"]["numFound"]
+    expect(phrase_query_results_numFound).to be < not_phrase_query_results_numFound
+  end
+end
+
+RSpec.describe "phrase queries with one word" do
+  solr = RSolr.connect(url: ENV["SOLR_URL"])
+  let(:per_page) { 20 }
+  it "phrase query to have less results than regular query" do
+    phrase_query_results = solr.get("single_quoted_search", params: { q: '"readers"', rows: per_page })
+    not_phrase_query_results = solr.get("search", params: { q: "readers", rows: per_page })
+    phrase_query_results_numFound = JSON.parse(phrase_query_results.response[:body])["response"]["numFound"]
+    not_phrase_query_results_numFound = JSON.parse(not_phrase_query_results.response[:body])["response"]["numFound"]
+    expect(phrase_query_results_numFound).to be < not_phrase_query_results_numFound
+  end
+end
+
+# body = JSON.parse(phrase_query_results.response[:body])["response"]["numFound"]

@@ -345,7 +345,7 @@
       -->
   </requestHandler>
 
-  <requestHandler name="single_quoted_search" class="solr.SearchHandler">
+  <requestHandler name="/single_quoted_search" class="solr.SearchHandler">
     <lst name="defaults">
       <str name="df">text</str>
       <str name="defType">edismax</str>
