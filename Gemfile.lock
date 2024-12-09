@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: ea022e28d8ea55a0c46b2922c7a24592839ad438
+  revision: fe09ef40dffaf67b6339c0629da4129c90ca0a38
   branch: exact-match
   specs:
     cob_index (0.1.0)
@@ -94,13 +94,13 @@ GEM
       bigdecimal (~> 3.1)
     net-http (0.4.1)
       uri
-    nokogiri (1.16.8-aarch64-linux)
+    nokogiri (1.17.0-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.8-arm64-darwin)
+    nokogiri (1.17.0-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.8-x86_64-darwin)
+    nokogiri (1.17.0-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.8-x86_64-linux)
+    nokogiri (1.17.0-x86_64-linux)
       racc (~> 1.4)
     pry (0.15.0)
       coderay (~> 1.1)
