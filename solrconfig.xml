@@ -427,6 +427,23 @@
         subject_addl_unstem_search^2500.0
         title_series_unstem_search^250.0
       </str>
+       <str name="author_qf">
+         creator_unstem_search^200.0
+       </str>
+       <str name="title_qf">
+         title_unstem_search^50000.0
+         subtitle_unstem_search^25000.0
+         title_uniform_unstem_search^15000.0
+         title_addl_unstem_search^10000.0
+         title_added_entry_unstem_search^50.0
+         title_series_unstem_search^5.0
+       </str>
+       <str name="subject_qf">
+         subject_topic_unstem_search^200.0
+         subject_unstem_search^125.0
+         subject_topic_facet^100.0
+         subject_addl_unstem_search^10.0
+       </str>
     </lst>
   </requestHandler>
 
