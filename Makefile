@@ -1,4 +1,14 @@
+export
+
 DOCKER := docker compose
+
+RUBY_VERSION := 3.3.0
+
+ifeq ($(CI), true)
+	APP_IMAGE := cimg/ruby:$(RUBY_VERSION)
+else
+	APP_IMAGE := ruby:$(RUBY_VERSION)
+endif
 
 up:
 	$(DOCKER) up -d
