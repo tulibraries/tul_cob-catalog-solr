@@ -25,7 +25,7 @@ RSpec.describe "Searches with quotes in the terms" do
   context "quoted queries with more than one term" do
     let(:term) { "book readers"}
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -35,7 +35,7 @@ RSpec.describe "Searches with quotes in the terms" do
     # In the application with override this path dynamically.
     let(:solr_path) { "single_quoted_search" }
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -43,11 +43,11 @@ RSpec.describe "Searches with quotes in the terms" do
 
   context "title quoted query with one term" do
     let(:term) { "readers" }
-    let(:extra_params) { { qf: "${title_qf}", pf: "${title_pf}" }}
+    let(:extra_params) { { qf: "${title_qf}", pf: "${title_pf}, fl: " }}
     # In the application with override this path dynamically.
     let(:solr_path) { "single_quoted_search" }
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -56,7 +56,7 @@ RSpec.describe "Searches with quotes in the terms" do
     let(:term) { "Book readers" }
     let(:extra_params) { { qf: "${title_qf}", pf: "${title_pf}" }}
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -67,7 +67,7 @@ RSpec.describe "Searches with quotes in the terms" do
     # In the application with override this path dynamically.
     let(:solr_path) { "single_quoted_search" }
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -76,7 +76,7 @@ RSpec.describe "Searches with quotes in the terms" do
     let(:term) { "ancient history" }
     let(:extra_params) { { qf: "${subject_qf}", pf: "${subject_pf}" }}
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -87,7 +87,7 @@ RSpec.describe "Searches with quotes in the terms" do
     let(:solr_path) { "single_quoted_search" }
     let(:extra_params) { { qf: "${author_qf}", pf: "${author_pf}" }}
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
@@ -96,7 +96,7 @@ RSpec.describe "Searches with quotes in the terms" do
     let(:term) { "William Shakespeare" }
     let(:extra_params) { { qf: "${author_qf}", pf: "${author_pf}" }}
 
-    it "quoted query to have less results than regular query" do
+    it "returns less results when quoted" do
       expect(num_found_quoted).to be < num_found_not_quoted
     end
   end
