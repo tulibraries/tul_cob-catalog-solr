@@ -104,9 +104,9 @@
        <int name="ps">3</int>
        <float name="tie">0.01</float>
 
-       <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^3500.0</str>
-       <str name="bq">(library_based_boost_t:boost)^10000.0</str>
-       <str name="bq">(library_based_boost_t:no_boost)^0.001</str>
+       <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^175000.0</str>
+       <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
+       <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
        <str name="fq">-suppress_items_b:true</str>
 
        <!-- NOT using marc_display because it is large and will slow things down for search results -->
@@ -343,6 +343,108 @@
          <str>nameOfCustomComponent2</str>
        </arr>
       -->
+  </requestHandler>
+
+  <requestHandler name="/single_quoted_search" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="df">text</str>
+      <str name="defType">edismax</str>
+      <str name="echoParams">explicit</str>
+      <int name="rows">10</int>
+      <bool name="sow">false</bool>
+      <str name="q.alt">*:*</str>
+      <str name="wt">json</str>
+      <str name="mm">8&lt;-1 8&lt;90%</str>
+      <bool name="lowercaseOperators">false</bool>
+      <int name="ps">3</int>
+      <float name="tie">0.01</float>
+      <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^3500.0</str>
+      <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
+      <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
+      <str name="fq">-suppress_items_b:true</str>
+
+      <str name="fl">
+        id,
+        availability_facet,
+        bound_with_ids,
+        call_number_alt_display,
+        call_number_display,
+        contributor_display,
+        creator_display,
+        date_added_facet,
+        format,
+        holdings_display,
+        holdings_summary_display,
+        holdings_with_no_items_display,
+        imprint_display,
+        imprint_dist_display,
+        imprint_man_display,
+        imprint_prod_display,
+        imprint_date_display,
+        imprint_prod_date_display,
+        imprint_dist_date_display,
+        imprint_man_date_display,
+        isbn_display,
+        issn_display,
+        lc_call_number_display,
+        lccn_display,
+        library_facet,
+        location_display,
+        note_summary_display,
+        oclc_number_display,
+        pub_date,
+        purchase_order,
+        responsibility_display,
+        responsibility_truncated_display,
+        score,
+        title_series_display,
+        title_statement_display,
+        title_truncated_display,
+        title_with_subtitle_display,
+        title_with_subtitle_truncated_display,
+        title_uniform_display,
+        electronic_resource_display:[json],
+        hathi_trust_bib_key_display:[json],
+        items_json_display:[json],
+        url_finding_aid_display:[json],
+        url_more_links_display:[json]
+      </str>
+
+      <str name="qf">
+        title_unstem_search^1000000.0
+        subtitle_unstem_search^500000.0
+        work_access_point^10000.0
+        title_statement_unstem_search^50000.0
+        title_uniform_unstem_search^150000.0
+        title_addl_unstem_search^50000.0
+        title_added_entry_unstem_search^15000.0
+        subject_topic_unstem_search^10000.0
+        subject_unstem_search^7500.0
+        subject_topic_facet^6250.0
+        note_toc_unstem_search^1000.0
+        note_summary_unstem_search^1000.0
+        creator_unstem_search^2500.0
+        subject_addl_unstem_search^2500.0
+        title_series_unstem_search^250.0
+      </str>
+       <str name="author_qf">
+         creator_unstem_search^200.0
+       </str>
+       <str name="title_qf">
+         title_unstem_search^50000.0
+         subtitle_unstem_search^25000.0
+         title_uniform_unstem_search^15000.0
+         title_addl_unstem_search^10000.0
+         title_added_entry_unstem_search^50.0
+         title_series_unstem_search^5.0
+       </str>
+       <str name="subject_qf">
+         subject_topic_unstem_search^200.0
+         subject_unstem_search^125.0
+         subject_topic_facet^100.0
+         subject_addl_unstem_search^10.0
+       </str>
+    </lst>
   </requestHandler>
 
   <!-- for requests to get a single document; use id=666 instead of q=id:666 -->

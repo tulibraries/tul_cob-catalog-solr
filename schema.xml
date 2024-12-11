@@ -150,9 +150,9 @@
      </fieldType>
 
     <!-- A general text field that has reasonable, generic
-         cross-language defaults: it tokenizes with StandardTokenizer,
-	 , and down cases.  At query time only, it
-	 also applies synonyms. -->
+        cross-language defaults: it tokenizes with StandardTokenizer,
+        , and down cases.  At query time only, it
+        also applies synonyms. -->
     <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
       <analyzer type="index">
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
@@ -170,10 +170,28 @@
       </analyzer>
     </fieldType>
 
+    <!-- A general text field that has unstemmed, generic
+        cross-language defaults: it tokenizes with StandardTokenizer,
+        and down cases. -->
+    <fieldType name="text_exact" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.FlattenGraphFilterFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
     <!-- A text field with defaults appropriate for English: it
-         tokenizes with StandardTokenizer, down cases, protects words from protwords.txt, and
-         finally applies Porter's stemming.  The query time analyzer
-         also applies synonyms from synonyms.txt. -->
+        tokenizes with StandardTokenizer, down cases, protects words from protwords.txt, and
+        finally applies Porter's stemming.  The query time analyzer
+        also applies synonyms from synonyms.txt. -->
     <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100">
       <analyzer type="index">
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
@@ -184,12 +202,10 @@
           splitOnCaseChange="1" generateWordParts="1" catenateWords="1"
           splitOnNumerics="0" generateNumberParts="1" catenateNumbers="1"
           catenateAll="0" preserveOriginal="0" stemEnglishPossessive="1" />
-
         <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
         <filter class="solr.PorterStemFilterFactory"/>
       </analyzer>
-
       <analyzer type="query">
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
         <tokenizer class="solr.WhitespaceTokenizerFactory"/>
@@ -198,7 +214,7 @@
         <filter class="solr.WordDelimiterGraphFilterFactory"
           generateWordParts="1" generateNumberParts="1" catenateWords="0"
           catenateNumbers="0" catenateAll="0" splitOnCaseChange="1"/>
-         <filter class="solr.FlattenGraphFilterFactory"/>
+        <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
         <filter class="solr.PorterStemFilterFactory"/>
       </analyzer>
@@ -213,11 +229,11 @@
     </fieldType>
 
     <fieldType class="solr.TextField" name="textSuggest" positionIncrementGap="100">
-       <analyzer>
-          <tokenizer class="solr.KeywordTokenizerFactory"/>
-          <filter class="solr.LowerCaseFilterFactory"/>
-          <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
-       </analyzer>
+      <analyzer>
+        <tokenizer class="solr.KeywordTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
     </fieldType>
 
     <!-- This is an example of using the KeywordTokenizer along
@@ -267,75 +283,67 @@
         <filter class="solr.LowerCaseFilterFactory" />
       </analyzer>
     </fieldType>
- </types>
+  </types>
 
 
- <fields>
-   <!-- Valid attributes for fields:
-     name: mandatory - the name for the field
-     type: mandatory - the name of a previously defined type from the
-       <types> section
-     indexed: true if this field should be indexed (searchable or sortable)
-     stored: true if this field should be retrievable
-     multiValued: true if this field may contain multiple values per document
-     omitNorms: (expert) set to true to omit the norms associated with
-       this field (this disables length normalization and index-time
-       boosting for the field, and saves some memory).  Only full-text
-       fields or fields that need an index-time boost need norms.
-     termVectors: [false] set to true to store the term vector for a
-       given field.
-       When using MoreLikeThis, fields used for similarity should be
-       stored for best performance.
-     termPositions: Store position information with the term vector.
-       This will increase storage costs.
-     termOffsets: Store offset information with the term vector. This
-       will increase storage costs.
-     default: a value that should be used if no value is specified
-       when adding a document.
-   -->
+  <fields>
+    <!-- Valid attributes for fields:
+      name: mandatory - the name for the field
+      type: mandatory - the name of a previously defined type from the
+        <types> section
+      indexed: true if this field should be indexed (searchable or sortable)
+      stored: true if this field should be retrievable
+      multiValued: true if this field may contain multiple values per document
+      omitNorms: (expert) set to true to omit the norms associated with
+        this field (this disables length normalization and index-time
+        boosting for the field, and saves some memory).  Only full-text
+        fields or fields that need an index-time boost need norms.
+      termVectors: [false] set to true to store the term vector for a
+        given field.
+        When using MoreLikeThis, fields used for similarity should be
+        stored for best performance.
+      termPositions: Store position information with the term vector.
+        This will increase storage costs.
+      termOffsets: Store offset information with the term vector. This
+        will increase storage costs.
+      default: a value that should be used if no value is specified
+        when adding a document.
+    -->
 
-   <!-- NOTE: this is not a full list of fields in the index; dynamic fields are also used -->
-   <field name="id" type="string" indexed="true" stored="true" required="true" />
-   <field name="_version_" type="long" indexed="true" stored="true" multiValued="false" />
-   <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
-   <!-- default, catch all search field -->
-   <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
-   <!-- these display fields are NOT multi-valued -->
+    <!-- NOTE: this is not a full list of fields in the index; dynamic fields are also used -->
+    <field name="id" type="string" indexed="true" stored="true" required="true" />
+    <field name="_version_" type="long" indexed="true" stored="true" multiValued="false" />
+    <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+    <!-- default, catch all search field -->
+    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
+    <!-- these display fields are NOT multi-valued -->
+    <field name="marc_display_raw" type="string" indexed="false" stored="true" multiValued="false"/>
+    <field name="library_facet" type="string" indexed="true" stored="true" multiValued="true" />
+    <field name="availability_facet" type="string" indexed="true" stored="true" multiValued="true" />
+    <field name="language_facet" type="string" indexed="true" stored="true" multiValued="true" />
+    <field name="subject_topic_facet" type="string" indexed="true" stored="true" multiValued="true" />
+    <field name="subject_era_facet" type="string" indexed="true" stored="true" multiValued="true" />
+    <field name="subject_geo_facet" type="string" indexed="true" stored="true" multiValued="true" />
+    <!-- pub_date is used for facet and display so it must be indexed and stored -->
+    <field name="pub_date" type="string" indexed="true" stored="true" multiValued="true"/>
+    <!-- pub_date sort uses new trie-based int fields, which are recommended for any int and are displayable, sortable, and range-quer
+    we use 'pint' for faster range-queries. -->
+    <field name="pub_date_sort" type="pint" indexed="true" stored="true" multiValued="false"/>
+    <field name="date_added_facet" type="pints" indexed="true" stored="true" multiValued="true"/>
+    <field name="lc_outer_facet" type="string" indexed="true" stored="true" multiValued="false" />
+    <field name="lc_inner_facet" type="string" indexed="true" stored="true" multiValued="false" />
+    <!-- format is used for facet, display, and choosing which partial to use for the show view, so it must be stored and indexed -->
+    <field name="format" type="string" indexed="true" stored="true" multiValued="true"/>
+    <!--field name="library_facet" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="subject" type="string" indexed="true" stored="true" multiValued="true"/ -->
+    <field name="record_creation_date" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="record_update_date" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="bound_with_ids" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="work_access_point" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="purchase_order" type="boolean" indexed="false" stored="true" multiValued="false" default="false" />
+    <field name="call_number_t" type="simple_string" indexed="true" stored="true" multiValued="true"/>
 
-   <field name="marc_display_raw" type="string" indexed="false" stored="true" multiValued="false"/>
-
-   <field name="library_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="availability_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="language_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="subject_topic_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="subject_era_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="subject_geo_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <!-- pub_date is used for facet and display so it must be indexed and stored -->
-   <field name="pub_date" type="string" indexed="true" stored="true" multiValued="true"/>
-   <!-- pub_date sort uses new trie-based int fields, which are recommended for any int and are displayable, sortable, and range-quer
-   we use 'pint' for faster range-queries. -->
-   <field name="pub_date_sort" type="pint" indexed="true" stored="true" multiValued="false"/>
-   <field name="date_added_facet" type="pints" indexed="true" stored="true" multiValued="true"/>
-
-   <field name="lc_outer_facet" type="string" indexed="true" stored="true" multiValued="false" />
-   <field name="lc_inner_facet" type="string" indexed="true" stored="true" multiValued="false" />
-
-   <!-- format is used for facet, display, and choosing which partial to use for the show view, so it must be stored and indexed -->
-   <field name="format" type="string" indexed="true" stored="true" multiValued="true"/>
-   <!--field name="library_facet" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="subject" type="string" indexed="true" stored="true" multiValued="true"/ -->
-
-   <field name="record_creation_date" type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="record_update_date" type="string" indexed="true" stored="true" multiValued="false"/>
-
-   <field name="bound_with_ids" type="string" indexed="true" stored="true" multiValued="true"/>
-
-   <field name="work_access_point" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="purchase_order" type="boolean" indexed="false" stored="true" multiValued="false" default="false" />
-   <field name="call_number_t" type="simple_string" indexed="true" stored="true" multiValued="true"/>
-
-
-   <!-- Dynamic field definitions.  If a field name is not found, dynamicFields
+    <!-- Dynamic field definitions.  If a field name is not found, dynamicFields
         will be used if the name matches any of the patterns.
         RESTRICTION: the glob-like pattern in the name attribute must have
         a "*" only at the start or the end.
@@ -343,119 +351,120 @@
         Longer patterns will be matched first.  if equal size patterns
         both match, the first appearing in the schema will be used.  -->
 
-   <dynamicField name="*_display" type="string" indexed="false" stored="true" multiValued="true" />
+    <dynamicField name="*_display" type="string" indexed="false" stored="true" multiValued="true" />
+    <dynamicField name="*_i"  type="int"    indexed="true"  stored="true"/>
+    <dynamicField name="*_s"  type="string"  indexed="true"  stored="true"/>
+    <dynamicField name="*_ms"  type="string"  indexed="true"  stored="true" multiValued="true"/>
+    <dynamicField name="*_l"  type="long"   indexed="true"  stored="true"/>
+    <dynamicField name="*_t"  type="text_en"    indexed="true"  stored="true" multiValued="true"/>
+    <dynamicField name="*_txt" type="text_exact"    indexed="true"  stored="true" multiValued="true"/>
+    <dynamicField name="*_b"  type="boolean" indexed="true"  stored="true"/>
+    <dynamicField name="*_f"  type="float"  indexed="true"  stored="true"/>
+    <dynamicField name="*_d"  type="double" indexed="true"  stored="true"/>
+    <!-- Type used to index the lat and lon components for the "location" FieldType -->
+    <dynamicField name="*_coordinate"  type="pdouble" indexed="true"  stored="false"/>
+    <dynamicField name="*_dt" type="date"    indexed="true"  stored="true"/>
+    <!-- keeping _tdt instead of _pdt for backwards compatibility. -->
+    <dynamicField name="*_tdt" type="pdate"  indexed="true"  stored="true"/>
+    <dynamicField name="*_p"  type="location" indexed="true" stored="true"/>
+    <dynamicField name="ignored_*" type="ignored" multiValued="true"/>
+    <dynamicField name="attr_*" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <dynamicField name="random_*" type="random" />
+    <dynamicField name="*_facet" type="string" indexed="true" stored="false" multiValued="true" />
+    <dynamicField name="*_sort" type="alphaOnlySort" indexed="true" stored="false" multiValued="false" />
+    <dynamicField name="*_unstem_search" type="text_exact" indexed="true" stored="false" multiValued="true" />
+    <dynamicField name="*spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
+    <dynamicField name="*suggest" type="textSuggest" indexed="true" stored="false" multiValued="true" />
 
-   <dynamicField name="*_i"  type="int"    indexed="true"  stored="true"/>
-   <dynamicField name="*_s"  type="string"  indexed="true"  stored="true"/>
-   <dynamicField name="*_ms"  type="string"  indexed="true"  stored="true" multiValued="true"/>
-   <dynamicField name="*_l"  type="long"   indexed="true"  stored="true"/>
-   <dynamicField name="*_t"  type="text_en"    indexed="true"  stored="true" multiValued="true"/>
-   <dynamicField name="*_txt" type="text_general"    indexed="true"  stored="true" multiValued="true"/>
-   <dynamicField name="*_b"  type="boolean" indexed="true"  stored="true"/>
-   <dynamicField name="*_f"  type="float"  indexed="true"  stored="true"/>
-   <dynamicField name="*_d"  type="double" indexed="true"  stored="true"/>
+  </fields>
 
-   <!-- Type used to index the lat and lon components for the "location" FieldType -->
-   <dynamicField name="*_coordinate"  type="pdouble" indexed="true"  stored="false"/>
+  <!-- Field to use to determine and enforce document uniqueness.
+        Unless this field is marked with required="false", it will be a required field  -->
+  <uniqueKey>id</uniqueKey>
 
-   <dynamicField name="*_dt" type="date"    indexed="true"  stored="true"/>
-   <!-- keeping _tdt instead of _pdt for backwards compatibility. -->
-   <dynamicField name="*_tdt" type="pdate"  indexed="true"  stored="true"/>
-   <dynamicField name="*_p"  type="location" indexed="true" stored="true"/>
-
-   <dynamicField name="ignored_*" type="ignored" multiValued="true"/>
-   <dynamicField name="attr_*" type="text_general" indexed="true" stored="true" multiValued="true"/>
-
-   <dynamicField name="random_*" type="random" />
-
-
-   <dynamicField name="*_facet" type="string" indexed="true" stored="false" multiValued="true" />
-   <dynamicField name="*_sort" type="alphaOnlySort" indexed="true" stored="false" multiValued="false" />
-   <dynamicField name="*_unstem_search" type="text_general" indexed="true" stored="false" multiValued="true" />
-   <dynamicField name="*spell" type="textSpell" indexed="true" stored="false" multiValued="true" />
-   <dynamicField name="*suggest" type="textSuggest" indexed="true" stored="false" multiValued="true" />
-
- </fields>
-
- <!-- Field to use to determine and enforce document uniqueness.
-      Unless this field is marked with required="false", it will be a required field
-   -->
- <uniqueKey>id</uniqueKey>
-
- <!-- field for the QueryParser to use when an explicit fieldname is absent -->
- <df>text</df>
+  <!-- field for the QueryParser to use when an explicit fieldname is absent -->
+  <df>text</df>
 
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,
         or to add multiple fields to the same field for easier/faster searching.  -->
-   <!-- Copy Fields -->
-   <copyField source="lc_call_number_display" dest="lc_call_number_t"/>
-   <copyField source="creator_group_display" dest="creator_group_t"/>
+  <!-- Copy Fields -->
+  <copyField source="lc_call_number_display" dest="lc_call_number_t"/>
+  <copyField source="creator_group_display" dest="creator_group_t"/>
 
-   <!-- unstemmed fields -->
-   <copyField source="title_t" dest="title_unstem_search"/>
-   <copyField source="subtitle_t" dest="subtitle_unstem_search"/>
-   <copyField source="title_statement_t" dest="title_statement_unstem_search"/>
-   <copyField source="title_uniform_t" dest="title_uniform_unstem_search"/>
-   <copyField source="title_addl_t" dest="title_addl_unstem_search"/>
-   <copyField source="title_added_entry_t" dest="title_added_entry_unstem_search"/>
-   <copyField source="title_series_t" dest="title_series_unstem_search"/>
-   <copyField source="creator_t" dest="creator_unstem_search"/>
-   <copyField source="subject_display" dest="subject_unstem_search"/>
-   <!-- <copyField source="author_addl_t" dest="author_addl_unstem_search"/> -->
-   <copyField source="subject_t" dest="subject_unstem_search"/>
-   <copyField source="subject_addl_t" dest="subject_addl_unstem_search"/>
-   <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
-   <copyField source="note_toc_display" dest="note_toc_unstem_search"/>
-   <copyField source="note_summary_display" dest="note_summary_unstem_search"/>
+  <!-- unstemmed fields -->
+  <copyField source="title_txt" dest="title_unstem_search"/>
+  <copyField source="title_txt" dest="title_t"/>
+  <copyField source="subtitle_txt" dest="subtitle_unstem_search"/>
+  <copyField source="subtitle_txt" dest="subtitle_t"/>
+  <copyField source="title_statement_txt" dest="title_statement_unstem_search"/>
+  <copyField source="title_statement_txt" dest="title_statement_t"/>
+  <copyField source="title_uniform_txt" dest="title_uniform_unstem_search"/>
+  <copyField source="title_uniform_txt" dest="title_uniform_t"/>
+  <copyField source="title_addl_txt" dest="title_addl_unstem_search"/>
+  <copyField source="title_addl_txt" dest="title_addl_t"/>
+  <copyField source="title_added_entry_txt" dest="title_added_entry_unstem_search"/>
+  <copyField source="title_added_entry_txt" dest="title_added_entry_t"/>
+  <copyField source="title_series_txt" dest="title_series_unstem_search"/>
+  <copyField source="title_series_txt" dest="title_series_t"/>
+  <copyField source="creator_txt" dest="creator_unstem_search"/>
+  <copyField source="creator_txt" dest="creator_t"/>
+  <copyField source="subject_display" dest="subject_unstem_search"/>
+  <!-- <copyField source="author_addl_t" dest="author_addl_unstem_search"/> -->
+  <copyField source="subject_txt" dest="subject_unstem_search"/>
+  <copyField source="subject_txt" dest="subject_t"/>
+  <copyField source="subject_addl_txt" dest="subject_addl_unstem_search"/>
+  <copyField source="subject_addl_txt" dest="subject_addl_t"/>
+  <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
+  <copyField source="note_toc_display" dest="note_toc_unstem_search"/>
+  <copyField source="note_summary_display" dest="note_summary_unstem_search"/>
 
-
-   <!-- sort fields  NOTE: no longer feasible with multiple dates -->
+  <!-- sort fields  NOTE: no longer feasible with multiple dates -->
   <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
 
-   <copyField source="*_display" dest="text" />
-   <copyField source="title_statement_display" dest="title_statement_including_author_t"/>
+  <copyField source="*_display" dest="text" />
+  <copyField source="title_statement_display" dest="title_statement_including_author_t"/>
 
-   <!-- search fields for advanced search form-->
-   <copyField source="title_display" dest="title_t"/>
-   <copyField source="title_uniform_display" dest="title_uniform_t"/>
-   <copyField source="title_addl_display" dest="title_addl_t"/>
-   <copyField source="isbn_display" dest="isbn_t"/>
-   <copyField source="issn_display" dest="issn_t"/>
-   <copyField source="call_number_display" dest="call_number_t"/>
-   <copyField source="call_number_alt_display" dest="call_number_t"/>
-   <copyField source="alma_mms_display" dest="alma_mms_t"/>
-   <copyField source="title_series_display" dest="title_series_t"/>
-   <copyField source="note_display" dest="note_t"/>
-   <copyField source="note_award_display" dest="note_t"/>
-   <copyField source="note_with_display" dest="note_with_t"/>
-   <copyField source="note_diss_display" dest="note_diss_t"/>
-   <copyField source="note_biblio_display" dest="note_biblio_t"/>
-   <copyField source="note_toc_display" dest="note_toc_t"/>
-   <copyField source="note_restrictions_display" dest="note_restrictions_t"/>
-   <copyField source="note_references_display" dest="note_references_t"/>
-   <copyField source="note_summary_display" dest="note_summary_t"/>
-   <copyField source="note_cite_display" dest="note_cite_t"/>
-   <copyField source="note_finding_aid_display" dest="note_finding_aid_t"/>
-   <copyField source="note_custodial_display" dest="note_custodial_t"/>
-   <copyField source="note_binding_display" dest="note_binding_t"/>
-   <copyField source="note_related_display" dest="note_related_t"/>
-   <copyField source="note_accruals_display" dest="note_accruals_t"/>
-   <copyField source="note_local_display" dest="note_local_t"/>
-   <copyField source="donor_info_ms" dest="donor_info_t"/>
-   <copyField source="genre_ms" dest="genre_t"/>
-   <copyField source="collection_ms" dest="collection_t"/>
+  <!-- search fields for advanced search form-->
+  <copyField source="title_display" dest="title_t"/>
+  <copyField source="title_uniform_display" dest="title_uniform_t"/>
+  <copyField source="title_addl_display" dest="title_addl_t"/>
+  <copyField source="isbn_display" dest="isbn_t"/>
+  <copyField source="issn_display" dest="issn_t"/>
+  <copyField source="call_number_display" dest="call_number_t"/>
+  <copyField source="call_number_alt_display" dest="call_number_t"/>
+  <copyField source="alma_mms_display" dest="alma_mms_t"/>
+  <copyField source="title_series_display" dest="title_series_t"/>
+  <copyField source="note_display" dest="note_t"/>
+  <copyField source="note_award_display" dest="note_t"/>
+  <copyField source="note_with_display" dest="note_with_t"/>
+  <copyField source="note_diss_display" dest="note_diss_t"/>
+  <copyField source="note_biblio_display" dest="note_biblio_t"/>
+  <copyField source="note_toc_display" dest="note_toc_t"/>
+  <copyField source="note_restrictions_display" dest="note_restrictions_t"/>
+  <copyField source="note_references_display" dest="note_references_t"/>
+  <copyField source="note_summary_display" dest="note_summary_t"/>
+  <copyField source="note_cite_display" dest="note_cite_t"/>
+  <copyField source="note_finding_aid_display" dest="note_finding_aid_t"/>
+  <copyField source="note_custodial_display" dest="note_custodial_t"/>
+  <copyField source="note_binding_display" dest="note_binding_t"/>
+  <copyField source="note_related_display" dest="note_related_t"/>
+  <copyField source="note_accruals_display" dest="note_accruals_t"/>
+  <copyField source="note_local_display" dest="note_local_t"/>
+  <copyField source="donor_info_ms" dest="donor_info_t"/>
+  <copyField source="genre_ms" dest="genre_t"/>
+  <copyField source="collection_ms" dest="collection_t"/>
 
-   <!-- OpenSearch query field should match request handler search fields -->
-   <copyField source="title_t" dest="opensearch_display"/>
-   <copyField source="subtitle_t" dest="opensearch_display"/>
-   <copyField source="addl_titles_t" dest="opensearch_display"/>
-   <copyField source="title_added_entry_t" dest="opensearch_display"/>
-   <copyField source="title_series_t" dest="opensearch_display"/>
-   <copyField source="creator_t" dest="opensearch_display"/>
-   <!-- <copyField source="author_addl_t" dest="opensearch_display"/> -->
-   <copyField source="subject_topic_facet" dest="opensearch_display"/>
-   <copyField source="subject_t" dest="opensearch_display"/>
-   <copyField source="subject_addl_t" dest="opensearch_display"/>
+  <!-- OpenSearch query field should match request handler search fields -->
+  <copyField source="title_t" dest="opensearch_display"/>
+  <copyField source="subtitle_t" dest="opensearch_display"/>
+  <copyField source="addl_titles_t" dest="opensearch_display"/>
+  <copyField source="title_added_entry_t" dest="opensearch_display"/>
+  <copyField source="title_series_t" dest="opensearch_display"/>
+  <copyField source="creator_t" dest="opensearch_display"/>
+  <!-- <copyField source="author_addl_t" dest="opensearch_display"/> -->
+  <copyField source="subject_topic_facet" dest="opensearch_display"/>
+  <copyField source="subject_t" dest="opensearch_display"/>
+  <copyField source="subject_addl_t" dest="opensearch_display"/>
 
 </schema>
