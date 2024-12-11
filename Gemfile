@@ -8,7 +8,7 @@ gem "rsolr"
 gem "rspec"
 gem "cob_index",
   git: "https://github.com/tulibraries/cob_index.git",
-  branch: "exact-match"
+  tag: "v0.15.0"
 gem "alma"
 gem "lc_solr_sortable", git: "https://github.com/tulibraries/lc_solr_sortable", branch: "main"
 
