@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 require "spec_helper"
-require "pry"
 
 RSpec.describe "Searches with format set to 'Score' "do
   solr = RSolr.connect(url: ENV["SOLR_URL"])
