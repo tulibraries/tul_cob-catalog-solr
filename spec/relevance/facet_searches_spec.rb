@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 require "spec_helper"
-require "pry"
 
 RSpec.describe "Facet searches" do
   solr = RSolr.connect(url: ENV["SOLR_URL"])
@@ -14,7 +13,6 @@ RSpec.describe "Facet searches" do
 
   context "facet search results are case insensitive" do
     it "returns the same number of results" do
-      binding.pry
       expect(response_uppercase['response']['numFound']).to eq(response_lowercase['response']['numFound'])    
     end
   end
