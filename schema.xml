@@ -150,7 +150,6 @@
        </analyzer>
      </fieldType>
 
-    <!-- WE ARE NOT CURRENTLY USING THIS CONFIG-->
     <!-- A general text field that has reasonable, generic
         cross-language defaults: it tokenizes with StandardTokenizer,
         , and down cases.  At query time only, it
@@ -178,14 +177,11 @@
     <fieldType name="text_exact" class="solr.TextField" positionIncrementGap="100">
       <analyzer>
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}+)\s+" replacement=" " />
-        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(&quot;)" replacement=" " />
-        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="([;:.,&quot;]+)\s*$" replacement=" " />
-        <tokenizer class="solr.WhitespaceTokenizerFactory" />
-        <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->        
+        <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
-      
     </fieldType>
 
     <!-- A text field with defaults appropriate for English: it
