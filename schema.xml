@@ -159,6 +159,7 @@
         <tokenizer class="solr.StandardTokenizerFactory"/>
         <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
         <filter class="solr.FlattenGraphFilterFactory"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory" catenateAll="1" preserveOriginal="1"/>
         <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
         <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
@@ -167,6 +168,7 @@
         <tokenizer class="solr.StandardTokenizerFactory"/>
         <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
         <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory" catenateAll="1" preserveOriginal="1"/>
       </analyzer>
     </fieldType>
 
@@ -174,18 +176,16 @@
         cross-language defaults: it tokenizes with StandardTokenizer,
         and down cases. -->
     <fieldType name="text_exact" class="solr.TextField" positionIncrementGap="100">
-      <analyzer type="index">
+      <analyzer>
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}+)\s+" replacement=" " />
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(&quot;)" replacement=" " />
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="([;:.,&quot;]+}+)\s+" replacement=" " />
+        <tokenizer class="solr.WhitespaceTokenizerFactory" />
         <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
         <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
-      <analyzer type="query">
-        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
-        <filter class="solr.FlattenGraphFilterFactory"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-      </analyzer>
+      
     </fieldType>
 
     <!-- A text field with defaults appropriate for English: it
