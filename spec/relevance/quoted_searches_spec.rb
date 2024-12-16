@@ -2,8 +2,6 @@
 require "spec_helper"
 
 RSpec.describe "Searches with quotes in the terms" do
-  before do
-  end
 
     let(:solr)  { RSolr.connect(url: ENV["SOLR_URL"]) }
     let(:term) { "" }
