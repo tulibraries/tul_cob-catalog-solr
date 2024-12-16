@@ -137,15 +137,16 @@
      -->
      <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
        <analyzer>
+        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}+)\s+" replacement=" " />
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(&quot;)" replacement=" " />
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="([;:.,&quot;]+)\s*$" replacement=" " />
          <tokenizer class="solr.WhitespaceTokenizerFactory"/>
          <filter class="solr.ICUFoldingFilterFactory" /> <!-- NFKC, case folding, diacritics removed -->
-         <filter class="solr.PorterStemFilterFactory" />
-         <filter class="solr.WordDelimiterGraphFilterFactory"
-           splitOnCaseChange="1" generateWordParts="1" catenateWords="1"
-           splitOnNumerics="0" generateNumberParts="1" catenateNumbers="1"
-           catenateAll="0" preserveOriginal="0" stemEnglishPossessive="1" />
+         <filter class="solr.WordDelimiterGraphFilterFactory" catenateAll="1" preserveOriginal="1"/>
          <filter class="solr.FlattenGraphFilterFactory"/>
          <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+         <filter class="solr.PorterStemFilterFactory" />
        </analyzer>
      </fieldType>
 
@@ -174,15 +175,10 @@
         cross-language defaults: it tokenizes with StandardTokenizer,
         and down cases. -->
     <fieldType name="text_exact" class="solr.TextField" positionIncrementGap="100">
-      <analyzer type="index">
+      <analyzer>
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
         <tokenizer class="solr.StandardTokenizerFactory"/>
-        <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->
-        <filter class="solr.LowerCaseFilterFactory"/>
-      </analyzer>
-      <analyzer type="query">
-        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->        
         <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
@@ -193,27 +189,15 @@
         finally applies Porter's stemming.  The query time analyzer
         also applies synonyms from synonyms.txt. -->
     <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100">
-      <analyzer type="index">
+      <analyzer>
         <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}+)\s+" replacement=" " />
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(&quot;)" replacement=" " />
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="([;:.,&quot;]+)\s*$" replacement=" " />
         <tokenizer class="solr.WhitespaceTokenizerFactory"/>
         <filter class="solr.ICUFoldingFilterFactory" /> <!-- NFKC, case folding, diacritics removed -->
         <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.WordDelimiterGraphFilterFactory"
-          splitOnCaseChange="1" generateWordParts="1" catenateWords="1"
-          splitOnNumerics="0" generateNumberParts="1" catenateNumbers="1"
-          catenateAll="0" preserveOriginal="0" stemEnglishPossessive="1" />
-        <filter class="solr.FlattenGraphFilterFactory"/>
-        <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.PorterStemFilterFactory"/>
-      </analyzer>
-      <analyzer type="query">
-        <charFilter class="solr.MappingCharFilterFactory" mapping="char-filter-mapping.txt"/>
-        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <filter class="solr.ICUFoldingFilterFactory" /> <!-- NFKC, case folding, diacritics removed -->
-        <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
-        <filter class="solr.WordDelimiterGraphFilterFactory"
-          generateWordParts="1" generateNumberParts="1" catenateWords="0"
-          catenateNumbers="0" catenateAll="0" splitOnCaseChange="1"/>
+        <filter class="solr.WordDelimiterGraphFilterFactory" catenateAll="1" preserveOriginal="1"/>
         <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
         <filter class="solr.PorterStemFilterFactory"/>
