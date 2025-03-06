@@ -148,7 +148,7 @@ GEM
       yell
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (0.13.0)
+    uri (0.13.2)
     xml-simple (1.1.9)
       rexml
     yell (2.2.2)
