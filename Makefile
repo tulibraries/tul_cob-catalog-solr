@@ -29,4 +29,4 @@ reload-config:
 ps:
 	$(DOCKER) ps
 zip:
-	bash ./.circleci/build.sh
+	bash ./.github/workflows/build.sh
