@@ -22,7 +22,7 @@ echo
 echo "***"
 echo "* Sending tul_cob-catalog-$TAG_NAME configs to solrcloud-rocky."
 echo "***"
-RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary @solrconfig.zip "https://solrcloud-rocky8.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog-$TAG_NAME")
+RESP=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary @solrconfig.zip "https://solrcloud-rocky9.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-catalog-$TAG_NAME")
 validate_status
 echo
 echo "***"
