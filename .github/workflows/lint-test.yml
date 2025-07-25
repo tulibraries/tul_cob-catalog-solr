@@ -48,8 +48,13 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Build configuration asset
-        run: make zip
+
+      - name: Zip config
+        run: |
+          zip -r solrconfig.zip . \
+            -x '*.git*' '*.github*' 'docker-compose.yml' Gemfile Gemfile.lock \
+              'spec/*' 'vendor/*' Makefile '.github*' 'bin/*' LICENSE 'README*'
+
       - name: Deploy configuration asset to SolrCloud
         env:
           TAG_NAME: ${{ github.ref_name }}

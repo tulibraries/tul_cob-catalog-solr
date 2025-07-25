@@ -28,5 +28,4 @@ reload-config:
 	$(DOCKER) exec solr solr-configs-reset
 ps:
 	$(DOCKER) ps
-zip:
-	bash ./.github/workflows/build.sh
+
