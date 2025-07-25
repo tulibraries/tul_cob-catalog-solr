@@ -56,4 +56,4 @@ jobs:
           SOLR_USER: ${{ secrets.SOLR_USER }}
           SOLR_PASSWORD: ${{ secrets.SOLR_PASSWORD }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash .circleci/deploy.sh
+        run: bash ./deploy.sh
