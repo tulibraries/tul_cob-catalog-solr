@@ -1,5 +1,5 @@
 # TUL COB Catalog Solr Configurations
-[![CircleCI](https://circleci.com/gh/tulibraries/tul_cob-catalog-solr.svg?style=svg)](https://circleci.com/gh/tulibraries/tul_cob-catalog-solr)
+[![CI](https://github.com/tulibraries/tul_cob-catalog-solr/actions/workflows/ci.yml/badge.svg)](https://github.com/tulibraries/tul_cob-catalog-solr/actions/workflows/ci.yml)
 
 These are the Solr configuration files for the TUL Cob (LibrarySearch) Alma catalog content search & faceting Solr collection.
 
