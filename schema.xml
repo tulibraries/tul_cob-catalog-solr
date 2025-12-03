@@ -435,7 +435,7 @@
   <copyField source="note_related_display" dest="note_related_t"/>
   <copyField source="note_accruals_display" dest="note_accruals_t"/>
   <copyField source="note_local_display" dest="note_local_t"/>
-  <copyField source="publisher_display" dest="publisher_t"/>
+  <copyField source="publisher_txt" dest="publisher_t"/>
   <copyField source="donor_info_ms" dest="donor_info_t"/>
   <copyField source="genre_ms" dest="genre_t"/>
   <copyField source="collection_ms" dest="collection_t"/>
