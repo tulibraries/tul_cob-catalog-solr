@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "spec_helper"
 
 RSpec.describe "Searches" do
@@ -96,12 +97,12 @@ RSpec.describe "Searches" do
   end
 
   context "search term as colon" do
-    let(:search_term) { "Religious liberty :the positive dimension : an address" }
+      let(:search_term) { "Religious liberty :the positive dimension : an address" }
 
-    it "returns a document with that specific lccn" do
-      title = docs.first["title_statement_display"].join
-      expect(title).to eq("Religious liberty : the positive dimension : an address / by Franklin H. Littell at Doane College on April 26, 1966.")
-    end
+      it "returns a document with that specific lccn" do
+        title = docs.first["title_statement_display"].join
+        expect(title).to eq("Religious liberty : the positive dimension : an address / by Franklin H. Littell at Doane College on April 26, 1966.")
+      end
     end
 
   describe "searching with a creator name and title" do

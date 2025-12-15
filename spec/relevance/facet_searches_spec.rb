@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "spec_helper"
 
 RSpec.describe "Facet searches" do
@@ -13,9 +14,7 @@ RSpec.describe "Facet searches" do
 
   context "facet search results are case insensitive" do
     it "returns the same number of results" do
-      expect(response_uppercase['response']['numFound']).to eq(response_lowercase['response']['numFound'])    
+      expect(response_uppercase["response"]["numFound"]).to eq(response_lowercase["response"]["numFound"])
     end
   end
 end
-
-

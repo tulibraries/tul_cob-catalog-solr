@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "spec_helper"
 
 # This spec relies on the contents of spec/fixtures/presser_v2.xml.
@@ -8,7 +9,7 @@ RSpec.describe "Describe library boosting config" do
   let(:docs) { response.dig("response", "docs") || [] }
 
   context "a title search for items at PRESSER or MAIN " do
-    let(:response) { solr.get("search", params: { q: "title:PRESSER Spec Title"})}
+    let(:response) { solr.get("search", params: { q: "title:PRESSER Spec Title" }) }
 
     it "returns a doc located in MAIN as the first result" do
       expect(docs.first["id"]).to match(/^MAIN/)

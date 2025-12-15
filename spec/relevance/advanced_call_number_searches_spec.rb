@@ -1,9 +1,10 @@
 # frozen_string_literal: true
+
 require "spec_helper"
 
 RSpec.describe "Advanced Searches Using Call Number" do
   solr = RSolr.connect(url: ENV["SOLR_URL"])
-  let(:query) {'_query_:"{!edismax qf=alma_mms_t}991003128809703811" AND _query_:"{!edismax qf=call_number_t}ML*"'}
+  let(:query) { '_query_:"{!edismax qf=alma_mms_t}991003128809703811" AND _query_:"{!edismax qf=call_number_t}ML*"' }
 
   let(:response) { solr.get("select", params: { q: query }) }
 
@@ -91,4 +92,3 @@ RSpec.describe "Advanced Searches Using Call Number" do
     end
   end
 end
-
