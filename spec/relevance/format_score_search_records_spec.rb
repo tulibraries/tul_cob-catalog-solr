@@ -1,7 +1,8 @@
 # frozen_string_literal: true
+
 require "spec_helper"
 
-RSpec.describe "Searches with format set to 'Score' "do
+RSpec.describe "Searches with format set to 'Score' " do
   solr = RSolr.connect(url: ENV["SOLR_URL"])
 
   let(:per_page) { 20 }

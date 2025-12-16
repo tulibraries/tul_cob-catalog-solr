@@ -19,6 +19,8 @@ tty-app:
 	$(DOCKER) exec app bash
 tty-solr:
 	$(DOCKER) exec solr bash
+lint:
+	$(DOCKER) exec app bundle exec rubocop
 test:
 	#$(DOCKER) exec app bundle exec rspec ./spec/relevance/name_initials_query_spec.rb
 	$(DOCKER) exec app bundle exec rspec 

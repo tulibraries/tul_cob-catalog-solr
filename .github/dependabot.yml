@@ -5,3 +5,7 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
+
+  - dependency-name: rubocop
+    versions:
+    - 1.9.0

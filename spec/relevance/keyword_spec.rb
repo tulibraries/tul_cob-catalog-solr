@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-require 'spec_helper'
+
+require "spec_helper"
 
 RSpec.describe "Key Word Relevance" do
   solr = RSolr.connect(url: ENV["SOLR_URL"])
