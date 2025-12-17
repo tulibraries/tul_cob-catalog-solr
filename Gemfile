@@ -13,4 +13,4 @@ gem "alma"
 gem "lc_solr_sortable", git: "https://github.com/tulibraries/lc_solr_sortable", branch: "main"
 
 gem "pry-rails", "~> 0.3.11"
-gem "rubocop", "~> 1.81.7"
+gem "rubocop", "~> 1.82.0"
