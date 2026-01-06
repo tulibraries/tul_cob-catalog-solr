@@ -48,3 +48,13 @@ jobs:
         
       - name: Run relevancy Tests
         run: make test
+
+  notify_on_failure:
+    if: failure()
+    needs: [lint, run_tests]
+    uses: tulibraries/.github/.github/workflows/slack-notify.yml@main
+    with:
+      repo: ${{ github.repository }}
+      run_id: ${{ github.run_id }}
+      workflow: ${{ github.workflow }}
+    secrets: inherit
