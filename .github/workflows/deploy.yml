@@ -28,3 +28,13 @@ jobs:
           SOLR_PASSWORD: ${{ secrets.SOLR_PASSWORD }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bash .github/workflows/scripts/deploy.sh
+
+  notify_on_failure:
+    if: failure()
+    needs: [run_deploy]
+    uses: tulibraries/.github/.github/workflows/slack-notify.yml@main
+    with:
+      repo: ${{ github.repository }}
+      run_id: ${{ github.run_id }}
+      workflow: ${{ github.workflow }}
+    secrets: inherit
