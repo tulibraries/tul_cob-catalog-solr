@@ -36,5 +36,5 @@ echo "***"
 echo "* Pushing zip file asset to GitHub release."
 echo "***"
 RELEASE_ID=$(curl "https://api.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/latest" | jq .id)
-RESP=$(curl -s -o /dev/null -w "%{http_code}" -X POST -H "Authorization: token $GITHUB_TOKEN" --data-binary solrconfig.zip -H "Content-Type: application/octet-stream" "https://uploads.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/$RELEASE_ID/assets?name=tul_cob-catalog-$TAG_NAME.zip")
+RESP=$(curl -s -o /dev/null -w "%{http_code}" -X POST -H "Authorization: token $GITHUB_TOKEN" --data-binary @solrconfig.zip -H "Content-Type: application/octet-stream" "https://uploads.github.com/repos/tulibraries/tul_cob-catalog-solr/releases/$RELEASE_ID/assets?name=tul_cob-catalog-$TAG_NAME.zip")
 validate_create
