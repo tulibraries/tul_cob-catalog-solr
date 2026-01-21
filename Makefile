@@ -2,7 +2,7 @@ export
 
 DOCKER := docker compose
 
-RUBY_VERSION := 3.3.0
+RUBY_VERSION := 3.4.5
 
 ifeq ($(CI), true)
 	APP_IMAGE := cimg/ruby:$(RUBY_VERSION)
