@@ -104,13 +104,16 @@
        <int name="ps">3</int>
        <float name="tie">0.01</float>
 
-       <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^175000.0</str>
-       <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
-       <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
-       <str name="fq">-suppress_items_b:true</str>
+        <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^175000.0</str>
+        <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
+        <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
+        <str name="inverse_bookseller_query">boost_txt:inverse_boost_bookseller</str>
+        <str name="boost">if(query({!v=$inverse_bookseller_query}),0.01,1)</str>
+        <str name="fq">-suppress_items_b:true</str>
 
-       <!-- NOT using marc_display because it is large and will slow things down for search results -->
-       <str name="fl">
+        <!-- NOT using marc_display because it is large and will slow things down for search results -->
+        <str name="fl">
+
          id,
          availability_facet,
          bound_with_ids,
@@ -361,12 +364,15 @@
       <bool name="lowercaseOperators">false</bool>
       <int name="ps">3</int>
       <float name="tie">0.01</float>
-      <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^3500.0</str>
-      <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
-      <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
-      <str name="fq">-suppress_items_b:true</str>
+       <str name="bq">pub_date_tdt:[NOW/DAY-10YEAR TO NOW/DAY]^3500.0</str>
+       <str name="bq">(library_based_boost_txt:boost)^10000.0</str>
+       <str name="bq">(library_based_boost_txt:no_boost)^0.001</str>
+       <str name="inverse_bookseller_query">boost_txt:inverse_boost_bookseller</str>
+       <str name="boost">if(query({!v=$inverse_bookseller_query}),0.01,1)</str>
+       <str name="fq">-suppress_items_b:true</str>
 
-      <str name="fl">
+       <str name="fl">
+
         id,
         availability_facet,
         bound_with_ids,
