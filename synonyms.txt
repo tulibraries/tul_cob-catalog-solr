@@ -68,4 +68,4 @@ sinfonie => symphony
 arr. => arranged
 
 # Added for BL-1956
-of, on
+of => on
