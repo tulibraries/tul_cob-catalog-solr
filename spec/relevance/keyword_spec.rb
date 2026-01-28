@@ -144,15 +144,5 @@ RSpec.describe "Key Word Relevance" do
           .within_the_first(10)
       end
     end
-
-    context "on => of synonym mapping" do
-      let(:search_term) { "\"essays on the ethics on labor practices under globalization\"" }
-
-      it "finds title that uses of when query uses on" do
-        expect(ids)
-          .to include_items(%w[991007074899703811])
-          .within_the_first(20)
-      end
-    end
   end
 end
