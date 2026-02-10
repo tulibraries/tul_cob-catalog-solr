@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: dc82c504790add465807d8034f67c83c19437dd9
-  tag: v0.16.4
+  revision: 3c11816b56f4010b89e41d18aa3dee1bd1567132
+  tag: v0.17.0
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -30,8 +30,8 @@ GEM
       minitest (>= 5.1)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
-    addressable (2.8.7)
-      public_suffix (>= 2.0.2, < 7.0)
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
     alma (0.6.2)
       activesupport
       httparty
@@ -42,7 +42,7 @@ GEM
     bigdecimal (4.0.1)
     builder (3.2.4)
     coderay (1.1.3)
-    concurrent-ruby (1.3.5)
+    concurrent-ruby (1.3.6)
     connection_pool (2.4.1)
     csv (3.3.5)
     diff-lcs (1.6.2)
@@ -56,22 +56,23 @@ GEM
       logger
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
-    ffi (1.17.2-aarch64-linux-gnu)
-    ffi (1.17.2-arm64-darwin)
-    ffi (1.17.2-x86_64-darwin)
-    ffi (1.17.2-x86_64-linux-gnu)
+    ffi (1.17.3-aarch64-linux-gnu)
+    ffi (1.17.3-arm64-darwin)
+    ffi (1.17.3-x86_64-darwin)
+    ffi (1.17.3-x86_64-linux-gnu)
     ffi-compiler (1.3.2)
       ffi (>= 1.15.5)
       rake
     gli (2.22.2)
       ostruct
-    hashie (5.0.0)
+    hashie (5.1.0)
+      logger
     http (5.3.1)
       addressable (~> 2.8)
       http-cookie (~> 1.0)
       http-form_data (~> 2.2)
       llhttp-ffi (~> 0.5.0)
-    http-cookie (1.0.8)
+    http-cookie (1.1.0)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
     httparty (0.24.0)
@@ -90,7 +91,7 @@ GEM
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
     logger (1.6.3)
-    marc (1.3.0)
+    marc (1.4.0)
       nokogiri (~> 1.0)
       rexml
     marc-fastxmlwriter (1.1.0)
@@ -103,13 +104,13 @@ GEM
     mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
-    nokogiri (1.18.10-aarch64-linux-gnu)
+    nokogiri (1.19.0-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.10-arm64-darwin)
+    nokogiri (1.19.0-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.10-x86_64-darwin)
+    nokogiri (1.19.0-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.10-x86_64-linux-gnu)
+    nokogiri (1.19.0-x86_64-linux-gnu)
       racc (~> 1.4)
     ostruct (0.6.3)
     parallel (1.27.0)
@@ -122,10 +123,10 @@ GEM
       method_source (~> 1.0)
     pry-rails (0.3.11)
       pry (>= 0.13.0)
-    public_suffix (6.0.2)
+    public_suffix (7.0.2)
     racc (1.8.1)
     rainbow (3.1.1)
-    rake (13.3.0)
+    rake (13.3.1)
     regexp_parser (2.11.3)
     rexml (3.4.4)
     rsolr (2.6.0)
