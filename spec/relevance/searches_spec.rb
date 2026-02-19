@@ -108,6 +108,14 @@ RSpec.describe "Searches" do
   describe "searching with a creator name and title" do
     context "Martin Game Of Thrones" do
       let(:search_term) { "Martin Game of Thrones" }
+      let(:response) do
+        solr.get("search", params: {
+          defType: "lucene",
+          q: '_query_:"{!edismax qf=$author_qf pf=$author_pf v=\'Martin\'}" '\
+             'AND _query_:"{!edismax qf=$title_qf pf=$title_pf v=\'Game of Thrones\'}"',
+          rows: per_page
+        })
+      end
 
       it "should return the book written by him and not a book about him" do
         title = docs.first["title_statement_display"].join
