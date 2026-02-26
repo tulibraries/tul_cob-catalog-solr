@@ -24,7 +24,7 @@ echo "***"
 echo "* Building solrconfig.zip from config files."
 echo "***"
 rm -f solrconfig.zip
-zip -r solrconfig.zip _rest_managed.json admin-extra.html char-filter-mapping.txt elevate.xml mapping-ISOLatin1Accent.txt protwords.txt schema.xml scripts.conf solrconfig.xml spellings.txt synonyms.txt xslt > /dev/null
+zip -r solrconfig.zip _rest_managed.json admin-extra.html char-filter-mapping.txt elevate.xml mapping-ISOLatin1Accent.txt protwords.txt schema.xml scripts.conf solrconfig.xml spellings.txt stopwords.txt synonyms.txt xslt > /dev/null
 echo
 echo "***"
 echo "* Sending tul_cob-catalog-$TAG_NAME configs to solrcloud-rocky."
