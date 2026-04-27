@@ -177,7 +177,6 @@
          work_access_point^10000.0
          title_statement_unstem_search^5000.0
          title_statement_t^2500.0
-         title_statement_including_author_t^25000.0
          title_uniform_unstem_search^15000.0
          title_uniform_t^5000.0
          title_addl_unstem_search^5000.0
