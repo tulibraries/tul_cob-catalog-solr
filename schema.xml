@@ -181,7 +181,6 @@
         <!-- The LowerCaseFilterFactory gives us better results by normalizing case. -->        
         <filter class="solr.FlattenGraphFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
-        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
       </analyzer>
     </fieldType>
 
