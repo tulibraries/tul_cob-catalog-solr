@@ -477,24 +477,24 @@
 
   <query>
     <filterCache class="solr.CaffeineCache"
-                 size="${filterCacheSize:2048}"
-                 initialSize="${filterCacheInitialSize:2048}"
-                 autowarmCount="256"/>
-
+                size="${filterCacheSize:4096}"
+                initialSize="${filterCacheInitialSize:2048}"
+                autowarmCount="256"
+                async="true"/>
 
     <queryResultCache class="solr.CaffeineCache"
-                      size="${queryResultCacheSize:2048}"
-                      initialSize="${queryResultCacheInitialSize:2048}"
-                      autowarmCount="128"/>
+                      size="${queryResultCacheSize:512}"
+                      initialSize="${queryResultCacheInitialSize:512}"
+                      autowarmCount="0"/>
 
     <documentCache class="solr.CaffeineCache"
-                   size="${documentCacheSize:2048}"
+                   size="${documentCacheSize:8192}"
                    initialSize="${documentCacheInitialSize:2048}"/>
 
     <enableLazyFieldLoading>true</enableLazyFieldLoading>
 
-    <queryResultWindowSize>100</queryResultWindowSize>
-    <queryResultMaxDocsCached>500</queryResultMaxDocsCached>
+    <queryResultWindowSize>80</queryResultWindowSize>
+    <queryResultMaxDocsCached>100</queryResultMaxDocsCached>
     <slowQueryThresholdMillis>500</slowQueryThresholdMillis>
   </query>
 
