@@ -7,17 +7,32 @@ RSpec.describe "Stopword handling" do
 
   let(:response) do
     solr.get("search", params: {
-      q: "Routledge handbook on epistemic injustice",
+      q: query,
       qf: "${title_qf}",
       pf: "${title_pf}",
       rows: 5
     })
   end
-  let(:ids) { (response.dig("response", "docs") || []).map { |doc| doc.fetch("id") }.compact }
+  let(:docs) { response.dig("response", "docs") || [] }
+  let(:ids) { docs.map { |doc| doc.fetch("id") }.compact }
 
-  it "finds a title when the searched preposition differs from the indexed preposition" do
-    expect(ids)
-      .to include_items(%w[991032556509703811])
-      .within_the_first(5)
+  context "when a searched stopword differs from the indexed title" do
+    let(:query) { "Routledge handbook on epistemic injustice" }
+
+    it "finds the intended title within the first five results" do
+      expect(ids)
+        .to include_items(%w[991032556509703811])
+        .within_the_first(5)
+    end
+  end
+
+  context "when a title search includes creator and title terms" do
+    let(:query) { "Martin game of thrones" }
+
+    it "keeps the actual title within the first five results" do
+      expect(ids)
+        .to include_items(%w[991003637379703811])
+        .within_the_first(5)
+    end
   end
 end

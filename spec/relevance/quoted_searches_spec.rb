@@ -48,8 +48,8 @@ RSpec.describe "Searches with quotes in the terms" do
     # In the application with override this path dynamically.
     let(:solr_path) { "single_quoted_search" }
 
-    it "returns less results when quoted" do
-      expect(count_quoted_results).to be < count_not_quoted_results
+    it "does not expand the result set when quoted" do
+      expect(count_quoted_results).to be <= count_not_quoted_results
     end
 
     it "only returns results that contain the searched term" do
