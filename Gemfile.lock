@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_index.git
-  revision: 35f29170e429d8bb0d29def9830c59cce120f63c
-  tag: v0.18.1
+  revision: 5815e87381e4ba5f378f485512b48d9bd57feb61
+  tag: v0.18.2
   specs:
     cob_index (0.1.0)
       gli (~> 2.18)
@@ -44,7 +44,7 @@ GEM
     connection_pool (3.0.2)
     csv (3.3.6)
     diff-lcs (1.6.2)
-    domain_name (0.6.20260902)
+    domain_name (0.6.20260907)
     dot-properties (0.1.4)
       bundler (>= 2.2.33)
     drb (2.2.3)
@@ -58,7 +58,7 @@ GEM
       ostruct
     hashie (5.1.0)
       logger
-    http-2 (1.2.2)
+    http-2 (1.2.3)
     http (6.0.4)
       http-cookie (~> 1.0)
       llhttp (~> 0.6.1)
@@ -70,7 +70,7 @@ GEM
       multi_xml (>= 0.5.2)
     httpclient (2.9.0)
       mutex_m
-    httpx (1.8.3)
+    httpx (1.8.4)
       http-2 (>= 1.2.0)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
