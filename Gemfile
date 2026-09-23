@@ -14,4 +14,4 @@ gem "lc_solr_sortable", git: "https://github.com/tulibraries/lc_solr_sortable", 
 
 gem "pry-rails", "~> 0.3.11"
 gem "rubocop", "~> 1.91.0"
-gem "json", "2.21.2"
+gem "json", "3.0.2"
