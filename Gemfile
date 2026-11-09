@@ -12,6 +12,6 @@ gem "cob_index",
 gem "alma"
 gem "lc_solr_sortable", git: "https://github.com/tulibraries/lc_solr_sortable", branch: "main"
 
-gem "pry-rails", "~> 0.3.11"
-gem "rubocop", "~> 1.92.2"
-gem "json", "2.21.2"
+gem "pry-rails"
+gem "rubocop"
+gem "json"
