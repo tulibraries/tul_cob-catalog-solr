@@ -418,6 +418,7 @@
 
   <copyField source="*_display" dest="text" />
   <copyField source="title_statement_display" dest="title_statement_including_author_t"/>
+  <copyField source="title_statement_display" dest="title_statement_including_author_unstem_search"/>
 
   <!-- search fields for advanced search form-->
   <copyField source="title_display" dest="title_t"/>

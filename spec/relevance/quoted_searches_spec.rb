@@ -38,6 +38,18 @@ RSpec.describe "Searches with quotes in the terms" do
     end
   end
 
+  context "quoted single-word terms with different endings" do
+    let(:term) { "journaling" }
+    let(:solr_path) { "single_quoted_search" }
+    let(:extra_params) { { fl: "id", rows: 100 } }
+
+    it "does not match the Journalism subject fixture through stemming" do
+      expect(quoted_results["response"]["docs"].map { |doc| doc["id"] }).not_to include(
+        "991036835173103811"
+      )
+    end
+  end
+
 
   context "title quoted query with one term" do
     let(:term) { "readers" }
